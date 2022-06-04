@@ -1,53 +1,56 @@
 // Import Assets
-import uniswap from '../assets/uniswap.png';
-import compound from '../assets/compound.png';
-import aave from '../assets/aave.png';
+import eth_plus from '../assets/eth_plus.png'
+import todo_dapp from '../assets/todo_dapp.png'
 
 const Projects = () => {
-    return (
-        <section className="projects">
-            <h2>My Projects</h2>
+  return (
+    <section className="projects">
+      <h2>My Projects</h2>
 
-            <div className="projects__cards">
+      <div className="projects__cards">
+        <div className="projects__card">
+          <h3>ETH Plus Exchange</h3>
+          <img src={eth_plus} alt="ETH Plus Exchange" />
+          <p>
+            A token (ERC20) exchange platform, where user can buy, sell tokens,
+            also user can deposit or withdraw Ethers to exchange. User can also
+            see previous transactions with help of charts.
+          </p>
 
-                <div className="projects__card">
-                    <h3>Uniswap</h3>
-                    <img src={uniswap} alt="Uniswap Swap Page" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
-                    </p>
+          <div className="centered">
+            <a
+              href="https://github.com/nayak-nirmalya/eth-plus-exchange"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
+              Code
+            </a>
+          </div>
+        </div>
 
-                    <a href="https://uniswap.org/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/Uniswap/v2-core" target="_blank" className="button">Code</a>
-                </div>
-
-                <div className="projects__card">
-                    <h3>Compound</h3>
-                    <img src={compound} alt="Compound Landing Page" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
-                    </p>
-
-                    <a href="https://compound.finance/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/compound-finance/compound-protocol" target="_blank" className="button">Code</a>
-                </div>
-
-                <div className="projects__card">
-                    <h3>Aave</h3>
-                    <img src={aave} alt="Aave Landing Page" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
-                    </p>
-
-                    <a href="https://aave.com/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/aave/aave-v3-core" target="_blank" className="button">Code</a>
-                </div>
-            </div>
-        </section>
-    );
+        <div className="projects__card">
+          <h3>ETH ToDo List DApp</h3>
+          <img src={todo_dapp} alt="ETH ToDo List DApp" />
+          <p>
+            A simple ToDo list app, the difference is it's decentralized. User
+            can add various tasks to the list, once the task is complete user
+            can mark it is as completed.
+          </p>
+          <div className="centered">
+            <a
+              href="https://github.com/nayak-nirmalya/todo-eth"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
+              Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
 }
 
-export default Projects;
+export default Projects
