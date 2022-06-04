@@ -13,6 +13,7 @@ const Social = () => {
         <a
           href="https://twitter.com/WebThreeDevlop"
           target="_blank"
+          rel="noreferrer"
           className="button"
         >
           Twitter
@@ -20,6 +21,7 @@ const Social = () => {
         <a
           href="https://github.com/nayak-nirmalya"
           target="_blank"
+          rel="noreferrer"
           className="button"
         >
           GitHub
@@ -27,6 +29,7 @@ const Social = () => {
         <a
           href="https://www.hackerrank.com/n_nayak"
           target="_blank"
+          rel="noreferrer"
           className="button"
         >
           HackerRank
