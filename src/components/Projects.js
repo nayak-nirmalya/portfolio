@@ -1,6 +1,7 @@
 // Import Assets
 import eth_plus from '../assets/eth_plus.png'
 import todo_dapp from '../assets/todo_dapp.png'
+import faucet from '../assets/faucet.png'
 
 const Projects = () => {
   return (
@@ -40,6 +41,26 @@ const Projects = () => {
           <div className="centered">
             <a
               href="https://github.com/nayak-nirmalya/todo-eth"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
+              Code
+            </a>
+          </div>
+        </div>
+
+        <div className="projects__card">
+          <h3>ETH Faucet</h3>
+          <img src={faucet} alt="ETH Faucet" />
+          <p>
+            Similar to ETH test faucet, user can donate or request test ETH.
+            User can user Metamask Wallet to interact. Account address and
+            current smart contract balance is always shown.
+          </p>
+          <div className="centered">
+            <a
+              href="https://github.com/nayak-nirmalya/eth-faucet"
               target="_blank"
               rel="noreferrer"
               className="button"
