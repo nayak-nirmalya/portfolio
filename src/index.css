@@ -114,13 +114,14 @@ code {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
+  flex-wrap: nowrap;
+  gap: 10px;
+  overflow-x: scroll;
 }
 
 .projects__card {
-  max-width: 350px;
-
+  max-width: 400px;
+  flex: 0 0 auto;
   padding: 20px;
 
   border: 1px solid #0088bb;

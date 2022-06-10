@@ -2,6 +2,7 @@
 import eth_plus from '../assets/eth_plus.png'
 import todo_dapp from '../assets/todo_dapp.png'
 import faucet from '../assets/faucet.png'
+import eth_crowd from '../assets/eth_crowd.png'
 
 const Projects = () => {
   return (
@@ -13,14 +14,34 @@ const Projects = () => {
           <h3>ETH Plus Exchange</h3>
           <img src={eth_plus} alt="ETH Plus Exchange" />
           <p>
-            A token (ERC20) exchange platform, where user can buy, sell tokens,
+            A (ERC20) token exchange platform, where user can buy, sell tokens,
             also user can deposit or withdraw Ethers to exchange. User can also
-            see previous transactions with help of charts.
+            see previous transactions.
           </p>
 
           <div className="centered">
             <a
               href="https://github.com/nayak-nirmalya/eth-plus-exchange"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
+              Code
+            </a>
+          </div>
+        </div>
+
+        <div className="projects__card">
+          <h3>CrowdFunding DApp</h3>
+          <img src={eth_crowd} alt="ETH Kickstarter" />
+          <p>
+            It's a DApp where user can create a campaign. Any interested user
+            can donate some ether and become a approver, where he/she can
+            approve any proposal.
+          </p>
+          <div className="centered">
+            <a
+              href="https://github.com/nayak-nirmalya/eth-crowfund"
               target="_blank"
               rel="noreferrer"
               className="button"
@@ -54,9 +75,9 @@ const Projects = () => {
           <h3>ETH Faucet</h3>
           <img src={faucet} alt="ETH Faucet" />
           <p>
-            Similar to ETH test faucet, user can donate or request test ETH.
-            User can user Metamask Wallet to interact. Account address and
-            current smart contract balance is always shown.
+            Similar to any ETH test faucet, user can donate or request test ETH.
+            User can use Metamask Wallet to interact. Address and balance are
+            always displayed.
           </p>
           <div className="centered">
             <a

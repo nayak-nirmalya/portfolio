@@ -5,8 +5,9 @@ const About = () => {
       <p>
         Hey, Everyone!! <br />
         <br /> I'm a blockchain developer helping others to build the internet
-        of tomorrow. A very self-motivated person who can adapt to new
-        technologies with ease.
+        of tomorrow.
+        <br /> A very self-motivated person who can adapt to new technologies
+        with ease.
       </p>
     </section>
   )
