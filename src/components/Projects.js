@@ -1,8 +1,8 @@
-// Import Assets
 import eth_plus from '../assets/eth_plus.png'
 import todo_dapp from '../assets/todo_dapp.png'
 import faucet from '../assets/faucet.png'
 import eth_crowd from '../assets/eth_crowd.png'
+import eth_market from '../assets/eth_market.png'
 import raffle_pic from '../assets/raffle-hardhat-next.png'
 
 const Projects = () => {
@@ -45,6 +45,27 @@ const Projects = () => {
           <div className="centered">
             <a
               href="https://github.com/nayak-nirmalya/eth-crowfund"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
+              Code
+            </a>
+          </div>
+        </div>
+
+        {/* ETH Marketplace */}
+        <div className="projects__card">
+          <h3>ETH Marketplace</h3>
+          <img src={eth_market} alt="ETH Marketplace" />
+          <p>
+            It's a DApp where user can purchase courses from available courses
+            in Marketplace. Also an admin is a superuser who can verify,
+            activate and deactivate any users' course.
+          </p>
+          <div className="centered">
+            <a
+              href="https://github.com/nayak-nirmalya/eth-marketplace"
               target="_blank"
               rel="noreferrer"
               className="button"
