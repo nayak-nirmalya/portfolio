@@ -3,6 +3,7 @@ import todo_dapp from '../assets/todo_dapp.png'
 import faucet from '../assets/faucet.png'
 import eth_crowd from '../assets/eth_crowd.png'
 import eth_market from '../assets/eth_market.png'
+import nft_marketplace from '../assets/nft_marketplace.png'
 import raffle_pic from '../assets/raffle-hardhat-next.png'
 
 const Projects = () => {
@@ -45,6 +46,27 @@ const Projects = () => {
           <div className="centered">
             <a
               href="https://github.com/nayak-nirmalya/eth-crowfund"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
+              Code
+            </a>
+          </div>
+        </div>
+
+        {/* NFT Marketplace */}
+        <div className="projects__card">
+          <h3>NFT Marketplace</h3>
+          <img src={nft_marketplace} alt="NFT Marketplace" />
+          <p>
+            It's a NFT Marketplace similar to OpenSeas where user can list NFTs.
+            Any interested user can buy the listed NFTs. The owner can change
+            the price of NFT as well.
+          </p>
+          <div className="centered">
+            <a
+              href="https://github.com/nayak-nirmalya/hardhat-fcc-nft-moralis"
               target="_blank"
               rel="noreferrer"
               className="button"
