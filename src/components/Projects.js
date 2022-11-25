@@ -1,6 +1,7 @@
 import eth_plus from '../assets/eth_plus.png'
 import todo_dapp from '../assets/todo_dapp.png'
 import faucet from '../assets/faucet.png'
+import millow from '../assets/millow.png'
 import eth_crowd from '../assets/eth_crowd.png'
 import eth_market from '../assets/eth_market.png'
 import nft_marketplace from '../assets/nft_marketplace.png'
@@ -25,6 +26,27 @@ const Projects = () => {
           <div className="centered">
             <a
               href="https://github.com/nayak-nirmalya/eth-plus-exchange"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
+              Code
+            </a>
+          </div>
+        </div>
+
+        {/* Millow DApp */}
+        <div className="projects__card">
+          <h3>Real Estate NFT DApp</h3>
+          <img src={millow} alt="Millow" />
+          <p>
+            Decentralized Zillow, built with Solidity, Hardhat and React. Real
+            Estate NFT DApp. Here buyer, seller, inspector and lender can
+            interact and finalize sell.
+          </p>
+          <div className="centered">
+            <a
+              href="https://github.com/nayak-nirmalya/millow"
               target="_blank"
               rel="noreferrer"
               className="button"
