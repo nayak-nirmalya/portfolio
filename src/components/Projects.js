@@ -1,9 +1,9 @@
 import todo_dapp from '../assets/todo_dapp.png'
 import faucet from '../assets/faucet.png'
-import raffle_pic from '../assets/raffle-hardhat-next.png'
 
 import ETHPlus from '../components/projects/ETHPlus'
 import NodeShop from '../components/projects/NodeShop'
+import RaffleDApp from '../components/projects/RaffleDApp'
 import MillowDApp from '../components/projects/MillowDApp'
 import NFTMarketplace from '../components/projects/NFTMarketplace'
 import ETHMarketplace from '../components/projects/ETHMarketplace'
@@ -34,25 +34,7 @@ const Projects = () => {
         <ETHMarketplace />
 
         {/* Raffle/Lottery DApp */}
-        <div className="projects__card">
-          <h3>Raffle/Lottery DApp</h3>
-          <img src={raffle_pic} alt="Raffle/Lottery DApp" />
-          <p>
-            It's a DApp where multiple user can enter a raffle with pre defined
-            Entrance Fee. After a time interval a random user is pciked as
-            winner and gets all Ethers of the contract.
-          </p>
-          <div className="centered">
-            <a
-              href="https://github.com/nayak-nirmalya/raffle-dapp"
-              target="_blank"
-              rel="noreferrer"
-              className="button"
-            >
-              Code
-            </a>
-          </div>
-        </div>
+        <RaffleDApp />
 
         {/* ETH ToDo List DApp */}
         <div className="projects__card">
