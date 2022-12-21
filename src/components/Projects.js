@@ -1,6 +1,5 @@
 import todo_dapp from '../assets/todo_dapp.png'
 import faucet from '../assets/faucet.png'
-import eth_crowd from '../assets/eth_crowd.png'
 import eth_market from '../assets/eth_market.png'
 import nft_marketplace from '../assets/nft_marketplace.png'
 import raffle_pic from '../assets/raffle-hardhat-next.png'
@@ -8,6 +7,7 @@ import raffle_pic from '../assets/raffle-hardhat-next.png'
 import ETHPlus from '../components/projects/ETHPlus'
 import NodeShop from '../components/projects/NodeShop'
 import MillowDApp from '../components/projects/MillowDApp'
+import CrowdFundingDApp from '../components/projects/CrowdFundingDApp'
 
 const Projects = () => {
   return (
@@ -25,25 +25,7 @@ const Projects = () => {
         <MillowDApp />
 
         {/* CrowdFunding DApp */}
-        <div className="projects__card">
-          <h3>CrowdFunding DApp</h3>
-          <img src={eth_crowd} alt="ETH Kickstarter" />
-          <p>
-            It's a DApp where user can create a campaign. Any interested user
-            can donate some ether and become a approver, where he/she can
-            approve any proposal.
-          </p>
-          <div className="centered">
-            <a
-              href="https://github.com/nayak-nirmalya/eth-crowfund"
-              target="_blank"
-              rel="noreferrer"
-              className="button"
-            >
-              Code
-            </a>
-          </div>
-        </div>
+        <CrowdFundingDApp />
 
         {/* NFT Marketplace */}
         <div className="projects__card">
