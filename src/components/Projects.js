@@ -1,8 +1,7 @@
-import faucet from '../assets/faucet.png'
-
 import ETHPlus from '../components/projects/ETHPlus'
 import ToDoDApp from '../components/projects/ToDoDApp'
 import NodeShop from '../components/projects/NodeShop'
+import ETHFaucet from '../components/projects/ETHFaucet'
 import RaffleDApp from '../components/projects/RaffleDApp'
 import MillowDApp from '../components/projects/MillowDApp'
 import NFTMarketplace from '../components/projects/NFTMarketplace'
@@ -40,25 +39,7 @@ const Projects = () => {
         <ToDoDApp />
 
         {/* ETH Faucet */}
-        <div className="projects__card">
-          <h3>ETH Faucet</h3>
-          <img src={faucet} alt="ETH Faucet" />
-          <p>
-            Similar to any ETH test faucet, user can donate or request test ETH.
-            User can use Metamask Wallet to interact. Address and balance are
-            always displayed.
-          </p>
-          <div className="centered">
-            <a
-              href="https://github.com/nayak-nirmalya/eth-faucet"
-              target="_blank"
-              rel="noreferrer"
-              className="button"
-            >
-              Code
-            </a>
-          </div>
-        </div>
+        <ETHFaucet />
       </div>
     </section>
   )
