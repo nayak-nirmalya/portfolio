@@ -1,12 +1,12 @@
 import todo_dapp from '../assets/todo_dapp.png'
 import faucet from '../assets/faucet.png'
-import eth_market from '../assets/eth_market.png'
 import raffle_pic from '../assets/raffle-hardhat-next.png'
 
 import ETHPlus from '../components/projects/ETHPlus'
 import NodeShop from '../components/projects/NodeShop'
 import MillowDApp from '../components/projects/MillowDApp'
 import NFTMarketplace from '../components/projects/NFTMarketplace'
+import ETHMarketplace from '../components/projects/ETHMarketplace'
 import CrowdFundingDApp from '../components/projects/CrowdFundingDApp'
 
 const Projects = () => {
@@ -31,25 +31,7 @@ const Projects = () => {
         <NFTMarketplace />
 
         {/* ETH Marketplace */}
-        <div className="projects__card">
-          <h3>ETH Marketplace</h3>
-          <img src={eth_market} alt="ETH Marketplace" />
-          <p>
-            It's a DApp where user can purchase courses from available courses
-            in Marketplace. Also an admin is a superuser who can verify,
-            activate and deactivate any users' course.
-          </p>
-          <div className="centered">
-            <a
-              href="https://github.com/nayak-nirmalya/eth-marketplace"
-              target="_blank"
-              rel="noreferrer"
-              className="button"
-            >
-              Code
-            </a>
-          </div>
-        </div>
+        <ETHMarketplace />
 
         {/* Raffle/Lottery DApp */}
         <div className="projects__card">
