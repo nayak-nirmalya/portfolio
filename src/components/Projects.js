@@ -2,10 +2,13 @@ import eth_plus from '../assets/eth_plus.png'
 import todo_dapp from '../assets/todo_dapp.png'
 import faucet from '../assets/faucet.png'
 import millow from '../assets/millow.png'
+import node_shop from '../assets/node-shop.png'
 import eth_crowd from '../assets/eth_crowd.png'
 import eth_market from '../assets/eth_market.png'
 import nft_marketplace from '../assets/nft_marketplace.png'
 import raffle_pic from '../assets/raffle-hardhat-next.png'
+
+import ETHPlus from '../components/projects/ETHPlus'
 
 const Projects = () => {
   return (
@@ -14,18 +17,21 @@ const Projects = () => {
 
       <div className="projects__cards">
         {/* ETH Plus Exchange */}
+        <ETHPlus />
+
+        {/* Full Stack Node Shop */}
         <div className="projects__card">
-          <h3>ETH Plus Exchange</h3>
-          <img src={eth_plus} alt="ETH Plus Exchange" />
+          <h3>Full Stack Node Shop</h3>
+          <img src={node_shop} alt="Full Stack Node Shop" />
           <p>
-            A (ERC20) token exchange platform, where user can buy, sell tokens,
-            also user can deposit or withdraw Ethers to exchange. User can also
-            see previous transactions.
+            A Full-Stack web app made with Node.js, Express.js and MongoDB. User
+            can add products to cart and make payment with card (Stripe) and
+            user can download invoices.
           </p>
 
           <div className="centered">
             <a
-              href="https://github.com/nayak-nirmalya/eth-plus-exchange"
+              href="https://github.com/nayak-nirmalya/node-shop.git"
               target="_blank"
               rel="noreferrer"
               className="button"
