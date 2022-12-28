@@ -8,7 +8,7 @@ const Header = () => {
 
       <div className="header__content">
         <h1>Hi, I'm Nirmalya Nayak</h1>
-        <p>Blockchain Developer</p>
+        <p>Full Stack / Blockchain Developer</p>
         <h4>
           E-Mail:{' '}
           <a href="mailto:nayak.nirmalya@hotmail.com">
