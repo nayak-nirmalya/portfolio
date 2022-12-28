@@ -2,6 +2,7 @@ import ETHPlus from '../components/projects/ETHPlus'
 import ToDoDApp from '../components/projects/ToDoDApp'
 import ToDoDeno from '../components/projects/ToDoDeno'
 import NodeShop from '../components/projects/NodeShop'
+import GraphQLBlog from '../components/projects/GraphQLBlog'
 import ETHFaucet from '../components/projects/ETHFaucet'
 import RaffleDApp from '../components/projects/RaffleDApp'
 import MillowDApp from '../components/projects/MillowDApp'
@@ -23,6 +24,9 @@ const Projects = () => {
 
         {/* Millow DApp */}
         <MillowDApp />
+
+        {/* Millow DApp */}
+        <GraphQLBlog />
 
         {/* ToDo Deno */}
         <ToDoDeno />
