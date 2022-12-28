@@ -6,16 +6,28 @@ const Skills = () => {
       <div className="column-list">
         <ul>
           <li>
+            <i>Node.js</i>
+          </li>
+          <li>
+            <i>Express</i>
+          </li>
+          <li>
+            <i>MongoDB</i>
+          </li>
+          <li>
+            <i>MySQL</i>
+          </li>
+          <li>
+            <i>REST API</i>
+          </li>
+          <li>
+            <i>GraphQL</i>
+          </li>
+          <li>
             <i>Solidity</i>
           </li>
           <li>
-            <i>Remix IDE</i>
-          </li>
-          <li>
             <i>VS Code</i>
-          </li>
-          <li>
-            <i>Rust</i>
           </li>
           <li>
             <i>Truffle</i>
