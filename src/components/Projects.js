@@ -1,5 +1,6 @@
 import ETHPlus from '../components/projects/ETHPlus'
 import ToDoDApp from '../components/projects/ToDoDApp'
+import ToDoDeno from '../components/projects/ToDoDeno'
 import NodeShop from '../components/projects/NodeShop'
 import ETHFaucet from '../components/projects/ETHFaucet'
 import RaffleDApp from '../components/projects/RaffleDApp'
@@ -22,6 +23,9 @@ const Projects = () => {
 
         {/* Millow DApp */}
         <MillowDApp />
+
+        {/* ToDo Deno */}
+        <ToDoDeno />
 
         {/* CrowdFunding DApp */}
         <CrowdFundingDApp />
