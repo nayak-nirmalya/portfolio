@@ -1,5 +1,6 @@
 import ETHPlus from '../components/projects/ETHPlus'
 import ToDoDApp from '../components/projects/ToDoDApp'
+import ETHDaddy from '../components/projects/ETHDaddy'
 import ToDoDeno from '../components/projects/ToDoDeno'
 import NodeShop from '../components/projects/NodeShop'
 import GraphQLBlog from '../components/projects/GraphQLBlog'
@@ -16,37 +17,17 @@ const Projects = () => {
       <h2>My Projects</h2>
 
       <div className="projects__cards">
-        {/* ETH Plus Exchange */}
         <ETHPlus />
-
-        {/* Full Stack Node Shop */}
         <NodeShop />
-
-        {/* Millow DApp */}
         <MillowDApp />
-
-        {/* Millow DApp */}
         <GraphQLBlog />
-
-        {/* ToDo Deno */}
+        <ETHDaddy />
         <ToDoDeno />
-
-        {/* CrowdFunding DApp */}
         <CrowdFundingDApp />
-
-        {/* NFT Marketplace */}
         <NFTMarketplace />
-
-        {/* ETH Marketplace */}
         <ETHMarketplace />
-
-        {/* Raffle/Lottery DApp */}
         <RaffleDApp />
-
-        {/* ETH ToDo List DApp */}
         <ToDoDApp />
-
-        {/* ETH Faucet */}
         <ETHFaucet />
       </div>
     </section>
