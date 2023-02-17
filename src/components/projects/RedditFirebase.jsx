@@ -19,6 +19,14 @@ const RedditFirebase = () => {
         >
           Code
         </a>
+        <a
+          href="https://reddit-clone-full-stack.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+          className="button"
+        >
+          Live
+        </a>
       </div>
     </div>
   );

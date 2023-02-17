@@ -18,9 +18,9 @@ const Projects = () => {
       <h2>My Projects</h2>
 
       <div className="projects__cards">
+        <RedditFirebase />
         <ETHPlus />
         <NodeShop />
-        <RedditFirebase />
         <MillowDApp />
         <GraphQLBlog />
         <ETHDaddy />
