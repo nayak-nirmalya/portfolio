@@ -273,3 +273,26 @@ code {
 #dark .switch label {
   color: white;
 }
+
+/* ------------------------------------------------------ */
+/* -- SCROLL BAR -- */
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0d1117;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0d1117;
+  border-radius: 18px;
+  border: 2px solid white;
+}

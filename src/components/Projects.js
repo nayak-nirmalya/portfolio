@@ -72,9 +72,9 @@ const Projects = () => {
 
       <Carousel
         partialVisible
-        showDots
+        // showDots
         dotListClass="dotClass"
-        renderDotsOutside
+        // renderDotsOutside
         customDot={<CustomDot />}
         responsive={responsive}
       >

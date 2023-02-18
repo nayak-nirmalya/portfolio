@@ -27,6 +27,9 @@ const Skills = () => {
             <i>Solidity</i>
           </li>
           <li>
+            <i>Google Firebase</i>
+          </li>
+          <li>
             <i>VS Code</i>
           </li>
           <li>
@@ -65,7 +68,7 @@ const Skills = () => {
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;
