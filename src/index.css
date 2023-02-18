@@ -277,22 +277,22 @@ code {
 /* ------------------------------------------------------ */
 /* -- SCROLL BAR -- */
 /* Works on Firefox */
-* {
+/* * {
   scrollbar-width: thin;
   scrollbar-color: #0d1117;
-}
+} */
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 6px;
+  width: 3.5px;
 }
 
 *::-webkit-scrollbar-track {
-  background: white;
+  background: #0d1117;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #0d1117;
-  border-radius: 18px;
-  border: 2px solid white;
+  background-color: #008800;
+  border-radius: 44px;
+  /* border: 1.5px solid white; */
 }
