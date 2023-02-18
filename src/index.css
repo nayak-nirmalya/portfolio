@@ -118,11 +118,15 @@ code {
 }
 
 .projects__card {
-  max-width: 400px;
+  /* max-width: 400px; */
+  display: block;
+  width: 425px;
+  /* height: 100%; */
   flex: 0 0 auto;
   padding: 20px;
   border: 1px solid #008800;
-  border-radius: 8px;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .projects__card h3 {
@@ -220,6 +224,23 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.slider {
+  cursor: pointer;
+}
+
+.active {
+  color: #008800;
+}
+
+.inactive {
+  font-weight: 900;
+}
+
+.dotClass {
+  font-size: 22px;
+  font-weight: 650;
 }
 
 /* ------------------------------------------------------ */
