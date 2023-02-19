@@ -239,8 +239,13 @@ code {
 }
 
 .dotClass {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 650;
+}
+
+ul.react-multi-carousel-dot-list.dotClass {
+  position: relative;
+  padding-top: 20px;
 }
 
 /* ------------------------------------------------------ */

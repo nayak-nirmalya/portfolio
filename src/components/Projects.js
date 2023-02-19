@@ -18,7 +18,6 @@ import CrowdFundingDApp from "../components/projects/CrowdFundingDApp";
 const Projects = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 4,
     },
@@ -43,11 +42,6 @@ const Projects = () => {
       <li className="slider" onClick={() => onClick()}>
         {active ? (
           <>
-            {/* <link
-              rel="stylesheet"
-              href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-            />
-            <span className="material-symbols-outlined">maximize</span> */}
             {/* <span className="active">{index + 1}</span> */}
             <span className="active">*</span>
           </>
@@ -72,9 +66,9 @@ const Projects = () => {
 
       <Carousel
         partialVisible
-        // showDots
+        showDots
         dotListClass="dotClass"
-        // renderDotsOutside
+        renderDotsOutside
         customDot={<CustomDot />}
         responsive={responsive}
       >
