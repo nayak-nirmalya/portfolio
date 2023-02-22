@@ -18,7 +18,7 @@ const Header = () => {
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
           ></link>{" "}
-          <div class="tooltip">
+          <div className="tooltip">
             <i
               className="fa fa-copy"
               style={{ cursor: "pointer" }}
@@ -26,7 +26,7 @@ const Header = () => {
                 navigator.clipboard.writeText("nayak.nirmalya@hotmail.com");
               }}
             ></i>
-            <span class="tooltiptext">Copy to Clipboard.</span>
+            <span className="tooltiptext">Copy to Clipboard.</span>
           </div>
         </h4>
         <h4>
