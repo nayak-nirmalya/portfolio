@@ -33,6 +33,15 @@ const Header = () => {
           Contact No.: <a href="tel:+917008944644">+91-7008944644</a>
         </h4>
         <h4>Odisha, India</h4>
+        <a
+          href="https://www.linkedin.com/in/nirmalya-nayak/"
+          target="_blank"
+          rel="noreferrer"
+          className="button"
+          style={{ padding: "12px", margin: "14px" }}
+        >
+          Download Resume
+        </a>
       </div>
     </section>
   );
