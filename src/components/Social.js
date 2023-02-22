@@ -11,12 +11,12 @@ const Social = () => {
           Call Me!
         </a>
         <a
-          href="https://twitter.com/WebThreeDevlop"
+          href="https://www.linkedin.com/in/nirmalya-nayak/"
           target="_blank"
           rel="noreferrer"
           className="button"
         >
-          Twitter
+          LinkedIn
         </a>
         <a
           href="https://github.com/nayak-nirmalya"
@@ -36,7 +36,7 @@ const Social = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Social
+export default Social;
