@@ -6,6 +6,7 @@ import ToDoDApp from "../components/projects/ToDoDApp";
 import ETHDaddy from "../components/projects/ETHDaddy";
 import ToDoDeno from "../components/projects/ToDoDeno";
 import NodeShop from "../components/projects/NodeShop";
+import NoteTaker from "../components/projects/NoteTaker";
 import RedditFirebase from "../components/projects/RedditFirebase";
 import GraphQLBlog from "../components/projects/GraphQLBlog";
 import ETHFaucet from "../components/projects/ETHFaucet";
@@ -77,6 +78,7 @@ const Projects = () => {
         <NodeShop />
         <MillowDApp />
         <GraphQLBlog />
+        <NoteTaker />
         <ETHDaddy />
         <ToDoDeno />
         <CrowdFundingDApp />
