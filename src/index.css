@@ -80,6 +80,39 @@ code {
   margin: 25px auto 0;
 }
 
+.header__content h4 a {
+  color: #205dad;
+}
+
+#light .header__content h4 a {
+  color: #0d3f8f;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 180px;
+  background-color: #008800;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  margin: 8px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 /* ------------------------------------------------------ */
 /* -- About -- */
 
