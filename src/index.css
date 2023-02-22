@@ -180,6 +180,9 @@ code {
 
 .social .button {
   margin: 0 15px;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: ellipsis;
 }
 
 /* ------------------------------------------------------ */
