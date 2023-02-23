@@ -36,7 +36,7 @@ const Header = () => {
         <h4>Odisha, India</h4>
         <a
           href={resume}
-          download="NirmalyaNayakResume"
+          download="NirmalyaNayakResume.pdf"
           target="_blank"
           rel="noreferrer"
           className="button"
