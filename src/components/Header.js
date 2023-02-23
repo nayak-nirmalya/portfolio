@@ -1,5 +1,6 @@
 // Import Assets
 import profile from "../assets/profile.jpg";
+import resume from "../assets/resume/NIRMALYA_NAYAK.pdf";
 
 const Header = () => {
   return (
@@ -34,7 +35,8 @@ const Header = () => {
         </h4>
         <h4>Odisha, India</h4>
         <a
-          href="https://www.linkedin.com/in/nirmalya-nayak/"
+          href={resume}
+          download="NirmalyaNayakResume"
           target="_blank"
           rel="noreferrer"
           className="button"
