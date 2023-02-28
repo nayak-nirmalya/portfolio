@@ -7,11 +7,12 @@ import ETHDaddy from "../components/projects/ETHDaddy";
 import ToDoDeno from "../components/projects/ToDoDeno";
 import NodeShop from "../components/projects/NodeShop";
 import NoteTaker from "../components/projects/NoteTaker";
-import RedditFirebase from "../components/projects/RedditFirebase";
-import GraphQLBlog from "../components/projects/GraphQLBlog";
+import EmployeeManagement from "./projects/EmployeeMGMT";
 import ETHFaucet from "../components/projects/ETHFaucet";
 import RaffleDApp from "../components/projects/RaffleDApp";
 import MillowDApp from "../components/projects/MillowDApp";
+import GraphQLBlog from "../components/projects/GraphQLBlog";
+import RedditFirebase from "../components/projects/RedditFirebase";
 import NFTMarketplace from "../components/projects/NFTMarketplace";
 import ETHMarketplace from "../components/projects/ETHMarketplace";
 import CrowdFundingDApp from "../components/projects/CrowdFundingDApp";
@@ -80,6 +81,7 @@ const Projects = () => {
         <GraphQLBlog />
         <NoteTaker />
         <ETHDaddy />
+        <EmployeeManagement />
         <ToDoDeno />
         <CrowdFundingDApp />
         <NFTMarketplace />
