@@ -12,12 +12,20 @@ const EmployeeManagement = () => {
       </p>
       <div className="centered">
         <a
+          href="https://github.com/nayak-nirmalya/emp-system-react"
+          target="_blank"
+          rel="noreferrer"
+          className="button"
+        >
+          Code_UI
+        </a>
+        <a
           href="https://github.com/nayak-nirmalya/java-emp-system-api"
           target="_blank"
           rel="noreferrer"
           className="button"
         >
-          Code
+          Code_API
         </a>
       </div>
     </div>

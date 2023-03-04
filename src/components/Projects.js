@@ -1,21 +1,22 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import ETHPlus from "../components/projects/ETHPlus";
-import ToDoDApp from "../components/projects/ToDoDApp";
-import ETHDaddy from "../components/projects/ETHDaddy";
-import ToDoDeno from "../components/projects/ToDoDeno";
-import NodeShop from "../components/projects/NodeShop";
-import NoteTaker from "../components/projects/NoteTaker";
+import ETHPlus from "./projects/ETHPlus";
+import ToDoDApp from "./projects/ToDoDApp";
+import ETHDaddy from "./projects/ETHDaddy";
+import ToDoDeno from "./projects/ToDoDeno";
+import NodeShop from "./projects/NodeShop";
+import NoteTaker from "./projects/NoteTaker";
+import ETHFaucet from "./projects/ETHFaucet";
+import RaffleDApp from "./projects/RaffleDApp";
+import MillowDApp from "./projects/MillowDApp";
+import GraphQLBlog from "./projects/GraphQLBlog";
+import FacebookClone from "./projects/FacebookClone";
+import RedditFirebase from "./projects/RedditFirebase";
+import NFTMarketplace from "./projects/NFTMarketplace";
+import ETHMarketplace from "./projects/ETHMarketplace";
 import EmployeeManagement from "./projects/EmployeeMGMT";
-import ETHFaucet from "../components/projects/ETHFaucet";
-import RaffleDApp from "../components/projects/RaffleDApp";
-import MillowDApp from "../components/projects/MillowDApp";
-import GraphQLBlog from "../components/projects/GraphQLBlog";
-import RedditFirebase from "../components/projects/RedditFirebase";
-import NFTMarketplace from "../components/projects/NFTMarketplace";
-import ETHMarketplace from "../components/projects/ETHMarketplace";
-import CrowdFundingDApp from "../components/projects/CrowdFundingDApp";
+import CrowdFundingDApp from "./projects/CrowdFundingDApp";
 
 const Projects = () => {
   const responsive = {
@@ -27,24 +28,13 @@ const Projects = () => {
       breakpoint: { max: 3000, min: 1024 },
       items: 2.8,
     },
-    // tablet: {
-    //   breakpoint: { max: 1024, min: 464 },
-    //   items: 2,
-    // },
-    // mobile: {
-    //   breakpoint: { max: 464, min: 0 },
-    //   items: 1,
-    // },
   };
-
-  // https://github.com/YIZHUANG/react-multi-carousel/issues/14
 
   const CustomDot = ({ onMove, index, onClick, active }) => {
     return (
       <li className="slider" onClick={() => onClick()}>
         {active ? (
           <>
-            {/* <span className="active">{index + 1}</span> */}
             <span className="active">*</span>
           </>
         ) : (
@@ -81,6 +71,7 @@ const Projects = () => {
         <GraphQLBlog />
         <NoteTaker />
         <ETHDaddy />
+        <FacebookClone />
         <EmployeeManagement />
         <ToDoDeno />
         <CrowdFundingDApp />
@@ -90,22 +81,6 @@ const Projects = () => {
         <ToDoDApp />
         <ETHFaucet />
       </Carousel>
-
-      {/* <div className="projects__cards">
-        <RedditFirebase />
-        <ETHPlus />
-        <NodeShop />
-        <MillowDApp />
-        <GraphQLBlog />
-        <ETHDaddy />
-        <ToDoDeno />
-        <CrowdFundingDApp />
-        <NFTMarketplace />
-        <ETHMarketplace />
-        <RaffleDApp />
-        <ToDoDApp />
-        <ETHFaucet />
-      </div> */}
     </section>
   );
 };
