@@ -12,6 +12,7 @@ import RaffleDApp from "./projects/RaffleDApp";
 import MillowDApp from "./projects/MillowDApp";
 import GraphQLBlog from "./projects/GraphQLBlog";
 import FacebookClone from "./projects/FacebookClone";
+import EtherscanClone from "./projects/EtherscanClone";
 import RedditFirebase from "./projects/RedditFirebase";
 import NFTMarketplace from "./projects/NFTMarketplace";
 import ETHMarketplace from "./projects/ETHMarketplace";
@@ -73,6 +74,7 @@ const Projects = () => {
         <ETHDaddy />
         <FacebookClone />
         <EmployeeManagement />
+        <EtherscanClone />
         <ToDoDeno />
         <CrowdFundingDApp />
         <NFTMarketplace />
