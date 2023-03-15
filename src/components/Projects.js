@@ -11,6 +11,7 @@ import ETHFaucet from "./projects/ETHFaucet";
 import RaffleDApp from "./projects/RaffleDApp";
 import MillowDApp from "./projects/MillowDApp";
 import GraphQLBlog from "./projects/GraphQLBlog";
+import NetflixClone from "./projects/NetflixClone";
 import FacebookClone from "./projects/FacebookClone";
 import EtherscanClone from "./projects/EtherscanClone";
 import RedditFirebase from "./projects/RedditFirebase";
@@ -66,13 +67,14 @@ const Projects = () => {
         responsive={responsive}
       >
         <RedditFirebase />
+        <NetflixClone />
         <ETHPlus />
         <NodeShop />
         <MillowDApp />
         <GraphQLBlog />
+        <FacebookClone />
         <NoteTaker />
         <ETHDaddy />
-        <FacebookClone />
         <EmployeeManagement />
         <EtherscanClone />
         <ToDoDeno />
