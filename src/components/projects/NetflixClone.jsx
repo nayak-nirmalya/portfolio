@@ -6,9 +6,9 @@ const NetflixClone = () => {
       <h3>Full-Stack Netflix Clone</h3>
       <img src={netflix_clone} alt="Full-Stack Netflix Clone" />
       <p>
-        Made using Google Firebase, Next.js, ChakraUI, TypeScript. User can
-        SignUp/In using OAuth or E-Mail, join communities, add posts, upvote,
-        downvote, comment.
+        Made using Next.js, TailwindCSS, TypeScript, MongoDB, Prisma. User can
+        SignUp/In using OAuth or E-Mail, select movies, add to favourite and
+        play movies. Fully Responsive UI.
       </p>
       <div className="centered">
         <a
