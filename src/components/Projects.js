@@ -19,6 +19,7 @@ import NFTMarketplace from "./projects/NFTMarketplace";
 import ETHMarketplace from "./projects/ETHMarketplace";
 import EmployeeManagement from "./projects/EmployeeMGMT";
 import CrowdFundingDApp from "./projects/CrowdFundingDApp";
+import AmazonClone from "./projects/AmazonClone";
 
 const Projects = () => {
   const responsive = {
@@ -69,6 +70,7 @@ const Projects = () => {
         <RedditFirebase />
         <NetflixClone />
         <ETHPlus />
+        <AmazonClone />
         <NodeShop />
         <MillowDApp />
         <GraphQLBlog />
