@@ -2,10 +2,10 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>
-        <small>Nirmalya &copy; 2023</small>
+        <small>Nirmalya &copy; {new Date().getFullYear()}</small>
       </p>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
