@@ -6,10 +6,9 @@ const TwitterClone = () => {
       <h3>Twitter Clone - NextJS</h3>
       <img src={twitter_clone} alt="TwitterClone" />
       <p>
-        Full Stack Twitter Clone Made using React, NextJS, TailwindCSS,
-        TypeScript, MongoDB & Prisma. Funcionalities includes Notification
-        system, Image Upload, Responsive Layout, Following functionality,
-        Comments / Replies, Likes functionality.
+        Full Stack Responsive Twitter Clone Made using React, NextJS,
+        TailwindCSS, TypeScript, MongoDB & Prisma. Funcionalities includes
+        Notification, Following / Liking / Commenting.
       </p>
       <div className="centered">
         <a

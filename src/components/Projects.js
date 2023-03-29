@@ -11,6 +11,8 @@ import ETHFaucet from "./projects/ETHFaucet";
 import RaffleDApp from "./projects/RaffleDApp";
 import MillowDApp from "./projects/MillowDApp";
 import GraphQLBlog from "./projects/GraphQLBlog";
+import AmazonClone from "./projects/AmazonClone";
+import TwitterClone from "./projects/TwitterClone";
 import NetflixClone from "./projects/NetflixClone";
 import FacebookClone from "./projects/FacebookClone";
 import EtherscanClone from "./projects/EtherscanClone";
@@ -19,7 +21,6 @@ import NFTMarketplace from "./projects/NFTMarketplace";
 import ETHMarketplace from "./projects/ETHMarketplace";
 import EmployeeManagement from "./projects/EmployeeMGMT";
 import CrowdFundingDApp from "./projects/CrowdFundingDApp";
-import AmazonClone from "./projects/AmazonClone";
 
 const Projects = () => {
   const responsive = {
@@ -69,6 +70,7 @@ const Projects = () => {
       >
         <RedditFirebase />
         <NetflixClone />
+        <TwitterClone />
         <ETHPlus />
         <AmazonClone />
         <NodeShop />
