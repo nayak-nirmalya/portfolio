@@ -71,18 +71,18 @@ const Projects = () => {
         <RedditFirebase />
         <NetflixClone />
         <TwitterClone />
-        <ETHPlus />
         <AmazonClone />
         <NodeShop />
         <MillowDApp />
         <GraphQLBlog />
         <FacebookClone />
-        <NoteTaker />
+        <ETHPlus />
         <ETHDaddy />
         <EmployeeManagement />
         <EtherscanClone />
         <ToDoDeno />
         <CrowdFundingDApp />
+        <NoteTaker />
         <NFTMarketplace />
         <ETHMarketplace />
         <RaffleDApp />
