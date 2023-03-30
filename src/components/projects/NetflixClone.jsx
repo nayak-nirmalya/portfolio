@@ -12,20 +12,20 @@ const NetflixClone = () => {
       </p>
       <div className="centered">
         <a
-          href="https://github.com/nayak-nirmalya/netflix-clone"
-          target="_blank"
-          rel="noreferrer"
-          className="button"
-        >
-          Code
-        </a>
-        <a
           href="https://netflix-clone-six-mu-17.vercel.app/"
           target="_blank"
           rel="noreferrer"
           className="button"
         >
           Live
+        </a>
+        <a
+          href="https://github.com/nayak-nirmalya/netflix-clone"
+          target="_blank"
+          rel="noreferrer"
+          className="button"
+        >
+          Code
         </a>
       </div>
     </div>
