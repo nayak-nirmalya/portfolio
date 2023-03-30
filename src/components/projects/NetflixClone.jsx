@@ -17,7 +17,7 @@ const NetflixClone = () => {
           rel="noreferrer"
           className="button"
         >
-          Live
+          Demo
         </a>
         <a
           href="https://github.com/nayak-nirmalya/netflix-clone"
