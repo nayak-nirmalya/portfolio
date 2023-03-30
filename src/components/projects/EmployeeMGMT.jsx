@@ -17,7 +17,7 @@ const EmployeeManagement = () => {
           rel="noreferrer"
           className="button"
         >
-          Code_UI
+          Front-End
         </a>
         <a
           href="https://github.com/nayak-nirmalya/java-emp-system-api"
@@ -25,7 +25,7 @@ const EmployeeManagement = () => {
           rel="noreferrer"
           className="button"
         >
-          Code_API
+          Back-End
         </a>
       </div>
     </div>
