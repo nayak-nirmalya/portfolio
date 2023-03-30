@@ -12,20 +12,20 @@ const NoteTaker = () => {
       </p>
       <div className="centered">
         <a
-          href="https://github.com/nayak-nirmalya/note-taker"
-          target="_blank"
-          rel="noreferrer"
-          className="button"
-        >
-          Code
-        </a>
-        <a
           href="https://note-taker-eight.vercel.app/"
           target="_blank"
           rel="noreferrer"
           className="button"
         >
           Live
+        </a>
+        <a
+          href="https://github.com/nayak-nirmalya/note-taker"
+          target="_blank"
+          rel="noreferrer"
+          className="button"
+        >
+          Code
         </a>
       </div>
     </div>
