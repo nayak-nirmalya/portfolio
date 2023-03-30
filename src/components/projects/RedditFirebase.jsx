@@ -17,7 +17,7 @@ const RedditFirebase = () => {
           rel="noreferrer"
           className="button"
         >
-          Live
+          Demo
         </a>
         <a
           href="https://github.com/nayak-nirmalya/reddit-clone-full-stack"
