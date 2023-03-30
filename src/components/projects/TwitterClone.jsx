@@ -12,20 +12,20 @@ const TwitterClone = () => {
       </p>
       <div className="centered">
         <a
-          href="https://github.com/nayak-nirmalya/twitter-clone"
-          target="_blank"
-          rel="noreferrer"
-          className="button"
-        >
-          Code
-        </a>
-        <a
           href="https://twitter-clone-snowy-xi.vercel.app/"
           target="_blank"
           rel="noreferrer"
           className="button"
         >
           Live
+        </a>
+        <a
+          href="https://github.com/nayak-nirmalya/twitter-clone"
+          target="_blank"
+          rel="noreferrer"
+          className="button"
+        >
+          Code
         </a>
       </div>
     </div>
