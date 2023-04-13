@@ -10,6 +10,7 @@ import NoteTaker from "./projects/NoteTaker";
 import ETHFaucet from "./projects/ETHFaucet";
 import RaffleDApp from "./projects/RaffleDApp";
 import MillowDApp from "./projects/MillowDApp";
+import PayPalClone from "./projects/PayPalWeb3";
 import GraphQLBlog from "./projects/GraphQLBlog";
 import AmazonClone from "./projects/AmazonClone";
 import TwitterClone from "./projects/TwitterClone";
@@ -73,6 +74,7 @@ const Projects = () => {
         <TwitterClone />
         <AmazonClone />
         <NodeShop />
+        <PayPalClone />
         <MillowDApp />
         <GraphQLBlog />
         <FacebookClone />
