@@ -161,6 +161,7 @@ code {
   border: 1px solid #008800;
   border-radius: 15px;
   overflow: hidden;
+  user-select: none;
 }
 
 .projects__card h3 {
