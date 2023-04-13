@@ -22,6 +22,7 @@ import NFTMarketplace from "./projects/NFTMarketplace";
 import ETHMarketplace from "./projects/ETHMarketplace";
 import EmployeeManagement from "./projects/EmployeeMGMT";
 import CrowdFundingDApp from "./projects/CrowdFundingDApp";
+import TwitterCloneFlutter from "./projects/TwitterCloneFlutter";
 
 const Projects = () => {
   const responsive = {
@@ -72,6 +73,7 @@ const Projects = () => {
         <RedditFirebase />
         <NetflixClone />
         <TwitterClone />
+        <TwitterCloneFlutter />
         <AmazonClone />
         <NodeShop />
         <PayPalClone />
