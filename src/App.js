@@ -1,6 +1,4 @@
 import { createContext, useState } from "react";
-import ReactSwitch from "react-switch";
-
 import { BsSunFill, BsSun } from "react-icons/bs";
 
 // Import Components
