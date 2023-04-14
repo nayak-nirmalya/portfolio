@@ -65,6 +65,7 @@ const Projects = () => {
       <Carousel
         partialVisible
         showDots
+        autoPlay
         dotListClass="dotClass"
         renderDotsOutside
         customDot={<CustomDot />}
