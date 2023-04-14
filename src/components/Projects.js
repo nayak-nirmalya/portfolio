@@ -56,6 +56,9 @@ const Projects = () => {
         partialVisible
         showDots
         autoPlay
+        rewind
+        rewindWithAnimation
+        shouldResetAutoplay
         dotListClass="dotClass"
         renderDotsOutside
         customDot={<CustomDot />}
