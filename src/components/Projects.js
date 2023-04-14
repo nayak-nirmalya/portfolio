@@ -40,19 +40,9 @@ const Projects = () => {
     return (
       <li className="slider" onClick={() => onClick()}>
         {active ? (
-          <>
-            <span className="active">*</span>
-          </>
+          <span className="slickdot active"></span>
         ) : (
-          <>
-            <link
-              rel="stylesheet"
-              href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-            />
-            <span className="material-symbols-outlined inactive">
-              check_indeterminate_small
-            </span>
-          </>
+          <span className="slickdot"></span>
         )}
       </li>
     );
