@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import { BsSunFill, BsSun } from "react-icons/bs";
 
 // Import Components
@@ -14,11 +14,34 @@ import Education from "./components/Education";
 export const ThemeContext = createContext(null);
 
 function App() {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("");
+
+  const setThemeInStorage = (theme) => {
+    localStorage.setItem("theme", theme);
+  };
+
+  const getThemeInStorage = () => {
+    return localStorage.getItem("theme");
+  };
 
   const toggleTheme = () => {
-    setTheme((currentTheme) => (currentTheme === "light" ? "dark" : "light"));
+    setTheme((currentTheme) => {
+      const newTheme = currentTheme === "light" ? "dark" : "light";
+      setThemeInStorage(newTheme);
+      return newTheme;
+    });
   };
+
+  useEffect(() => {
+    const localTheme = getThemeInStorage();
+
+    if (localTheme) {
+      localTheme === "light" ? setTheme("light") : setTheme("dark");
+    } else {
+      setTheme("dark");
+      setThemeInStorage("dark");
+    }
+  }, []);
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
