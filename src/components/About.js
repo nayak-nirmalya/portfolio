@@ -1,4 +1,9 @@
+import { useContext } from "react";
+import { ThemeContext } from "../App";
+
 const About = () => {
+  const { theme } = useContext(ThemeContext);
+
   const scroll = () => {
     const section = document.querySelector(".projects");
     section.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -30,7 +35,7 @@ const About = () => {
           style={{
             fontWeight: "bold",
             textDecoration: "none",
-            color: "white",
+            color: theme === "light" ? "black" : "white",
           }}
           href="https://github.com/nayak-nirmalya"
           target="_blank"
