@@ -17,6 +17,7 @@ import AmazonClone from "./projects/AmazonClone";
 import TwitterClone from "./projects/TwitterClone";
 import NetflixClone from "./projects/NetflixClone";
 import FacebookClone from "./projects/FacebookClone";
+import DeliverooClone from "./projects/DeliverooClone";
 import EtherscanClone from "./projects/EtherscanClone";
 import RedditFirebase from "./projects/RedditFirebase";
 import NFTMarketplace from "./projects/NFTMarketplace";
@@ -24,7 +25,6 @@ import ETHMarketplace from "./projects/ETHMarketplace";
 import EmployeeManagement from "./projects/EmployeeMGMT";
 import CrowdFundingDApp from "./projects/CrowdFundingDApp";
 import TwitterCloneFlutter from "./projects/TwitterCloneFlutter";
-import DeliverooClone from "./projects/DeliverooClone";
 
 const Projects = () => {
   const responsive = {
