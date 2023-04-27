@@ -8,6 +8,7 @@ import ToDoDeno from "./projects/ToDoDeno";
 import NodeShop from "./projects/NodeShop";
 import NoteTaker from "./projects/NoteTaker";
 import ETHFaucet from "./projects/ETHFaucet";
+import UberClone from "./projects/UberClone";
 import RaffleDApp from "./projects/RaffleDApp";
 import MillowDApp from "./projects/MillowDApp";
 import PayPalClone from "./projects/PayPalWeb3";
@@ -67,6 +68,7 @@ const Projects = () => {
         <RedditFirebase />
         <NetflixClone />
         <TwitterClone />
+        <UberClone />
         <TwitterCloneFlutter />
         <AmazonClone />
         <NodeShop />
