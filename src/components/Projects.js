@@ -24,6 +24,7 @@ import ETHMarketplace from "./projects/ETHMarketplace";
 import EmployeeManagement from "./projects/EmployeeMGMT";
 import CrowdFundingDApp from "./projects/CrowdFundingDApp";
 import TwitterCloneFlutter from "./projects/TwitterCloneFlutter";
+import DeliverooClone from "./projects/DeliverooClone";
 
 const Projects = () => {
   const responsive = {
@@ -72,6 +73,7 @@ const Projects = () => {
         <TwitterCloneFlutter />
         <AmazonClone />
         <NodeShop />
+        <DeliverooClone />
         <PayPalClone />
         <MillowDApp />
         <GraphQLBlog />
