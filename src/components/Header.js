@@ -2,20 +2,35 @@
 import profile from "../assets/profile.jpg";
 import resume from "../assets/resume/NIRMALYA_NAYAK.pdf";
 
+import { useContext } from "react";
+import { ThemeContext } from "../App";
+
 const Header = () => {
+  const { theme } = useContext(ThemeContext);
+
   return (
     <section className="header">
       <img src={profile} alt="Nirmalya Nayak" />
 
       <div className="header__content">
         <h1>Hi, I'm Nirmalya Nayak</h1>
-        <img
-          width="600"
-          height="55"
-          className="header__image"
-          src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=22&pause=1000&color=ffffff&background=14132100&center=true&vCenter=true&width=600&lines=Full+Stack+%2F+Mobile+%2F+Blockchain+Developer"
-          alt="Typing SVG"
-        />
+        {theme === "light" ? (
+          <img
+            width="600"
+            height="55"
+            className="header__image"
+            src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&color=000000&background=14132100&center=true&vCenter=true&width=600&lines=Full+Stack+%2F+Mobile+%2F+Blockchain+Developer"
+            alt="Typing SVG"
+          />
+        ) : (
+          <img
+            width="600"
+            height="55"
+            className="header__image"
+            src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&color=ffffff&background=14132100&center=true&vCenter=true&width=600&lines=Full+Stack+%2F+Mobile+%2F+Blockchain+Developer"
+            alt="Typing SVG"
+          />
+        )}
         {/* <p>Full Stack / Blockchain Developer</p> */}
         <h4>
           E-Mail:{" "}
