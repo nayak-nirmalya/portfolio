@@ -63,6 +63,11 @@ code {
   border-radius: 50%;
 }
 
+.header__image {
+  max-width: 600px !important;
+  margin: 0 0 !important;
+}
+
 .header__content {
   width: 600px;
   margin: 0 auto;
