@@ -9,7 +9,12 @@ const Header = () => {
 
       <div className="header__content">
         <h1>Hi, I'm Nirmalya Nayak</h1>
-        <p>Full Stack / Blockchain Developer</p>
+        <img
+          className="header__image"
+          src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=22&pause=1000&color=FD428E&background=14132100&center=true&vCenter=true&width=600&lines=Full+Stack+%2F+Mobile+%2F+Blockchain+Developer"
+          alt="Typing SVG"
+        />
+        {/* <p>Full Stack / Blockchain Developer</p> */}
         <h4>
           E-Mail:{" "}
           <a href="mailto:nayak.nirmalya@hotmail.com">
