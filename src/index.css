@@ -42,7 +42,7 @@ code {
 .experience,
 .social,
 .footer {
-  padding: 22px 25px 22px;
+  padding: 20px 25px 20px;
   margin: auto 110px;
 }
 
@@ -129,8 +129,9 @@ code {
 .about p {
   font-size: 18px;
   line-height: 130%;
-  max-width: 98ch;
-  margin: auto 25px;
+  max-width: 100ch;
+  margin: auto 44px;
+  text-align: justify;
 }
 
 /* ------------------------------------------------------ */

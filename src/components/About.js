@@ -14,12 +14,13 @@ const About = () => {
       <h2>About Me</h2>
 
       <p>
-        I am a Full Stack / Blockchain software developer with experience in
-        building modern and scalable web applications using React, TypeScript,
-        Next.js, TailwindCSS, Node, MongoDB, MySQL also I build smart contracts
-        with Solidiy and Front-End that interact with smart contracts on various
-        blockchains (Ethereum) using Web3 libraries such as ethers.js, web3.js
-        or framework such as Hardhat, Truffle, Brownie. Checkout{" "}
+        I am a Full Stack / Mobile / Blockchain software developer with
+        experience in building modern and scalable Web and Mobile Applications
+        using React, TypeScript, React Native, Next.js, TailwindCSS, Node.js,
+        MongoDB, MySQL also I build smart contracts with Solidiy and Front-End
+        that interact with smart contracts on various blockchains (Ethereum)
+        using Web3 libraries such as ethers.js, web3.js or framework such as
+        Hardhat, Truffle, Brownie. Checkout{" "}
         <span
           style={{
             fontWeight: "bold",
