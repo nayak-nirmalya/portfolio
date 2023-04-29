@@ -14,6 +14,7 @@ import MillowDApp from "./projects/MillowDApp";
 import PayPalClone from "./projects/PayPalWeb3";
 import GraphQLBlog from "./projects/GraphQLBlog";
 import AmazonClone from "./projects/AmazonClone";
+import TinderClone from "./projects/TinderClone";
 import TwitterClone from "./projects/TwitterClone";
 import NetflixClone from "./projects/NetflixClone";
 import FacebookClone from "./projects/FacebookClone";
@@ -68,6 +69,7 @@ const Projects = () => {
       >
         <RedditFirebase />
         <NetflixClone />
+        <TinderClone />
         <TwitterClone />
         <UberClone />
         <TwitterCloneFlutter />
