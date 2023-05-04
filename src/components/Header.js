@@ -10,7 +10,11 @@ const Header = () => {
 
   return (
     <section className="header">
-      <img src={profile} alt="Nirmalya Nayak" />
+      <img
+        className="border-2 border-[#008800]"
+        src={profile}
+        alt="Nirmalya Nayak"
+      />
 
       <div className="header__content">
         <h1 className="font-bold">Hi, I'm Nirmalya Nayak</h1>
