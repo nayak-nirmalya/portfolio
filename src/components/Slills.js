@@ -3,7 +3,7 @@ const Skills = () => {
     <div className="experience">
       <h2>Technical Skills</h2>
 
-      <div className="column-list">
+      <div className="columns-5">
         <a href="#">
           <img
             alt="JavaScript"
