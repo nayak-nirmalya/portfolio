@@ -1,7 +1,7 @@
 const Education = () => {
   return (
     <div className="experience">
-      <h2>Education</h2>
+      <h2 className="font-bold">Education</h2>
 
       <ul className="list-disc">
         <li>
