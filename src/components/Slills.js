@@ -18,6 +18,15 @@ const Skills = () => {
             <i>MySQL</i>
           </li>
           <li>
+            <i>React Native</i>
+          </li>
+          <li>
+            <i>Next.js</i>
+          </li>
+          <li>
+            <i>Appwrite</i>
+          </li>
+          <li>
             <i>REST API</i>
           </li>
           <li>
@@ -25,6 +34,9 @@ const Skills = () => {
           </li>
           <li>
             <i>Solidity</i>
+          </li>
+          <li>
+            <i>TailwindCSS</i>
           </li>
           <li>
             <i>Google Firebase</i>
