@@ -28,7 +28,7 @@ import {
   CrowdFundingDApp,
   MillowDApp,
   PayPalClone,
-} from "./projects/index";
+} from "./projects/_index";
 
 const Projects = () => {
   const responsive = {
