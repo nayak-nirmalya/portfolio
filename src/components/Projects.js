@@ -1,6 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import TMDB from "./projects/TMDB";
 import ETHPlus from "./projects/ETHPlus";
 import ToDoDApp from "./projects/ToDoDApp";
 import ETHDaddy from "./projects/ETHDaddy";
@@ -72,6 +73,7 @@ const Projects = () => {
         <TinderClone />
         <TwitterClone />
         <UberClone />
+        <TMDB />
         <TwitterCloneFlutter />
         <AmazonClone />
         <NodeShop />

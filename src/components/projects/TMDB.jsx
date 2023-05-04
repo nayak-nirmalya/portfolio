@@ -3,12 +3,12 @@ import tmdb from "../../assets/tmdb.png";
 const TMDB = () => {
   return (
     <div className="projects__card">
-      <h3>TheMovieDB</h3>
+      <h3>The Movie Database App</h3>
       <img src={tmdb} alt="TMDB" />
       <p>
         This is a repository for TMDB app that show popular, upcoming Movies &
-        TV shows details, can also serch by names made with React Native,
-        TypeScript, TailWindCSS, The Movie DB API, & React Navigation.
+        TV shows, made with React Native, TypeScript, TailWindCSS, The Movie DB
+        API, & React Navigation.
       </p>
       <div className="centered">
         <a
