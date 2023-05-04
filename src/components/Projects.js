@@ -1,32 +1,34 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import TMDB from "./projects/TMDB";
-import ETHPlus from "./projects/ETHPlus";
-import ToDoDApp from "./projects/ToDoDApp";
-import ETHDaddy from "./projects/ETHDaddy";
-import ToDoDeno from "./projects/ToDoDeno";
-import NodeShop from "./projects/NodeShop";
-import NoteTaker from "./projects/NoteTaker";
-import ETHFaucet from "./projects/ETHFaucet";
-import UberClone from "./projects/UberClone";
-import RaffleDApp from "./projects/RaffleDApp";
-import MillowDApp from "./projects/MillowDApp";
-import PayPalClone from "./projects/PayPalWeb3";
-import GraphQLBlog from "./projects/GraphQLBlog";
-import AmazonClone from "./projects/AmazonClone";
-import TinderClone from "./projects/TinderClone";
-import TwitterClone from "./projects/TwitterClone";
-import NetflixClone from "./projects/NetflixClone";
-import FacebookClone from "./projects/FacebookClone";
-import DeliverooClone from "./projects/DeliverooClone";
-import EtherscanClone from "./projects/EtherscanClone";
-import RedditFirebase from "./projects/RedditFirebase";
-import NFTMarketplace from "./projects/NFTMarketplace";
-import ETHMarketplace from "./projects/ETHMarketplace";
-import EmployeeManagement from "./projects/EmployeeMGMT";
-import CrowdFundingDApp from "./projects/CrowdFundingDApp";
-import TwitterCloneFlutter from "./projects/TwitterCloneFlutter";
+import {
+  EmployeeManagement,
+  ETHPlus,
+  ETHMarketplace,
+  ToDoDApp,
+  ETHDaddy,
+  ToDoDeno,
+  RedditFirebase,
+  FacebookClone,
+  NodeShop,
+  NoteTaker,
+  NFTMarketplace,
+  ETHFaucet,
+  TwitterCloneFlutter,
+  RaffleDApp,
+  GraphQLBlog,
+  AmazonClone,
+  TinderClone,
+  NetflixClone,
+  UberClone,
+  DeliverooClone,
+  EtherscanClone,
+  TMDB,
+  TwitterClone,
+  CrowdFundingDApp,
+  MillowDApp,
+  PayPalClone,
+} from "./projects/index";
 
 const Projects = () => {
   const responsive = {
