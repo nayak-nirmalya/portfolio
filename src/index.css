@@ -24,22 +24,6 @@ code {
     monospace;
 }
 
-/* .App {
-  max-width: 1200px;
-  margin: 0 auto;
-} */
-
-/* ------------------------------------------------------ */
-/* -- Navigation -- */
-
-/* header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  padding: 0 25px;
-} */
-
 .header,
 .about,
 .projects,

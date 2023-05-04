@@ -13,7 +13,7 @@ const Header = () => {
       <img src={profile} alt="Nirmalya Nayak" />
 
       <div className="header__content">
-        <h1>Hi, I'm Nirmalya Nayak</h1>
+        <h1 className="font-bold">Hi, I'm Nirmalya Nayak</h1>
         {theme === "light" ? (
           <img
             width="600"
@@ -32,7 +32,7 @@ const Header = () => {
           />
         )}
         {/* <p>Full Stack / Blockchain Developer</p> */}
-        <h4>
+        <h4 className="font-semibold">
           E-Mail:{" "}
           <a href="mailto:nayak.nirmalya@hotmail.com">
             nayak.nirmalya@hotmail.com
@@ -52,10 +52,10 @@ const Header = () => {
             <span className="tooltiptext">Copy to Clipboard.</span>
           </div>
         </h4>
-        <h4>
+        <h4 className="font-semibold">
           Contact No.: <a href="tel:+917008944644">+91-7008944644</a>
         </h4>
-        <h4>Odisha, India</h4>
+        <h4 className="font-semibold">Odisha, India</h4>
         <a
           href={resume}
           download="NirmalyaNayakResume.pdf"

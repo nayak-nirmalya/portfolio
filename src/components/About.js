@@ -11,7 +11,7 @@ const About = () => {
 
   return (
     <section className="about">
-      <h2>About Me</h2>
+      <h2 className="font-bold">About Me</h2>
 
       <p>
         I am a Full Stack / Mobile / Blockchain software developer with

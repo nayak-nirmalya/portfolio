@@ -1,7 +1,7 @@
 const Social = () => {
   return (
     <div className="social">
-      <h2>Socials</h2>
+      <h2 className="font-bold">Socials</h2>
 
       <div className="centered">
         <a href="mailto:n.nayak263@gmail.com" className="button">

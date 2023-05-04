@@ -56,7 +56,7 @@ const Projects = () => {
 
   return (
     <section className="projects">
-      <h2>My Projects</h2>
+      <h2 className="font-bold">My Projects</h2>
 
       <Carousel
         partialVisible

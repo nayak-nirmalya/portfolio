@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
     <div className="experience">
-      <h2>Technical Skills</h2>
+      <h2 className="font-bold">Technical Skills</h2>
 
       <div className="font-semibold text-lg p-8 pt-2">
         👨‍💻 Programming & Markup Languages
