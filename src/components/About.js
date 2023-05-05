@@ -17,10 +17,11 @@ const About = () => {
         I am a Full Stack / Mobile / Blockchain software developer with
         experience in building modern and scalable Web and Mobile Applications
         using Express, React, TypeScript, React Native, Next.js, TailwindCSS,
-        Node.js, MongoDB, MySQL also I build smart contracts with Solidiy and
-        Front-End that interact with smart contracts on various blockchains
-        (Ethereum) using Web3 libraries such as ethers.js, web3.js or framework
-        such as Hardhat, Truffle, Brownie. Checkout{" "}
+        Node.js, MongoDB, MySQL. I also have skills in building smart contracts
+        with Solidity and Front-End that interact with smart contracts on
+        various blockchains (Ethereum, Polygon) using Web3 libraries such as
+        Ethers.js, wagmi, web3.js or framework such as Hardhat, Truffle,
+        Brownie. Checkout{" "}
         <span
           style={{
             fontWeight: "bold",
