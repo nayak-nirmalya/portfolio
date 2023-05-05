@@ -74,7 +74,12 @@ const Projects = () => {
     },
   };
 
-  const CustomDot = ({ onClick, active }) => {
+  const CustomDot = ({
+    onClick,
+    active,
+    index,
+    carouselState: { currentSlide, deviceType },
+  }) => {
     return (
       <li className="slider" onClick={() => onClick()}>
         {active ? (
@@ -93,10 +98,12 @@ const Projects = () => {
       <Carousel
         partialVisible
         showDots
+        // infinite={true}
         autoPlay
+        autoPlaySpeed={6000}
         rewind
         rewindWithAnimation
-        shouldResetAutoplay
+        shouldResetAutoplay={true}
         dotListClass="dotClass"
         renderDotsOutside
         customDot={<CustomDot />}
