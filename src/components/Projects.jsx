@@ -28,6 +28,7 @@ import {
   CrowdFundingDApp,
   MillowDApp,
   PayPalClone,
+  MessengerClone,
 } from "./projects/_index";
 
 const Projects = () => {
@@ -110,6 +111,7 @@ const Projects = () => {
         responsive={responsive}
       >
         <RedditFirebase />
+        <MessengerClone />
         <NetflixClone />
         <TinderClone />
         <TwitterClone />
