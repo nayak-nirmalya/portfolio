@@ -9,8 +9,20 @@ const Header = () => {
   const theme = useContext(ThemeContext);
 
   return (
-    <section className="header">
-      <img className="border-2 border-[#008800]" src={profile} alt="Nirmalya Nayak" />
+    <section className="lg:flex items-center flex-wrap text-center mt-8 px-24">
+      <img
+        src={profile}
+        alt="Nirmalya Nayak"
+        className="
+          border-2 
+          border-[#008800] 
+          rounded-full 
+          lg:w-80 
+          w-64 
+          items-center 
+          mx-auto
+        "
+      />
 
       <div className="header__content">
         <h1 className="font-bold">Hi, I&apos;m Nirmalya Nayak</h1>
