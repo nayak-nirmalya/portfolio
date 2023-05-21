@@ -76,7 +76,12 @@ const Projects = () => {
     }
   };
 
-  const CustomDot = ({ onClick, active, index, carouselState: { currentSlide, deviceType } }) => {
+  interface CustomDotProps {
+    onClick?: any;
+    active?: boolean;
+  }
+
+  const CustomDot: React.FC<CustomDotProps> = ({ onClick, active }) => {
     return (
       <li className="slider" onClick={() => onClick()}>
         {active ? <span className="slickdot active"></span> : <span className="slickdot"></span>}
