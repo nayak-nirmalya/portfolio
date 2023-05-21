@@ -8,8 +8,8 @@ const NFTMarketplace = () => {
       <h3>NFT Marketplace</h3>
       <img src={nft_marketplace} alt="NFT Marketplace" />
       <p>
-        It's a NFT Marketplace similar to OpenSeas where user can list NFTs. Any interested user can
-        buy the listed NFTs. The owner can change the price of NFT as well.
+        It&apos;s a NFT Marketplace similar to OpenSeas where user can list NFTs. Any interested
+        user can buy the listed NFTs. The owner can change the price of NFT as well.
       </p>
       <div className="centered">
         <a

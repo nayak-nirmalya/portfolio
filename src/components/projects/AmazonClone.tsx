@@ -8,8 +8,8 @@ const AmazonClone = () => {
       <h3>Amazon Clone (DApp)</h3>
       <img src={amazon_clone} alt="Amazon Clone" />
       <p>
-        It's a Full Stack Amazon Clone. Made using React, HardHat, TypeScript, Solidity. Owner of
-        contract can list products and user can connect with help of Metamask to buy listed
+        It&apos;s a Full Stack Amazon Clone. Made using React, HardHat, TypeScript, Solidity. Owner
+        of contract can list products and user can connect with help of Metamask to buy listed
         products.
       </p>
       <div className="centered">

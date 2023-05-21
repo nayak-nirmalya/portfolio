@@ -13,7 +13,7 @@ const Header = () => {
       <img className="border-2 border-[#008800]" src={profile} alt="Nirmalya Nayak" />
 
       <div className="header__content">
-        <h1 className="font-bold">Hi, I'm Nirmalya Nayak</h1>
+        <h1 className="font-bold">Hi, I&apos;m Nirmalya Nayak</h1>
         {theme === "light" ? (
           <img
             width="600"

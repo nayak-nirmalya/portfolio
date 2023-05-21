@@ -24,7 +24,7 @@ const About = () => {
           style={{
             fontWeight: "bold",
             textDecoration: "none",
-            cursor: "pointer",
+            cursor: "pointer"
           }}
           onClick={scroll}
         >
@@ -35,7 +35,7 @@ const About = () => {
           style={{
             fontWeight: "bold",
             textDecoration: "none",
-            color: theme === "light" ? "black" : "white",
+            color: theme === "light" ? "black" : "white"
           }}
           href="https://github.com/nayak-nirmalya"
           target="_blank"

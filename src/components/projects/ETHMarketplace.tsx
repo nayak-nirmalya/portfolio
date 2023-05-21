@@ -8,8 +8,8 @@ const ETHMarketplace = () => {
       <h3>ETH Marketplace</h3>
       <img src={eth_market} alt="ETH Marketplace" />
       <p>
-        It's a DApp where user can purchase courses from available courses in Marketplace. Also an
-        admin is a superuser who can verify, activate and deactivate any users' course.
+        It&apos;s a DApp where user can purchase courses from available courses in Marketplace. Also
+        an admin is a superuser who can verify, activate and deactivate any users&apos; course.
       </p>
       <div className="centered">
         <a
