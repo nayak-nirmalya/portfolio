@@ -6,7 +6,7 @@ import React, { useContext } from "react";
 import { ThemeContext } from "../App";
 
 const Header = () => {
-  const { theme } = useContext(ThemeContext);
+  const theme = useContext(ThemeContext);
 
   return (
     <section className="header">

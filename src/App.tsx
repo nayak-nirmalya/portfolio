@@ -11,10 +11,12 @@ import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
 
-export const ThemeContext = createContext(null);
+type ThemeContextType = "light" | "dark";
+
+export const ThemeContext = createContext<ThemeContextType>("dark");
 
 function App() {
-  const [theme, setTheme] = useState("");
+  const [theme, setTheme] = useState<ThemeContextType>("dark");
 
   const setThemeInStorage = (theme: string) => {
     localStorage.setItem("theme", theme);
@@ -44,7 +46,7 @@ function App() {
   }, []);
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+    <ThemeContext.Provider value={theme}>
       <div className="App" id={theme}>
         <div className="switch">
           {theme === "light" ? (
