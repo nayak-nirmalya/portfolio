@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import checker from "vite-plugin-checker";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig(() => {
@@ -16,6 +17,11 @@ export default defineConfig(() => {
     build: {
       outDir: "build",
     },
-    plugins: [react()],
+    plugins: [
+      react(),
+      // checker({
+      //   typescript: true,
+      // }),
+    ],
   };
 });
