@@ -2,7 +2,7 @@
 import profile from "../assets/profile.jpg";
 import resume from "../assets/resume/NIRMALYA_NAYAK.pdf";
 
-import { useContext } from "react";
+import React, { useContext } from "react";
 import { ThemeContext } from "../App";
 
 const Header = () => {
@@ -10,11 +10,7 @@ const Header = () => {
 
   return (
     <section className="header">
-      <img
-        className="border-2 border-[#008800]"
-        src={profile}
-        alt="Nirmalya Nayak"
-      />
+      <img className="border-2 border-[#008800]" src={profile} alt="Nirmalya Nayak" />
 
       <div className="header__content">
         <h1 className="font-bold">Hi, I'm Nirmalya Nayak</h1>
@@ -37,10 +33,7 @@ const Header = () => {
         )}
         {/* <p>Full Stack / Blockchain Developer</p> */}
         <h4 className="font-semibold">
-          E-Mail:{" "}
-          <a href="mailto:nayak.nirmalya@hotmail.com">
-            nayak.nirmalya@hotmail.com
-          </a>
+          E-Mail: <a href="mailto:nayak.nirmalya@hotmail.com">nayak.nirmalya@hotmail.com</a>
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"

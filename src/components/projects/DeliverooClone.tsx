@@ -1,3 +1,5 @@
+import React from "react";
+
 import deliveroo_clone from "../../assets/deliveroo_clone.png";
 
 const DeliverooClone = () => {
@@ -6,9 +8,8 @@ const DeliverooClone = () => {
       <h3>Deliveroo Clone (Expo)</h3>
       <img src={deliveroo_clone} alt="Deliveroo Clone" />
       <p>
-        This Project is a Deliveroo Clone Mobile App with React Native, Expo,
-        JavaScript, TailWindCSS, Sanity CMS, Redux, React Native Navigation &
-        GROQ.
+        This Project is a Deliveroo Clone Mobile App with React Native, Expo, JavaScript,
+        TailWindCSS, Sanity CMS, Redux, React Native Navigation & GROQ.
       </p>
       <div className="centered">
         <a

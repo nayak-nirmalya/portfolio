@@ -1,3 +1,5 @@
+import React from "react";
+
 const Social = () => {
   return (
     <div className="social">
@@ -34,12 +36,7 @@ const Social = () => {
         >
           HackerRank
         </a>
-        <a
-          href="https://wa.me/917008944644"
-          target="_blank"
-          rel="noreferrer"
-          className="button"
-        >
+        <a href="https://wa.me/917008944644" target="_blank" rel="noreferrer" className="button">
           WhatsApp
         </a>
       </div>

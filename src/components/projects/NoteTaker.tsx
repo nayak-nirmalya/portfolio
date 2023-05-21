@@ -1,3 +1,5 @@
+import React from "react";
+
 import note_taker from "../../assets/note_taker.png";
 
 const NoteTaker = () => {
@@ -6,9 +8,8 @@ const NoteTaker = () => {
       <h3>NoteTaker App</h3>
       <img src={note_taker} alt="NoteTaker App" />
       <p>
-        A simple single page Note Taking Web App made with Create T3 App,
-        NextAuth, Prisma, Tailwind (DaisyUI), TypeScript and tRPC. Here we are
-        using Supabase as BaaS.
+        A simple single page Note Taking Web App made with Create T3 App, NextAuth, Prisma, Tailwind
+        (DaisyUI), TypeScript and tRPC. Here we are using Supabase as BaaS.
       </p>
       <div className="centered">
         <a

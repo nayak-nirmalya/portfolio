@@ -1,3 +1,5 @@
+import React from "react";
+
 import tinder_clone from "../../assets/tinder_clone.png";
 
 const TinderClone = () => {
@@ -6,9 +8,8 @@ const TinderClone = () => {
       <h3>Tinder Clone (Expo)</h3>
       <img src={tinder_clone} alt="Tinder Clone" />
       <p>
-        This Project is a Tinder Clone Mobile App made with React Native, Expo,
-        TypeScript, TailWindCSS, React Navigation, Firebase & OAuth. Swipe to
-        Match with Users & Message.
+        This Project is a Tinder Clone Mobile App made with React Native, Expo, TypeScript,
+        TailWindCSS, React Navigation, Firebase & OAuth. Swipe to Match with Users & Message.
       </p>
       <div className="centered">
         <a

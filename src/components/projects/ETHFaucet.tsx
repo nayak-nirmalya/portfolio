@@ -1,3 +1,5 @@
+import React from "react";
+
 import faucet from "../../assets/faucet.png";
 
 const ETHFaucet = () => {
@@ -6,9 +8,8 @@ const ETHFaucet = () => {
       <h3>ETH Faucet</h3>
       <img src={faucet} alt="ETH Faucet" />
       <p>
-        Similar to any ETH test faucet, user can donate or request test ETH.
-        User have to connect Metamask Wallet to interact. Address and balance
-        are always displayed.
+        Similar to any ETH test faucet, user can donate or request test ETH. User have to connect
+        Metamask Wallet to interact. Address and balance are always displayed.
       </p>
       <div className="centered">
         <a

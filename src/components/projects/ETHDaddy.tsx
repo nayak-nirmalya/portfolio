@@ -1,4 +1,6 @@
-import eth_daddy from '../../assets/eth-daddy.png'
+import React from "react";
+
+import eth_daddy from "../../assets/eth-daddy.png";
 
 const ETHDaddy = () => {
   return (
@@ -6,9 +8,8 @@ const ETHDaddy = () => {
       <h3>ETH Daddy</h3>
       <img src={eth_daddy} alt="ETH Daddy" />
       <p>
-        Similar to GoDaddy website, where every listed domain is an NFT
-        (ERC721). Buyer can collect their MetaMask wallet to this website and
-        buy domain with ETH.
+        Similar to GoDaddy website, where every listed domain is an NFT (ERC721). Buyer can collect
+        their MetaMask wallet to this website and buy domain with ETH.
       </p>
       <div className="centered">
         <a
@@ -21,7 +22,7 @@ const ETHDaddy = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ETHDaddy
+export default ETHDaddy;

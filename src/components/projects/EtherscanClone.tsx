@@ -1,3 +1,5 @@
+import React from "react";
+
 import etherscan_clone from "../../assets/etherscan_clone.png";
 
 const EtherscanClone = () => {
@@ -6,9 +8,8 @@ const EtherscanClone = () => {
       <h3>Etherscan Clone</h3>
       <img src={etherscan_clone} alt="Etherscan Clone" />
       <p>
-        It is a clone of Etherscan. Where anyone can view details of latest
-        blocks and transactions of a wallet address. Made using Node.js,
-        Express, Next.js, TypeScript and Moralis API.
+        It is a clone of Etherscan. Where anyone can view details of latest blocks and transactions
+        of a wallet address. Made using Node.js, Express, Next.js, TypeScript and Moralis API.
       </p>
       <div className="centered">
         <a

@@ -1,4 +1,6 @@
-import node_shop from '../../assets/node-shop.png'
+import React from "react";
+
+import node_shop from "../../assets/node-shop.png";
 
 const NodeShop = () => {
   return (
@@ -6,9 +8,8 @@ const NodeShop = () => {
       <h3>Full Stack Node Shop</h3>
       <img src={node_shop} alt="Full Stack Node Shop" />
       <p>
-        A Full-Stack web app made with Node.js, Express.js and MongoDB. User can
-        add products to cart and make payment with card (Stripe) and user can
-        download invoices.
+        A Full-Stack web app made with Node.js, Express.js and MongoDB. User can add products to
+        cart and make payment with card (Stripe) and user can download invoices.
       </p>
 
       <div className="centered">
@@ -22,7 +23,7 @@ const NodeShop = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default NodeShop
+export default NodeShop;

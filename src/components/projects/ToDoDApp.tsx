@@ -1,4 +1,6 @@
-import todo_dapp from '../../assets/todo_dapp.png'
+import React from "react";
+
+import todo_dapp from "../../assets/todo_dapp.png";
 
 const ToDoDApp = () => {
   return (
@@ -6,9 +8,8 @@ const ToDoDApp = () => {
       <h3>ETH ToDo List DApp</h3>
       <img src={todo_dapp} alt="ETH ToDo List DApp" />
       <p>
-        A simple ToDo list app, the difference is it's decentralized. User can
-        add various tasks to the list, once the task is complete user can mark
-        it is as completed.
+        A simple ToDo list app, the difference is it's decentralized. User can add various tasks to
+        the list, once the task is complete user can mark it is as completed.
       </p>
       <div className="centered">
         <a
@@ -21,7 +22,7 @@ const ToDoDApp = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ToDoDApp
+export default ToDoDApp;

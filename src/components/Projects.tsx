@@ -1,3 +1,4 @@
+import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -75,19 +76,10 @@ const Projects = () => {
     },
   };
 
-  const CustomDot = ({
-    onClick,
-    active,
-    index,
-    carouselState: { currentSlide, deviceType },
-  }) => {
+  const CustomDot = ({ onClick, active, index, carouselState: { currentSlide, deviceType } }) => {
     return (
       <li className="slider" onClick={() => onClick()}>
-        {active ? (
-          <span className="slickdot active"></span>
-        ) : (
-          <span className="slickdot"></span>
-        )}
+        {active ? <span className="slickdot active"></span> : <span className="slickdot"></span>}
       </li>
     );
   };

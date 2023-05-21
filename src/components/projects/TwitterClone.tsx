@@ -1,3 +1,5 @@
+import React from "react";
+
 import twitter_clone from "../../assets/twitter_clone.png";
 
 const TwitterClone = () => {
@@ -6,9 +8,8 @@ const TwitterClone = () => {
       <h3>Twitter Clone - NextJS</h3>
       <img src={twitter_clone} alt="TwitterClone" />
       <p>
-        Full Stack Responsive Twitter Clone Made using React, NextJS,
-        TailwindCSS, TypeScript, MongoDB & Prisma. Funcionalities includes
-        Notification, Following / Liking / Commenting.
+        Full Stack Responsive Twitter Clone Made using React, NextJS, TailwindCSS, TypeScript,
+        MongoDB & Prisma. Funcionalities includes Notification, Following / Liking / Commenting.
       </p>
       <div className="centered">
         <a

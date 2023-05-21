@@ -1,4 +1,6 @@
-import eth_crowd from '../../assets/eth_crowd.png'
+import React from "react";
+
+import eth_crowd from "../../assets/eth_crowd.png";
 
 const CrowdFundingDApp = () => {
   return (
@@ -6,9 +8,8 @@ const CrowdFundingDApp = () => {
       <h3>CrowdFunding DApp</h3>
       <img src={eth_crowd} alt="ETH Kickstarter" />
       <p>
-        It's a DApp where user can create a campaign. Any interested user can
-        donate some ether and become a approver, where he/she can approve any
-        proposal.
+        It's a DApp where user can create a campaign. Any interested user can donate some ether and
+        become a approver, where he/she can approve any proposal.
       </p>
       <div className="centered">
         <a
@@ -21,7 +22,7 @@ const CrowdFundingDApp = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CrowdFundingDApp
+export default CrowdFundingDApp;

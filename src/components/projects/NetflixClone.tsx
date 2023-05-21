@@ -1,3 +1,5 @@
+import React from "react";
+
 import netflix_clone from "../../assets/netflix-clone.png";
 
 const NetflixClone = () => {
@@ -6,9 +8,8 @@ const NetflixClone = () => {
       <h3>Full-Stack Netflix Clone</h3>
       <img src={netflix_clone} alt="Full-Stack Netflix Clone" />
       <p>
-        Made using Next.js, TailwindCSS, TypeScript, MongoDB, Prisma. User can
-        SignUp/In using OAuth or E-Mail, select movies, add to favourite and
-        play movies. Fully Responsive UI.
+        Made using Next.js, TailwindCSS, TypeScript, MongoDB, Prisma. User can SignUp/In using OAuth
+        or E-Mail, select movies, add to favourite and play movies. Fully Responsive UI.
       </p>
       <div className="centered">
         <a

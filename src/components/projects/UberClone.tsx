@@ -1,3 +1,5 @@
+import React from "react";
+
 import uber_clone from "../../assets/uber_clone.png";
 
 const UberClone = () => {
@@ -6,9 +8,8 @@ const UberClone = () => {
       <h3>Uber Clone (Expo)</h3>
       <img src={uber_clone} alt="Uber Clone" />
       <p>
-        This Project is a Uber Clone Mobile App made with React Native, Expo,
-        TypeScript, TailWindCSS, Redux, React Navigation, Google Places API &
-        Distance Matrix API.
+        This Project is a Uber Clone Mobile App made with React Native, Expo, TypeScript,
+        TailWindCSS, Redux, React Navigation, Google Places API & Distance Matrix API.
       </p>
       <div className="centered">
         <a

@@ -1,3 +1,5 @@
+import React from "react";
+
 const Education = () => {
   return (
     <div className="experience">
@@ -5,15 +7,13 @@ const Education = () => {
 
       <ul className="list-disc">
         <li>
-          <i>Veer Surendra Sai University of Technology</i> -{" "}
-          <strong>MCA</strong>, 2018-2021
+          <i>Veer Surendra Sai University of Technology</i> - <strong>MCA</strong>, 2018-2021
           <ul className="list-disc">
             <li>Master in Computer Application with 8.36/10 CGPA</li>
           </ul>
         </li>
         <li>
-          <i>Kendrapara Autonomous College</i> - <strong>B.Sc (Physics)</strong>
-          , 2015-2018
+          <i>Kendrapara Autonomous College</i> - <strong>B.Sc (Physics)</strong>, 2015-2018
           <ul className="list-disc">
             <li>Graduated in Physics (Honours) with 8.21/10 CGPA</li>
           </ul>

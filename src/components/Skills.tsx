@@ -1,11 +1,11 @@
+import React from "react";
+
 const Skills = () => {
   return (
     <div className="experience">
       <h2 className="font-bold">Technical Skills</h2>
 
-      <div className="font-semibold text-lg p-8 pt-2">
-        👨‍💻 Programming & Markup Languages
-      </div>
+      <div className="font-semibold text-lg p-8 pt-2">👨‍💻 Programming & Markup Languages</div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 w-4/5 mx-auto">
         <img
@@ -187,9 +187,7 @@ const Skills = () => {
         />
       </div>
 
-      <div className="font-semibold text-lg p-8">
-        🗄️ Databases/ORM & Cloud Hosting/BaaS
-      </div>
+      <div className="font-semibold text-lg p-8">🗄️ Databases/ORM & Cloud Hosting/BaaS</div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 w-4/5 mx-auto">
         <img
