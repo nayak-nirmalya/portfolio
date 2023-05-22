@@ -46,7 +46,7 @@ function App() {
 
   return (
     <ThemeContext.Provider value={theme}>
-      <div className="App" id={theme}>
+      <div className="flex flex-col gap-y-4 lg:gap-y-8" id={theme}>
         <div className="switch">
           {theme === "light" ? (
             <BsSun

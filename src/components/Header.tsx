@@ -1,4 +1,3 @@
-// Import Assets
 import React, { useContext } from "react";
 import { BiCopyAlt } from "react-icons/bi";
 import toast, { Toaster } from "react-hot-toast";
@@ -11,18 +10,7 @@ const Header = () => {
   const theme = useContext(ThemeContext);
 
   return (
-    <section
-      className="
-        mt-2
-        flex 
-        flex-wrap 
-        items-center 
-        px-6 pb-2 
-        text-center 
-        lg:mt-8
-        lg:px-28
-      "
-    >
+    <section className="flex flex-wrap items-center px-6 text-center lg:px-28">
       <Toaster position="bottom-center" />
       <img
         src={profile}
