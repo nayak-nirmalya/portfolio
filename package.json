@@ -18,6 +18,7 @@
     "start:mobile": "npx vite --host",
     "build": "tsc && vite build",
     "serve": "vite preview",
+    "serve:expose": "vite preview --host",
     "lint": "npx eslint src"
   },
   "eslintConfig": {
