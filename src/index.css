@@ -90,13 +90,6 @@ code {
 }
 
 /* ------------------------------------------------------ */
-/* -- Footer -- */
-.footer {
-  margin: 0 auto;
-  text-align: center;
-}
-
-/* ------------------------------------------------------ */
 /* -- HTML COMPONENTS: BUTTON -- */
 .button {
   display: inline-block;

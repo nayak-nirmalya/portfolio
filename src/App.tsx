@@ -4,11 +4,11 @@ import { BsSunFill, BsSun } from "react-icons/bs";
 // Import Components
 import Header from "@components/Header";
 import About from "@components/About";
-import Projects from "./components/Projects";
+import Projects from "@components/Projects";
 import Experience from "@components/Experience";
-import Social from "./components/Social";
-import Footer from "./components/Footer";
-import Skills from "./components/Skills";
+import Social from "@components/Social";
+import Footer from "@components/Footer";
+import Skills from "@components/Skills";
 import Education from "@components/Education";
 
 type ThemeContextType = "light" | "dark";
@@ -70,7 +70,8 @@ function App() {
         {/* <Projects />
         <Skills />
         <Social />
-        <Footer /> */}
+         */}
+        <Footer />
       </div>
     </ThemeContext.Provider>
   );
