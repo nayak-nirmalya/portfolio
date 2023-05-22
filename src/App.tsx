@@ -47,7 +47,7 @@ function App() {
   return (
     <ThemeContext.Provider value={theme}>
       <div className="flex flex-col gap-y-4 lg:gap-y-8" id={theme}>
-        <div className="switch">
+        <div className="mx-8 flex justify-end p-4 lg:mx-52">
           {theme === "light" ? (
             <BsSun
               size={34}

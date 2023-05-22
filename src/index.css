@@ -75,6 +75,8 @@ code {
   text-decoration: none;
   cursor: pointer;
   transition: all 250ms ease;
+
+  /* @apply inline-block cursor-pointer rounded-lg border-none bg-[#008800] px-3 py-2 font-sans text-lg font-semibold text-white transition-all ease-in-out; */
 }
 
 .button:hover {
@@ -87,32 +89,20 @@ code {
   color: white;
 }
 
-.column-list {
-  column-count: 4;
-}
-
 .centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.active {
-  color: #008800;
-}
-
-.inactive {
-  font-weight: 900;
+  @apply flex items-center justify-center;
 }
 
 .dotClass {
   font-size: 24px;
-  font-weight: 650;
+}
+
+.react-multi-carousel-track {
+  @apply p-2 !important;
 }
 
 ul.react-multi-carousel-dot-list.dotClass {
-  position: relative;
-  padding-top: 20px;
+  @apply relative pt-5;
 }
 
 /* ------------------------------------------------------ */
@@ -141,13 +131,6 @@ a:visited {
 
 h4 a:hover {
   text-decoration: underline;
-}
-
-.switch {
-  display: flex;
-  width: 85vw;
-  padding-top: 15px;
-  justify-content: flex-end;
 }
 
 /* ------------------------------------------------------ */
