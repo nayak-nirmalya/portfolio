@@ -79,7 +79,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="flex flex-col px-0 pb-0 pt-2 lg:px-24">
-      <h2 className="mx-auto items-center pb-4 text-4xl font-extrabold lg:mx-12 lg:pb-6">
+      <h2 className="mx-auto items-center p-3 text-4xl font-extrabold lg:mx-12 lg:p-6">
         My Projects
       </h2>
 

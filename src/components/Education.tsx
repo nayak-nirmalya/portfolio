@@ -3,9 +3,7 @@ import React from "react";
 const Education = () => {
   return (
     <div className="flex flex-col px-6 lg:px-36">
-      <h2 className="mx-auto items-center pb-4 text-4xl font-extrabold lg:mx-0 lg:pb-6">
-        Education
-      </h2>
+      <h2 className="mx-auto items-center p-3 text-4xl font-extrabold lg:mx-0 lg:p-6">Education</h2>
 
       <ul className="mx-4 list-inside list-disc text-center leading-8 lg:mx-20 lg:list-outside lg:text-start lg:text-lg lg:leading-10">
         <li>

@@ -3,7 +3,7 @@ import React from "react";
 const Social = () => {
   return (
     <div className="flex flex-col px-6 lg:px-36">
-      <h2 className="mx-auto items-center pb-4 text-4xl font-extrabold lg:mx-0">Socials</h2>
+      <h2 className="mx-auto items-center p-3 text-4xl font-extrabold lg:mx-0 lg:p-6">Socials</h2>
 
       <div className="grid grid-cols-12 items-center justify-center gap-4 lg:flex lg:flex-row lg:gap-8">
         <a

@@ -3,15 +3,15 @@ import React from "react";
 const Skills = () => {
   return (
     <div className="flex flex-col px-6 lg:px-36">
-      <h2 className="mx-auto items-center pb-4 text-4xl font-extrabold lg:mx-0 lg:pb-6">
+      <h2 className="mx-auto items-center p-3 text-4xl font-extrabold lg:mx-0 lg:p-6">
         Technical Skills
       </h2>
 
-      <div className="p-8 pt-2 text-center text-sm font-semibold lg:text-start lg:text-lg">
+      <div className="p-4 text-center text-sm font-semibold lg:text-start lg:text-lg">
         👨‍💻 Programming & Markup Languages
       </div>
 
-      <div className="mx-auto grid w-full grid-cols-3 gap-6 md:grid-cols-3 lg:w-4/5 lg:grid-cols-6">
+      <div className="mx-auto grid w-full grid-cols-3 gap-6 p-1 md:grid-cols-3 lg:w-4/5 lg:grid-cols-6 lg:p-4">
         <img
           className="mx-auto h-8 items-center"
           alt="JavaScript"
@@ -85,11 +85,11 @@ const Skills = () => {
         />
       </div>
 
-      <div className="mt-4 p-8 pt-2 text-center text-sm font-semibold lg:text-start lg:text-lg">
+      <div className="p-4 text-center text-sm font-semibold lg:text-start lg:text-lg">
         🧰 Frameworks & Libraries
       </div>
 
-      <div className="mx-auto grid w-full grid-cols-3 gap-6 md:grid-cols-3 lg:w-4/5 lg:grid-cols-6">
+      <div className="mx-auto grid w-full grid-cols-3 gap-6 p-1 md:grid-cols-3 lg:w-4/5 lg:grid-cols-6 lg:p-4">
         <img
           className="mx-auto h-8 items-center"
           alt="Ethereum"
@@ -193,11 +193,11 @@ const Skills = () => {
         />
       </div>
 
-      <div className="mt-4 p-8 pt-2 text-center text-sm font-semibold lg:text-start lg:text-lg">
+      <div className="p-4 text-center text-sm font-semibold lg:text-start lg:text-lg">
         🗄️ Databases/ORM & Cloud Hosting/BaaS
       </div>
 
-      <div className="mx-auto grid w-full grid-cols-3 gap-6 md:grid-cols-3 lg:w-4/5 lg:grid-cols-6">
+      <div className="mx-auto grid w-full grid-cols-3 gap-6 p-1 md:grid-cols-3 lg:w-4/5 lg:grid-cols-6 lg:p-4">
         <img
           className="mx-auto h-8 items-center"
           alt="AWS"
@@ -259,11 +259,11 @@ const Skills = () => {
         />
       </div>
 
-      <div className="mt-4 p-8 pt-2 text-center text-sm font-semibold lg:text-start lg:text-lg">
+      <div className="p-4 text-center text-sm font-semibold lg:text-start lg:text-lg">
         🎛️ Operating Systems
       </div>
 
-      <div className="mx-auto grid w-full grid-cols-3 gap-6 pb-2 md:grid-cols-3 lg:w-4/5 lg:grid-cols-6">
+      <div className="mx-auto grid w-full grid-cols-3 gap-6 p-1 pb-2 md:grid-cols-3 lg:w-4/5 lg:grid-cols-6 lg:p-4">
         <img
           className="mx-auto h-8 items-center"
           alt="Windows"

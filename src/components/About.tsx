@@ -11,9 +11,7 @@ const About = () => {
 
   return (
     <section className="flex flex-col px-6 lg:px-36">
-      <h2 className="mx-auto items-center pb-4 text-4xl font-extrabold lg:mx-0 lg:pb-6">
-        About Me
-      </h2>
+      <h2 className="mx-auto items-center p-3 text-4xl font-extrabold lg:mx-0 lg:p-6">About Me</h2>
 
       <p
         className="
