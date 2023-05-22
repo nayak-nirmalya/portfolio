@@ -31,6 +31,7 @@ import {
   PayPalClone,
   MessengerClone
 } from "./projects/_index";
+import CustomDot from "./CustomDot";
 
 const Projects = () => {
   const responsive = {
@@ -74,19 +75,6 @@ const Projects = () => {
       breakpoint: { max: 800, min: 0 },
       items: 1
     }
-  };
-
-  interface CustomDotProps {
-    onClick?: any;
-    active?: boolean;
-  }
-
-  const CustomDot: React.FC<CustomDotProps> = ({ onClick, active }) => {
-    return (
-      <li className="hidden cursor-pointer lg:inline-block" onClick={() => onClick()}>
-        {active ? <span className="slickdot active"></span> : <span className="slickdot"></span>}
-      </li>
-    );
   };
 
   return (
