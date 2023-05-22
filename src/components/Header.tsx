@@ -13,12 +13,13 @@ const Header = () => {
   return (
     <section
       className="
-        mt-8 
+        mt-2
         flex 
         flex-wrap 
-        items-center px-6 
-        pb-2 
-        text-center
+        items-center 
+        px-6 pb-2 
+        text-center 
+        lg:mt-8
         lg:px-28
       "
     >

@@ -9,7 +9,7 @@ import Experience from "@components/Experience";
 import Social from "./components/Social";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
-import Education from "./components/Education";
+import Education from "@components/Education";
 
 type ThemeContextType = "light" | "dark";
 
