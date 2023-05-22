@@ -71,7 +71,13 @@ const Header = () => {
           <a className="mx-1" href="mailto:nayak.nirmalya@hotmail.com">
             nayak.nirmalya@hotmail.com
           </a>
-          <BiCopyAlt className="mx-0.5 cursor-pointer" />
+          <BiCopyAlt
+            onClick={() => {
+              navigator.clipboard.writeText("nayak.nirmalya@hotmail.com");
+            }}
+            title="Copy to Clipboard."
+            className="mx-0.5 cursor-pointer"
+          />
           {/* <div className="tooltip">
             <i
               className="fa fa-copy"
