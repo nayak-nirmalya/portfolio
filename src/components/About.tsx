@@ -5,7 +5,7 @@ const About = () => {
   const theme = useContext(ThemeContext);
 
   const scroll = () => {
-    const section = document.querySelector(".projects");
+    const section = document.querySelector("#projects");
     section?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 

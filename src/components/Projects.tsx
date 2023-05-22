@@ -90,7 +90,7 @@ const Projects = () => {
   };
 
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <h2 className="font-bold">My Projects</h2>
 
       <Carousel
