@@ -2,7 +2,7 @@ import React, { createContext, useEffect, useState } from "react";
 import { BsSunFill, BsSun } from "react-icons/bs";
 
 // Import Components
-import Header from "./components/Header";
+import Header from "@components/Header";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
