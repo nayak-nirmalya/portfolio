@@ -58,7 +58,7 @@ const Header = () => {
         )}
         <h4 className="flex items-center justify-center font-semibold">
           E-Mail:{" "}
-          <a className="mx-1" href="mailto:nayak.nirmalya@hotmail.com">
+          <a className="mx-1 text-white hover:underline" href="mailto:nayak.nirmalya@hotmail.com">
             nayak.nirmalya@hotmail.com
           </a>
           <BiCopyAlt
@@ -82,7 +82,10 @@ const Header = () => {
           />
         </h4>
         <h4 className="font-semibold">
-          Contact No.: <a href="tel:+917008944644">+91-7008944644</a>
+          Contact No.:{" "}
+          <a className="mx-1 text-white hover:underline" href="tel:+917008944644">
+            +91-7008944644
+          </a>
         </h4>
         <h4 className="font-semibold">Odisha, India</h4>
         <a
