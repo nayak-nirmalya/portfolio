@@ -13,7 +13,7 @@ const Social = () => {
           rel="noopener noreferrer"
         >
           <img
-            className="mx-auto h-8 items-center lg:h-10"
+            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110 lg:h-10"
             src="https://img.shields.io/badge/-GMail-c14438?style=for-the-badge&logo=Gmail&logoColor=white"
             alt="n.nayak263@gmail.com"
           />
@@ -26,7 +26,7 @@ const Social = () => {
           rel="noopener noreferrer"
         >
           <img
-            className="mx-auto h-8 items-center lg:h-10"
+            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110 lg:h-10"
             src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
             alt="+91-7008944644"
           />
@@ -39,7 +39,7 @@ const Social = () => {
           rel="noopener noreferrer"
         >
           <img
-            className="mx-auto h-8 items-center lg:h-10"
+            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110 lg:h-10"
             src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
             alt="nayak-nirmalya"
           />
@@ -52,7 +52,7 @@ const Social = () => {
           rel="noopener noreferrer"
         >
           <img
-            className="mx-auto h-8 items-center lg:h-10"
+            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110 lg:h-10"
             src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white"
             alt="nayak-nirmalya"
           />
@@ -65,7 +65,7 @@ const Social = () => {
           rel="noopener noreferrer"
         >
           <img
-            className="-mx-3 h-8 items-center lg:mx-auto lg:h-10"
+            className="-mx-3 h-8 items-center transition-all duration-200 hover:scale-110 lg:mx-auto lg:h-10"
             src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white"
             alt="nirmalya-nayak"
           />
