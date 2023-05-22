@@ -1,9 +1,10 @@
 // Import Assets
-import profile from "../assets/profile.jpg";
-import resume from "../assets/resume/NIRMALYA_NAYAK.pdf";
-
 import React, { useContext } from "react";
-import { ThemeContext } from "../App";
+import { BiCopyAlt } from "react-icons/bi";
+
+import profile from "@assets/profile.jpg";
+import resume from "@assets/resume/NIRMALYA_NAYAK.pdf";
+import { ThemeContext } from "@/App";
 
 const Header = () => {
   const theme = useContext(ThemeContext);
@@ -65,13 +66,13 @@ const Header = () => {
           />
         )}
         {/* <p>Full Stack / Blockchain Developer</p> */}
-        {/* <h4 className="font-semibold">
-          E-Mail: <a href="mailto:nayak.nirmalya@hotmail.com">nayak.nirmalya@hotmail.com</a>
-          <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-          ></link>{" "}
-          <div className="tooltip">
+        <h4 className="flex items-center justify-center font-semibold">
+          E-Mail:{" "}
+          <a className="mx-1" href="mailto:nayak.nirmalya@hotmail.com">
+            nayak.nirmalya@hotmail.com
+          </a>
+          <BiCopyAlt className="mx-0.5 cursor-pointer" />
+          {/* <div className="tooltip">
             <i
               className="fa fa-copy"
               style={{
@@ -82,7 +83,7 @@ const Header = () => {
               }}
             ></i>
             <span className="tooltiptext">Copy to Clipboard.</span>
-          </div>
+          </div> */}
         </h4>
         <h4 className="font-semibold">
           Contact No.: <a href="tel:+917008944644">+91-7008944644</a>
@@ -100,7 +101,7 @@ const Header = () => {
           }}
         >
           Download Resume
-        </a> */}
+        </a>
       </div>
     </section>
   );
