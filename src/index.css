@@ -29,15 +29,6 @@ code {
 /* ------------------------------------------------------ */
 /* -- Projects -- */
 
-.projects__cards {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 10px;
-  overflow-x: scroll;
-}
-
 .projects__card {
   display: block;
   width: 425px;
@@ -50,9 +41,7 @@ code {
 }
 
 .projects__card h3 {
-  font-size: 32px;
-  font-weight: 300;
-  margin-bottom: 10px;
+  @apply text-center text-xl font-semibold lg:text-2xl;
 }
 
 .projects__card p {
@@ -64,7 +53,6 @@ code {
   width: 100%;
   height: auto;
   margin: 20px 0 10px;
-
   border-radius: 8px;
 }
 
