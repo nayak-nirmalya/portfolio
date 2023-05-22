@@ -2,12 +2,16 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="experience">
-      <h2 className="font-bold">Technical Skills</h2>
+    <div className="mt-2 flex flex-col px-6 pb-2 lg:mt-10 lg:px-36">
+      <h2 className="mx-auto items-center pb-4 text-4xl font-extrabold lg:mx-0 lg:pb-6">
+        Technical Skills
+      </h2>
 
-      <div className="p-8 pt-2 text-lg font-semibold">👨‍💻 Programming & Markup Languages</div>
+      <div className="p-8 pt-2 text-center text-sm font-semibold lg:text-start lg:text-lg">
+        👨‍💻 Programming & Markup Languages
+      </div>
 
-      <div className="mx-auto grid w-4/5 grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6">
+      <div className="mx-auto grid w-full grid-cols-3 gap-6 md:grid-cols-3 lg:w-4/5 lg:grid-cols-6">
         <img
           className="mx-auto h-8 items-center"
           alt="JavaScript"
@@ -81,9 +85,11 @@ const Skills = () => {
         />
       </div>
 
-      <div className="p-8 text-lg font-semibold">🧰 Frameworks & Libraries</div>
+      <div className="mt-4 p-8 pt-2 text-center text-sm font-semibold lg:text-start lg:text-lg">
+        🧰 Frameworks & Libraries
+      </div>
 
-      <div className="mx-auto grid w-4/5 grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6">
+      <div className="mx-auto grid w-full grid-cols-3 gap-6 md:grid-cols-3 lg:w-4/5 lg:grid-cols-6">
         <img
           className="mx-auto h-8 items-center"
           alt="Ethereum"
@@ -187,9 +193,11 @@ const Skills = () => {
         />
       </div>
 
-      <div className="p-8 text-lg font-semibold">🗄️ Databases/ORM & Cloud Hosting/BaaS</div>
+      <div className="mt-4 p-8 pt-2 text-center text-sm font-semibold lg:text-start lg:text-lg">
+        🗄️ Databases/ORM & Cloud Hosting/BaaS
+      </div>
 
-      <div className="mx-auto grid w-4/5 grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6">
+      <div className="mx-auto grid w-full grid-cols-3 gap-6 md:grid-cols-3 lg:w-4/5 lg:grid-cols-6">
         <img
           className="mx-auto h-8 items-center"
           alt="AWS"
@@ -251,9 +259,11 @@ const Skills = () => {
         />
       </div>
 
-      <div className="p-8 text-lg font-semibold">🎛️ Operating Systems</div>
+      <div className="mt-4 p-8 pt-2 text-center text-sm font-semibold lg:text-start lg:text-lg">
+        🎛️ Operating Systems
+      </div>
 
-      <div className="mx-auto grid w-4/5 grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6">
+      <div className="mx-auto grid w-full grid-cols-3 gap-6 pb-2 md:grid-cols-3 lg:w-4/5 lg:grid-cols-6">
         <img
           className="mx-auto h-8 items-center"
           alt="Windows"

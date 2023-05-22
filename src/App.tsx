@@ -66,10 +66,10 @@ function App() {
         <Header />
         <About />
         <Experience />
+        <Skills />
         <Education />
         {/* <Projects />
-        <Skills />
-      */}
+         */}
         <Social />
         <Footer />
       </div>
