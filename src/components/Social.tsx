@@ -5,48 +5,69 @@ const Social = () => {
     <div className="mt-2 flex flex-col px-6 pb-4 lg:mt-10 lg:px-36 lg:pb-6">
       <h2 className="mx-auto items-center pb-4 text-4xl font-extrabold lg:mx-0 lg:pb-6">Socials</h2>
 
-      <div className="flex flex-row items-center justify-center sm:gap-2 lg:gap-8">
-        <a href="mailto:n.nayak263@gmail.com" target="_blank" rel="noopener noreferrer">
+      <div className="grid grid-cols-12 items-center justify-center gap-4 lg:flex lg:flex-row lg:gap-8">
+        <a
+          className="col-span-4"
+          href="mailto:n.nayak263@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
-            className="mx-auto items-center sm:h-auto lg:h-10"
+            className="mx-auto h-8 items-center lg:h-10"
             src="https://img.shields.io/badge/-GMail-c14438?style=for-the-badge&logo=Gmail&logoColor=white"
             alt="n.nayak263@gmail.com"
           />
         </a>
 
-        <a href="https://wa.me/917008944644" target="_blank" rel="noopener noreferrer">
+        <a
+          className="col-span-4"
+          href="https://wa.me/917008944644"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
-            className="mx-auto items-center sm:h-auto lg:h-10"
+            className="mx-auto h-8 items-center lg:h-10"
             src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
             alt="+91-7008944644"
           />
         </a>
 
         <a
-          href="https://www.linkedin.com/in/nirmalya-nayak/"
+          className="col-span-4"
+          href="https://github.com/nayak-nirmalya"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            className="mx-auto items-center sm:h-auto lg:h-10"
-            src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white"
-            alt="nirmalya-nayak"
-          />
-        </a>
-
-        <a href="https://github.com/nayak-nirmalya" target="_blank" rel="noopener noreferrer">
-          <img
-            className="mx-auto items-center sm:h-auto lg:h-10"
+            className="mx-auto h-8 items-center lg:h-10"
             src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
             alt="nayak-nirmalya"
           />
         </a>
 
-        <a href="https://www.hackerrank.com/n_nayak" target="_blank" rel="noopener noreferrer">
+        <a
+          className="col-span-7"
+          href="https://www.hackerrank.com/n_nayak"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
-            className="mx-auto items-center sm:h-auto lg:h-10"
+            className="mx-auto h-8 items-center lg:h-10"
             src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white"
             alt="nayak-nirmalya"
+          />
+        </a>
+
+        <a
+          className="col-span-5"
+          href="https://www.linkedin.com/in/nirmalya-nayak/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="-mx-3 h-8 items-center lg:mx-auto lg:h-10"
+            src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white"
+            alt="nirmalya-nayak"
           />
         </a>
       </div>
