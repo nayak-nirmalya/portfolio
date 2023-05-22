@@ -64,13 +64,13 @@ function App() {
           )}
         </div>
         <Header />
-        <About />
+        {/* <About />
         <Projects />
         <Experience />
         <Skills />
         <Education />
         <Social />
-        <Footer />
+        <Footer /> */}
       </div>
     </ThemeContext.Provider>
   );

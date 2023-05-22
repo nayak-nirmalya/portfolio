@@ -9,23 +9,31 @@ const Header = () => {
   const theme = useContext(ThemeContext);
 
   return (
-    <section className="lg:flex items-center flex-wrap text-center mt-8 px-24">
+    <section className="mt-8 flex-wrap items-center px-28 pb-2 text-center lg:flex">
       <img
         src={profile}
         alt="Nirmalya Nayak"
         className="
-          border-2 
-          border-[#008800] 
-          rounded-full 
-          lg:w-80 
+          mx-auto 
           w-64 
           items-center 
-          mx-auto
+          rounded-full 
+          border-2 
+          border-[#008800] 
+          lg:mx-36 lg:w-72
         "
       />
 
-      <div className="header__content">
-        <h1 className="font-bold">Hi, I&apos;m Nirmalya Nayak</h1>
+      <div className="">
+        <h1
+          className="
+            text-xl
+            font-bold 
+            lg:text-5xl
+          "
+        >
+          Hi, I&apos;m Nirmalya Nayak
+        </h1>
         {theme === "light" ? (
           <img
             width="600"
@@ -53,7 +61,9 @@ const Header = () => {
           <div className="tooltip">
             <i
               className="fa fa-copy"
-              style={{ cursor: "pointer" }}
+              style={{
+                cursor: "pointer"
+              }}
               onClick={() => {
                 navigator.clipboard.writeText("nayak.nirmalya@hotmail.com");
               }}
@@ -71,7 +81,10 @@ const Header = () => {
           target="_blank"
           rel="noreferrer"
           className="button"
-          style={{ padding: "12px", margin: "14px" }}
+          style={{
+            padding: "12px",
+            margin: "14px"
+          }}
         >
           Download Resume
         </a>
