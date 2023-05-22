@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { BiCopyAlt } from "react-icons/bi";
 import toast, { Toaster } from "react-hot-toast";
+import { BsDownload } from "react-icons/bs";
 
 import profile from "@assets/profile.jpg";
 import resume from "@assets/resume/NIRMALYA_NAYAK.pdf";
@@ -91,11 +92,12 @@ const Header = () => {
           rel="noreferrer"
           className="button"
           style={{
-            padding: "12px",
+            padding: "8px 12px",
             margin: "14px"
           }}
         >
           Download Resume
+          <BsDownload className="mx-2 inline-block" />
         </a>
       </div>
     </section>

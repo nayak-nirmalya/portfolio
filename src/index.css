@@ -58,7 +58,7 @@ code {
 }
 
 .button {
-  @apply inline-block cursor-pointer rounded-md border-none bg-[#008800] px-10 py-3 font-sans font-semibold text-white no-underline transition hover:bg-white hover:text-[#008800];
+  @apply inline-block cursor-pointer rounded-md border-none bg-[#008800] px-10 py-2 font-sans font-semibold text-white no-underline transition hover:bg-white hover:text-[#008800];
 }
 
 #light .button:hover {
@@ -88,8 +88,7 @@ ul.react-multi-carousel-dot-list.dotClass {
 /* ------------------------------------------------------ */
 /* -- DARK-MODE -- */
 #light {
-  background-color: #faf9f6;
-  color: black;
+  @apply bg-slate-200 text-black;
 }
 
 #dark {
@@ -113,15 +112,6 @@ h4 a:hover {
   text-decoration: underline;
 }
 
-/* ------------------------------------------------------ */
-/* -- SCROLL BAR -- */
-/* Works on Firefox */
-/* * {
-  scrollbar-width: thin;
-  scrollbar-color: #0d1117;
-} */
-
-/* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 3.5px;
 }
