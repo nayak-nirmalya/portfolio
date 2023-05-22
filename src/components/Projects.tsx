@@ -48,7 +48,7 @@ const Projects = () => {
     },
     smallDesktop: {
       breakpoint: { max: 1600, min: 1500 },
-      items: 2.8
+      items: 3
     },
     normalDesktop: {
       breakpoint: { max: 1500, min: 1400 },
@@ -90,20 +90,21 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="projects">
-      <h2 className="font-bold">My Projects</h2>
+    <section id="projects" className="flex flex-col px-0 pb-2 pt-2 lg:px-24 lg:pt-8">
+      <h2 className="mx-auto items-center pb-4 text-4xl font-extrabold lg:mx-12 lg:pb-6">
+        My Projects
+      </h2>
 
       <Carousel
         partialVisible
         showDots
-        // infinite={true}
         autoPlay
         autoPlaySpeed={6000}
         rewind
         rewindWithAnimation
         shouldResetAutoplay={true}
         dotListClass="dotClass"
-        renderDotsOutside
+        renderDotsOutside={false}
         customDot={<CustomDot />}
         responsive={responsive}
       >

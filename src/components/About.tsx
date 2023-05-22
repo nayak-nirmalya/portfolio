@@ -32,7 +32,8 @@ const About = () => {
         framework such as Hardhat, Truffle, Brownie. Checkout{" "}
         <span
           className="
-            cursor-pointer 
+            cursor-pointer
+            select-none 
             font-bold 
             no-underline
           "

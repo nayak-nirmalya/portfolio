@@ -64,10 +64,10 @@ function App() {
         </div>
         <Header />
         <About />
+        <Projects />
         <Experience />
         <Skills />
         <Education />
-        {/* <Projects /> */}
         <Social />
         <Footer />
       </div>
