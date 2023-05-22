@@ -7,12 +7,12 @@ const Experience = () => {
         Experience
       </h2>
 
-      <ul className="mx-4 list-disc leading-8 lg:mx-20 lg:text-lg lg:leading-10">
+      <ul className="mx-3 list-inside list-disc text-center leading-8 lg:mx-20 lg:list-outside lg:text-start lg:text-lg lg:leading-10">
         <li>
           <i>Cognizant</i> - <strong>Programmer Analyst</strong>
-          <ul className="mx-8 list-disc lg:mx-12">
-            <li>Worked in Java, Spring Framework</li>
-            <li>Automated test cases with Selenium</li>
+          <ul className="mx-8 lg:mx-12 lg:list-disc">
+            <li>Worked in Java, Spring Framework.</li>
+            <li>Automated test cases with Selenium.</li>
           </ul>
         </li>
       </ul>
