@@ -5,7 +5,7 @@ import { BsSunFill, BsSun } from "react-icons/bs";
 import Header from "@components/Header";
 import About from "@components/About";
 import Projects from "./components/Projects";
-import Experience from "./components/Experience";
+import Experience from "@components/Experience";
 import Social from "./components/Social";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
@@ -65,10 +65,10 @@ function App() {
         </div>
         <Header />
         <About />
-        {/* <Projects />
         <Experience />
-        <Skills />
         <Education />
+        {/* <Projects />
+        <Skills />
         <Social />
         <Footer /> */}
       </div>
