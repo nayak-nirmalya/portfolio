@@ -1,47 +1,44 @@
-# Portfolio Template
+# React Single Page Portfolio Website
 
-## Technology Stack & Tools
+Technology Used:
 
-- Javascript (React)
-- [Fleek](https://fleek.co/) (Website Deployment)
+- TypeScript
+- React
+- Vite
+- TailwindCSS
+- npm
 
-## Setting Up
-### 1. Clone/Download the Repository
+### Prerequisites
 
-### 2. Install Dependencies:
+**Node version ^14.x**
+
+### Cloning the repository
+
+```shell
+git clone https://github.com/nayak-nirmalya/portfolio.git
 ```
-$ cd portfolio_template
-$ npm install 
+
+### Install packages
+
+```shell
+npm install
 ```
 
-### 3. Start App
-`$ npm start`
+### Start the App
 
-## Fleek Deployment
-### 1. Sign in to Fleek.co via GitHub
+```shell
+npm run start
+```
 
-### 2. Add New Site
-Under Hosting click on **Add New Site**
+## Available commands
 
-### 3. Connect with GitHub
-Click on the **Connect with GitHub** button
+Running commands with npm `npm run [command]`
 
-### 4. Select Repository
-If not shown in the dropdown, you'll want to click near the bottom "**Configure the Fleek app on GitHub**". Configure account, then select the *portfolio_template* repository.
-
-### 5. Configure Deploy Location
-Select *IPFS*, this should be the default selection
-
-### 6. Configure Build Options
-Deploy Settings should be left at default values, make sure the master branch is selected.
-
-For the basic build settings, it should automatically detect *Create React App*. However, make sure the following values are correct:
-
-- **Framework**: Create React App
-- **Docker Image Name**: fleek/create-react-app:node-16
-- **Build Command**: npm install && npm run build
-- **Publish Directory**: build
-
-You can leave **Base Directory** empty then click on Deploy site.
-
-After the build is complete, the link to the site will be shown at the end of the console output.
+| command        | description                                                     |
+| :------------- | :-------------------------------------------------------------- |
+| `start`        | Starts a development instance of the app                        |
+| `start:mobile` | Starts a development instance of the app with exposed host      |
+| `build`        | Starts a building final version for production                  |
+| `serve`        | Run final build production version                              |
+| `serve:expose` | Run final build production version of the app with exposed host |
+| `lint`         | Run eslint check on /src folder & its content                   |
