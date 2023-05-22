@@ -17,7 +17,7 @@ const About = () => {
 
       <p
         className="
-          text-start
+          text-center
           lg:px-16 
           lg:text-justify 
           lg:text-lg 

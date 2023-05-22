@@ -46,10 +46,8 @@ code {
 }
 
 .projects__card {
-  /* max-width: 400px; */
   display: block;
   width: 425px;
-  /* height: 100%; */
   flex: 0 0 auto;
   padding: 20px;
   border: 1px solid #008800;
