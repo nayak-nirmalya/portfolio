@@ -9,7 +9,18 @@ const Header = () => {
   const theme = useContext(ThemeContext);
 
   return (
-    <section className="mt-8 flex-wrap items-center px-28 pb-2 text-center lg:flex">
+    <section
+      className="
+        mt-8 
+        flex-wrap 
+        items-center 
+        px-6 pb-2 
+        text-center 
+        sm:flex 
+        lg:flex 
+        lg:px-28
+      "
+    >
       <img
         src={profile}
         alt="Nirmalya Nayak"
@@ -24,11 +35,13 @@ const Header = () => {
         "
       />
 
-      <div className="">
+      <div className="sm:mt-8 lg:mt-0">
         <h1
           className="
+            mt-4
             text-xl
-            font-bold 
+            font-bold
+            lg:mt-0
             lg:text-5xl
           "
         >
@@ -38,7 +51,7 @@ const Header = () => {
           <img
             width="600"
             height="55"
-            className="header__image"
+            className="lg:m-0 lg:w-full"
             src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&color=000000&background=14132100&center=true&vCenter=true&width=600&lines=Full+Stack+%2F+Mobile+%2F+Blockchain+Developer"
             alt="Typing SVG"
           />
@@ -46,13 +59,13 @@ const Header = () => {
           <img
             width="600"
             height="55"
-            className="header__image"
+            className="lg:m-0 lg:w-full"
             src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&color=ffffff&background=14132100&center=true&vCenter=true&width=600&lines=Full+Stack+%2F+Mobile+%2F+Blockchain+Developer"
             alt="Typing SVG"
           />
         )}
         {/* <p>Full Stack / Blockchain Developer</p> */}
-        <h4 className="font-semibold">
+        {/* <h4 className="font-semibold">
           E-Mail: <a href="mailto:nayak.nirmalya@hotmail.com">nayak.nirmalya@hotmail.com</a>
           <link
             rel="stylesheet"
@@ -87,7 +100,7 @@ const Header = () => {
           }}
         >
           Download Resume
-        </a>
+        </a> */}
       </div>
     </section>
   );
