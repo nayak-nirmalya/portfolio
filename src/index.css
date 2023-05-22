@@ -4,9 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* * {
+* {
   outline: 1px solid red;
-} */
+}
 
 html,
 body,
@@ -26,27 +26,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-/* ------------------------------------------------------ */
-/* -- Projects -- */
+#light {
+  @apply bg-slate-200 text-black;
+}
+
+#dark {
+  @apply bg-[#0d1117] text-white;
+}
+
+#dark h4 a {
+  @apply text-white;
+}
 
 .projects__card {
-  display: block;
-  width: 425px;
-  flex: 0 0 auto;
-  padding: 20px;
-  border: 1px solid #008800;
-  border-radius: 15px;
-  overflow: hidden;
-  user-select: none;
+  @apply block w-[425px] select-none overflow-hidden rounded-xl border border-[#008800] p-5;
+}
+
+.projects__card p {
+  @apply my-[16px] text-[16px];
 }
 
 .projects__card h3 {
   @apply pb-4 text-center text-xl font-semibold lg:text-2xl;
-}
-
-.projects__card p {
-  font-size: 16px;
-  margin: 16px 0;
 }
 
 .projects__card img {
@@ -70,7 +71,7 @@ code {
 }
 
 .dotClass {
-  font-size: 24px;
+  @apply text-[24px];
 }
 
 .react-multi-carousel-item {
@@ -85,23 +86,14 @@ ul.react-multi-carousel-dot-list.dotClass {
   @apply relative pt-5;
 }
 
-#light {
-  @apply bg-slate-200 text-black;
-}
-
-#dark {
-  @apply bg-[#0d1117] text-white;
-}
-
 *::-webkit-scrollbar {
-  width: 3.5px;
+  @apply w-1;
 }
 
 *::-webkit-scrollbar-track {
-  background: #0d1117;
+  @apply bg-[#0d1117];
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #008800;
-  border-radius: 44px;
+  @apply rounded bg-[#008800];
 }
