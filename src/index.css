@@ -41,52 +41,28 @@ code {
 }
 
 .projects__card h3 {
-  @apply text-center text-xl font-semibold lg:text-2xl;
+  @apply pb-4 text-center text-xl font-semibold lg:text-2xl;
 }
 
 .projects__card p {
   font-size: 16px;
-  margin: 20px 0;
+  margin: 16px 0;
 }
 
 .projects__card img {
-  width: 100%;
-  height: auto;
-  margin: 20px 0 10px;
-  border-radius: 8px;
+  @apply h-auto w-full rounded-md border border-[#008800] object-fill;
 }
 
 .projects__card .button {
-  margin: 10px 5px 0;
+  @apply mx-1 my-0.5;
 }
 
-/* ------------------------------------------------------ */
-/* -- HTML COMPONENTS: BUTTON -- */
 .button {
-  display: inline-block;
-  background: #008800;
-  padding: 15px 50px;
-  border: none;
-  border-radius: 8px;
-  font-family: "Work Sans";
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 250ms ease;
-
-  /* @apply inline-block cursor-pointer rounded-lg border-none bg-[#008800] px-3 py-2 font-sans text-lg font-semibold text-white transition-all ease-in-out; */
-}
-
-.button:hover {
-  background: white;
-  color: #008800;
+  @apply inline-block cursor-pointer rounded-md border-none bg-[#008800] px-10 py-3 font-sans font-semibold text-white no-underline transition hover:bg-white hover:text-[#008800];
 }
 
 #light .button:hover {
-  background: #2b611a;
-  color: white;
+  @apply bg-[#2b611a] text-white;
 }
 
 .centered {
@@ -97,8 +73,12 @@ code {
   font-size: 24px;
 }
 
-.react-multi-carousel-track {
-  @apply p-2 !important;
+.react-multi-carousel-item {
+  @apply flex items-center justify-center;
+}
+
+.react-multi-carousel-list {
+  @apply pb-1;
 }
 
 ul.react-multi-carousel-dot-list.dotClass {
