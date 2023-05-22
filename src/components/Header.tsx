@@ -14,12 +14,11 @@ const Header = () => {
     <section
       className="
         mt-8 
+        flex 
         flex-wrap 
-        items-center 
-        px-6 pb-2 
-        text-center 
-        sm:flex 
-        lg:flex 
+        items-center px-6 
+        pb-2 
+        text-center
         lg:px-28
       "
     >

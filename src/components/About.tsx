@@ -10,10 +10,20 @@ const About = () => {
   };
 
   return (
-    <section className="about">
-      <h2 className="font-bold">About Me</h2>
+    <section className="mt-2 flex flex-col px-6 pb-2 lg:mt-20 lg:px-36">
+      <h2 className="mx-auto items-center pb-4 text-4xl font-extrabold lg:-mx-1 lg:pb-8">
+        About Me
+      </h2>
 
-      <p>
+      <p
+        className="
+          text-center 
+          lg:px-16 
+          lg:text-justify 
+          lg:text-lg 
+          lg:leading-6
+        "
+      >
         I am a Full Stack / Mobile / Blockchain software developer with experience in building
         modern and scalable Web and Mobile Applications using Express, React, TypeScript, React
         Native, Next.js, TailwindCSS, Node.js, MongoDB, MySQL. I also have skills in building smart
@@ -21,22 +31,18 @@ const About = () => {
         blockchains (Ethereum, Polygon) using Web3 libraries such as Ethers.js, wagmi, web3.js or
         framework such as Hardhat, Truffle, Brownie. Checkout{" "}
         <span
-          style={{
-            fontWeight: "bold",
-            textDecoration: "none",
-            cursor: "pointer"
-          }}
+          className="
+            cursor-pointer 
+            font-bold 
+            no-underline
+          "
           onClick={scroll}
         >
           Projects
         </span>{" "}
         or{" "}
         <a
-          style={{
-            fontWeight: "bold",
-            textDecoration: "none",
-            color: theme === "light" ? "black" : "white"
-          }}
+          className={`font-bold no-underline ${theme === "light" ? "text-black" : "text-white"}`}
           href="https://github.com/nayak-nirmalya"
           target="_blank"
           rel="noreferrer"

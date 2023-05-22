@@ -23,22 +23,6 @@ code {
 }
 
 /* ------------------------------------------------------ */
-/* -- About -- */
-
-.about h2 {
-  font-size: 42px;
-  margin: 25px auto;
-}
-
-.about p {
-  font-size: 18px;
-  line-height: 130%;
-  max-width: 100ch;
-  margin: auto 44px;
-  text-align: justify;
-}
-
-/* ------------------------------------------------------ */
 /* -- Projects -- */
 
 .projects h2 {
