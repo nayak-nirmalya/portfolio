@@ -83,14 +83,14 @@ const Projects = () => {
 
   const CustomDot: React.FC<CustomDotProps> = ({ onClick, active }) => {
     return (
-      <li className="slider" onClick={() => onClick()}>
+      <li className="hidden cursor-pointer lg:inline-block" onClick={() => onClick()}>
         {active ? <span className="slickdot active"></span> : <span className="slickdot"></span>}
       </li>
     );
   };
 
   return (
-    <section id="projects" className="flex flex-col px-0 pb-2 pt-2 lg:px-24 lg:pt-8">
+    <section id="projects" className="flex flex-col px-0 pb-0 pt-2 lg:px-24 lg:pt-8">
       <h2 className="mx-auto items-center pb-4 text-4xl font-extrabold lg:mx-12 lg:pb-6">
         My Projects
       </h2>
@@ -104,7 +104,7 @@ const Projects = () => {
         rewindWithAnimation
         shouldResetAutoplay={true}
         dotListClass="dotClass"
-        renderDotsOutside={false}
+        renderDotsOutside={true}
         customDot={<CustomDot />}
         responsive={responsive}
       >

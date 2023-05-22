@@ -105,10 +105,6 @@ code {
   align-items: center;
 }
 
-.slider {
-  cursor: pointer;
-}
-
 .active {
   color: #008800;
 }
