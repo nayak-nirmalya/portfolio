@@ -1,6 +1,7 @@
 // Import Assets
 import React, { useContext } from "react";
 import { BiCopyAlt } from "react-icons/bi";
+import toast, { Toaster } from "react-hot-toast";
 
 import profile from "@assets/profile.jpg";
 import resume from "@assets/resume/NIRMALYA_NAYAK.pdf";
@@ -22,6 +23,7 @@ const Header = () => {
         lg:px-28
       "
     >
+      <Toaster position="bottom-center" />
       <img
         src={profile}
         alt="Nirmalya Nayak"
@@ -54,7 +56,7 @@ const Header = () => {
             height="55"
             className="lg:m-0 lg:w-full"
             src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&color=000000&background=14132100&center=true&vCenter=true&width=600&lines=Full+Stack+%2F+Mobile+%2F+Blockchain+Developer"
-            alt="Typing SVG"
+            alt="Full Stack / Mobile / Blockchain Developer"
           />
         ) : (
           <img
@@ -62,10 +64,9 @@ const Header = () => {
             height="55"
             className="lg:m-0 lg:w-full"
             src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&color=ffffff&background=14132100&center=true&vCenter=true&width=600&lines=Full+Stack+%2F+Mobile+%2F+Blockchain+Developer"
-            alt="Typing SVG"
+            alt="Full Stack / Mobile / Blockchain Developer"
           />
         )}
-        {/* <p>Full Stack / Blockchain Developer</p> */}
         <h4 className="flex items-center justify-center font-semibold">
           E-Mail:{" "}
           <a className="mx-1" href="mailto:nayak.nirmalya@hotmail.com">
@@ -74,22 +75,22 @@ const Header = () => {
           <BiCopyAlt
             onClick={() => {
               navigator.clipboard.writeText("nayak.nirmalya@hotmail.com");
+              toast.success("Copied to Clipboard.", {
+                style: {
+                  border: "1px solid #008800",
+                  background: theme == "light" ? "#0d1117" : "#ffffff",
+                  padding: "10px",
+                  color: theme == "light" ? "#ffffff" : "#008800"
+                },
+                iconTheme: {
+                  primary: "#008800",
+                  secondary: "#ffffff"
+                }
+              });
             }}
             title="Copy to Clipboard."
             className="mx-0.5 cursor-pointer"
           />
-          {/* <div className="tooltip">
-            <i
-              className="fa fa-copy"
-              style={{
-                cursor: "pointer"
-              }}
-              onClick={() => {
-                navigator.clipboard.writeText("nayak.nirmalya@hotmail.com");
-              }}
-            ></i>
-            <span className="tooltiptext">Copy to Clipboard.</span>
-          </div> */}
         </h4>
         <h4 className="font-semibold">
           Contact No.: <a href="tel:+917008944644">+91-7008944644</a>
