@@ -1,19 +1,27 @@
 import React, { useContext } from "react";
-import { ThemeContext } from "../App";
+import { ThemeContext } from "@/App";
 
 const About = () => {
   const theme = useContext(ThemeContext);
 
   const scroll = () => {
-    const section = document.querySelector(".projects");
+    const section = document.querySelector("#projects");
     section?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   return (
-    <section className="about">
-      <h2 className="font-bold">About Me</h2>
+    <section className="flex flex-col px-6 lg:px-36">
+      <h2 className="mx-auto items-center p-3 text-4xl font-extrabold lg:mx-0 lg:p-6">About Me</h2>
 
-      <p>
+      <p
+        className="
+          text-center
+          lg:px-16 
+          lg:text-justify 
+          lg:text-lg 
+          lg:leading-6
+        "
+      >
         I am a Full Stack / Mobile / Blockchain software developer with experience in building
         modern and scalable Web and Mobile Applications using Express, React, TypeScript, React
         Native, Next.js, TailwindCSS, Node.js, MongoDB, MySQL. I also have skills in building smart
@@ -21,22 +29,19 @@ const About = () => {
         blockchains (Ethereum, Polygon) using Web3 libraries such as Ethers.js, wagmi, web3.js or
         framework such as Hardhat, Truffle, Brownie. Checkout{" "}
         <span
-          style={{
-            fontWeight: "bold",
-            textDecoration: "none",
-            cursor: "pointer"
-          }}
+          className="
+            cursor-pointer
+            select-none 
+            font-bold 
+            no-underline
+          "
           onClick={scroll}
         >
           Projects
         </span>{" "}
         or{" "}
         <a
-          style={{
-            fontWeight: "bold",
-            textDecoration: "none",
-            color: theme === "light" ? "black" : "white"
-          }}
+          className={`font-bold no-underline ${theme === "light" ? "text-black" : "text-white"}`}
           href="https://github.com/nayak-nirmalya"
           target="_blank"
           rel="noreferrer"

@@ -4,351 +4,96 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* * {
+  outline: 1px solid red;
+} */
+
+html,
+body,
+:root {
+  height: 100%;
 }
 
 body {
   margin: 0;
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.header,
-.about,
-.projects,
-.experience,
-.social,
-.footer {
-  padding: 18px 25px 20px;
-  margin: auto 110px;
-}
-
-/* ------------------------------------------------------ */
-/* -- Header -- */
-
-.header {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.header img {
-  max-width: 300px;
-  height: auto;
-  margin: 20px auto;
-  border-radius: 50%;
-}
-
-.header__image {
-  max-width: 600px !important;
-  margin: 0 0 !important;
-}
-
-.header__content {
-  width: 600px;
-  margin: 0 auto;
-}
-
-.header__content h1 {
-  font-size: 48px;
-}
-
-.header__content p {
-  font-size: 32px;
-}
-
-.header__content button {
-  margin: 25px auto 0;
-}
-
-.header__content h4 a {
-  color: #205dad;
-}
-
-#light .header__content h4 a {
-  color: #0d3f8f;
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-/* Tooltip text */
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 180px;
-  background-color: #008800;
-  color: white;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-  margin: 8px;
-
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  z-index: 1;
-}
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
-/* ------------------------------------------------------ */
-/* -- About -- */
-
-.about h2 {
-  font-size: 42px;
-  margin: 25px auto;
-}
-
-.about p {
-  font-size: 18px;
-  line-height: 130%;
-  max-width: 100ch;
-  margin: auto 44px;
-  text-align: justify;
-}
-
-/* ------------------------------------------------------ */
-/* -- Projects -- */
-
-.projects h2 {
-  font-size: 42px;
-  margin: 25px auto;
-}
-
-.projects p {
-  font-size: 18px;
-  line-height: 130%;
-  max-width: 50ch;
-}
-
-.projects__cards {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 10px;
-  overflow-x: scroll;
-}
-
-.projects__card {
-  /* max-width: 400px; */
-  display: block;
-  width: 425px;
-  /* height: 100%; */
-  flex: 0 0 auto;
-  padding: 20px;
-  border: 1px solid #008800;
-  border-radius: 15px;
-  overflow: hidden;
-  user-select: none;
-}
-
-.projects__card h3 {
-  font-size: 32px;
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-
-.projects__card p {
-  font-size: 16px;
-  margin: 20px 0;
-}
-
-.projects__card img {
-  width: 100%;
-  height: auto;
-  margin: 20px 0 10px;
-
-  border-radius: 8px;
-}
-
-.projects__card .button {
-  margin: 10px 5px 0;
-}
-
-/* ------------------------------------------------------ */
-/* -- Education/Experience -- */
-
-.experience h2 {
-  font-size: 42px;
-  margin: 25px auto;
-}
-
-.experience ul {
-  margin: 0 0 10px 50px;
-}
-
-.experience li {
-  font-size: 18px;
-  line-height: 130%;
-  margin: 15px auto;
-}
-
-/* ------------------------------------------------------ */
-/* -- Social Media -- */
-
-.social h2 {
-  font-size: 42px;
-  margin: 25px auto;
-}
-
-.social .button {
-  margin: 0 15px;
-  white-space: nowrap;
-  overflow: visible;
-  text-overflow: ellipsis;
-}
-
-/* ------------------------------------------------------ */
-/* -- Footer -- */
-.footer {
-  margin: 0 auto;
-  text-align: center;
-}
-
-/* ------------------------------------------------------ */
-/* -- HTML COMPONENTS: BUTTON -- */
-.button {
-  display: inline-block;
-  background: #008800;
-  padding: 15px 50px;
-  border: none;
-  border-radius: 8px;
-  font-family: "Work Sans";
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 250ms ease;
-}
-
-.button:hover {
-  background: white;
-  color: #008800;
-}
-
-#light .button:hover {
-  background: #2b611a;
-  color: white;
-}
-
-.column-list {
-  column-count: 4;
-}
-
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.slider {
-  cursor: pointer;
-}
-
-.active {
-  color: #008800;
-}
-
-.inactive {
-  font-weight: 900;
-}
-
-.dotClass {
-  font-size: 24px;
-  font-weight: 650;
-}
-
-ul.react-multi-carousel-dot-list.dotClass {
-  position: relative;
-  padding-top: 20px;
-}
-
-/* ------------------------------------------------------ */
-/* -- DARK-MODE -- */
 #light {
-  background-color: #faf9f6;
-  color: black;
+  @apply bg-slate-200 text-black;
 }
 
 #dark {
-  background-color: #0d1117;
-  color: white;
+  @apply bg-[#0d1117] text-white;
 }
 
 #dark h4 a {
-  color: white;
+  @apply text-white;
 }
 
-a:link {
-  text-decoration: none;
+.projects__card {
+  @apply block w-[425px] select-none overflow-hidden rounded-xl border border-[#008800] p-5;
 }
 
-a:visited {
-  text-decoration: none;
+.projects__card p {
+  @apply my-[16px] text-[16px];
 }
 
-h4 a:hover {
-  text-decoration: underline;
+.projects__card h3 {
+  @apply pb-4 text-center text-xl font-semibold lg:text-2xl;
 }
 
-.switch {
-  display: flex;
-  width: 85vw;
-  padding-top: 15px;
-  justify-content: flex-end;
+.projects__card img {
+  @apply h-auto w-full rounded-md border border-[#008800] object-fill;
 }
 
-/* ------------------------------------------------------ */
-/* -- SCROLL BAR -- */
-/* Works on Firefox */
-/* * {
-  scrollbar-width: thin;
-  scrollbar-color: #0d1117;
-} */
+.projects__card .button {
+  @apply mx-1 my-0.5;
+}
 
-/* Works on Chrome, Edge, and Safari */
+.button {
+  @apply inline-block cursor-pointer rounded-md border-none bg-[#008800] px-10 py-2 font-sans font-semibold text-white no-underline transition hover:bg-white hover:text-[#008800];
+}
+
+#light .button:hover {
+  @apply bg-[#2b611a] text-white;
+}
+
+.centered {
+  @apply flex items-center justify-center;
+}
+
+.dotClass {
+  @apply text-[24px];
+}
+
+.react-multi-carousel-item {
+  @apply flex items-center justify-center;
+}
+
+.react-multi-carousel-list {
+  @apply pb-1;
+}
+
+ul.react-multi-carousel-dot-list.dotClass {
+  @apply relative pt-5;
+}
+
 *::-webkit-scrollbar {
-  width: 3.5px;
+  @apply w-1;
 }
 
 *::-webkit-scrollbar-track {
-  background: #0d1117;
+  @apply bg-[#0d1117];
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #008800;
-  border-radius: 44px;
-  /* border: 1.5px solid white; */
-}
-
-.slickdot {
-  height: 12px;
-  width: 12px;
-  background: lightgray;
-  border-radius: 50px;
-  display: inline-block;
-  box-shadow: 0px 0px 4px gray inset;
-  margin: 0px 4px;
-}
-
-.slickdot.active {
-  background-color: #2ea043;
-  box-shadow: inset 0px 0px 4px #888888;
+  @apply rounded bg-[#008800];
 }

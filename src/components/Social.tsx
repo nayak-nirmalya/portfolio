@@ -2,42 +2,73 @@ import React from "react";
 
 const Social = () => {
   return (
-    <div className="social">
-      <h2 className="font-bold">Socials</h2>
+    <div className="flex flex-col px-6 lg:px-36">
+      <h2 className="mx-auto items-center p-3 text-4xl font-extrabold lg:mx-0 lg:p-6">Socials</h2>
 
-      <div className="centered">
-        <a href="mailto:n.nayak263@gmail.com" className="button">
-          E-Mail Me!
-        </a>
-        <a href="tel:+917008944644" className="button">
-          Call Me!
-        </a>
+      <div className="grid grid-cols-12 items-center justify-center gap-4 p-1 lg:flex lg:flex-row lg:gap-8 lg:p-4">
         <a
-          href="https://www.linkedin.com/in/nirmalya-nayak/"
+          className="col-span-4"
+          href="mailto:n.nayak263@gmail.com"
           target="_blank"
-          rel="noreferrer"
-          className="button"
+          rel="noopener noreferrer"
         >
-          LinkedIn
+          <img
+            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110 lg:h-10"
+            src="https://img.shields.io/badge/-GMail-c14438?style=for-the-badge&logo=Gmail&logoColor=white"
+            alt="n.nayak263@gmail.com"
+          />
         </a>
+
         <a
+          className="col-span-4"
+          href="https://wa.me/917008944644"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110 lg:h-10"
+            src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
+            alt="+91-7008944644"
+          />
+        </a>
+
+        <a
+          className="col-span-4"
           href="https://github.com/nayak-nirmalya"
           target="_blank"
-          rel="noreferrer"
-          className="button"
+          rel="noopener noreferrer"
         >
-          GitHub
+          <img
+            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110 lg:h-10"
+            src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
+            alt="nayak-nirmalya"
+          />
         </a>
+
         <a
+          className="col-span-7"
           href="https://www.hackerrank.com/n_nayak"
           target="_blank"
-          rel="noreferrer"
-          className="button"
+          rel="noopener noreferrer"
         >
-          HackerRank
+          <img
+            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110 lg:h-10"
+            src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white"
+            alt="nayak-nirmalya"
+          />
         </a>
-        <a href="https://wa.me/917008944644" target="_blank" rel="noreferrer" className="button">
-          WhatsApp
+
+        <a
+          className="col-span-5"
+          href="https://www.linkedin.com/in/nirmalya-nayak/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="-mx-3 h-8 items-center transition-all duration-200 hover:scale-110 lg:mx-auto lg:h-10"
+            src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white"
+            alt="nirmalya-nayak"
+          />
         </a>
       </div>
     </div>

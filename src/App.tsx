@@ -1,15 +1,14 @@
 import React, { createContext, useEffect, useState } from "react";
 import { BsSunFill, BsSun } from "react-icons/bs";
 
-// Import Components
-import Header from "./components/Header";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Experience from "./components/Experience";
-import Social from "./components/Social";
-import Footer from "./components/Footer";
-import Skills from "./components/Skills";
-import Education from "./components/Education";
+import Header from "@components/Header";
+import About from "@components/About";
+import Projects from "@components/Projects";
+import Experience from "@components/Experience";
+import Social from "@components/Social";
+import Footer from "@components/Footer";
+import Skills from "@components/Skills";
+import Education from "@components/Education";
 
 type ThemeContextType = "light" | "dark";
 
@@ -47,8 +46,8 @@ function App() {
 
   return (
     <ThemeContext.Provider value={theme}>
-      <div className="App" id={theme}>
-        <div className="switch">
+      <div className="flex flex-col gap-y-4 lg:gap-y-8" id={theme}>
+        <div className="mx-8 flex justify-end p-4 lg:mx-52">
           {theme === "light" ? (
             <BsSun
               size={34}

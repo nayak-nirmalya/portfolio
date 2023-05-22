@@ -2,20 +2,28 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className="experience">
-      <h2 className="font-bold">Education</h2>
+    <div className="flex flex-col px-6 lg:px-36">
+      <h2 className="mx-auto items-center p-3 text-4xl font-extrabold lg:mx-0 lg:p-6">Education</h2>
 
-      <ul className="list-disc">
+      <ul className="mx-4 list-inside list-disc text-center leading-8 lg:mx-20 lg:list-outside lg:text-start lg:text-lg lg:leading-10">
         <li>
-          <i>Veer Surendra Sai University of Technology</i> - <strong>MCA</strong>, 2018-2021
-          <ul className="list-disc">
-            <li>Master in Computer Application with 8.36/10 CGPA</li>
+          <i>Veer Surendra Sai University of Technology</i>{" "}
+          <div className="hidden lg:inline-block">-</div> <strong>MCA</strong>, 2018-2021
+          <ul className="mx-auto mt-1 text-sm lg:mx-12 lg:mt-0 lg:list-disc lg:text-lg">
+            <li>
+              Master in Computer Application with <strong>8.36/10</strong> CGPA
+            </li>
           </ul>
         </li>
-        <li>
-          <i>Kendrapara Autonomous College</i> - <strong>B.Sc (Physics)</strong>, 2015-2018
-          <ul className="list-disc">
-            <li>Graduated in Physics (Honours) with 8.21/10 CGPA</li>
+        <li className="mt-2">
+          <i>Kendrapara Autonomous College</i> <div className="hidden lg:inline-block">-</div>{" "}
+          <div className="inline-block">
+            <strong>B.Sc. (Physics)</strong>, 2015-2018
+          </div>
+          <ul className="mx-auto mt-1 text-sm lg:mx-12 lg:mt-0 lg:list-disc lg:text-lg">
+            <li>
+              Graduated in Physics (Honours) with <strong>8.21/10</strong> CGPA
+            </li>
           </ul>
         </li>
       </ul>

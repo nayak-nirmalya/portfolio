@@ -31,6 +31,7 @@ import {
   PayPalClone,
   MessengerClone
 } from "./projects/_index";
+import CustomDot from "./CustomDot";
 
 const Projects = () => {
   const responsive = {
@@ -48,7 +49,7 @@ const Projects = () => {
     },
     smallDesktop: {
       breakpoint: { max: 1600, min: 1500 },
-      items: 2.8
+      items: 3
     },
     normalDesktop: {
       breakpoint: { max: 1500, min: 1400 },
@@ -76,34 +77,22 @@ const Projects = () => {
     }
   };
 
-  interface CustomDotProps {
-    onClick?: any;
-    active?: boolean;
-  }
-
-  const CustomDot: React.FC<CustomDotProps> = ({ onClick, active }) => {
-    return (
-      <li className="slider" onClick={() => onClick()}>
-        {active ? <span className="slickdot active"></span> : <span className="slickdot"></span>}
-      </li>
-    );
-  };
-
   return (
-    <section className="projects">
-      <h2 className="font-bold">My Projects</h2>
+    <section id="projects" className="flex flex-col px-0 pb-0 pt-2 lg:px-24">
+      <h2 className="mx-auto items-center p-3 text-4xl font-extrabold lg:mx-12 lg:p-6">
+        My Projects
+      </h2>
 
       <Carousel
         partialVisible
         showDots
-        // infinite={true}
         autoPlay
         autoPlaySpeed={6000}
         rewind
         rewindWithAnimation
         shouldResetAutoplay={true}
         dotListClass="dotClass"
-        renderDotsOutside
+        renderDotsOutside={true}
         customDot={<CustomDot />}
         responsive={responsive}
       >
