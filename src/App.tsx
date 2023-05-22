@@ -69,8 +69,8 @@ function App() {
         <Education />
         {/* <Projects />
         <Skills />
+      */}
         <Social />
-         */}
         <Footer />
       </div>
     </ThemeContext.Provider>
