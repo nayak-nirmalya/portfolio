@@ -69,11 +69,11 @@ const Projects = () => {
     },
     smallTab: {
       breakpoint: { max: 1200, min: 1000 },
-      items: 1.4
+      items: 1.6
     },
     tablet: {
       breakpoint: { max: 1000, min: 800 },
-      items: 1.2
+      items: 1.4
     },
     mobile: {
       breakpoint: { max: 800, min: 0 },
@@ -99,6 +99,7 @@ const Projects = () => {
         renderDotsOutside={true}
         customDot={<CustomDot />}
         responsive={responsive}
+        removeArrowOnDeviceType={["mobile"]}
       >
         <RedditFirebase />
         <MessengerClone />

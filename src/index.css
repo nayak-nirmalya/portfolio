@@ -39,8 +39,16 @@ code {
   @apply text-white;
 }
 
+#light .projects__card::before {
+  @apply opacity-40;
+}
+
+.projects__card::before {
+  @apply absolute bottom-0 left-0 right-0 top-0 -z-10 bg-[url('/noise.svg')] bg-cover opacity-10 content-[attr(before)];
+}
+
 .projects__card {
-  @apply block w-[425px] select-none overflow-hidden rounded-xl bg-[#191e26] p-5 shadow-lg lg:transition-all lg:hover:scale-105;
+  @apply relative z-10 block w-[425px] select-none overflow-hidden rounded-xl bg-[#191e26] p-5 shadow-lg lg:transition-all lg:hover:scale-105;
 }
 
 #light .projects__card {
