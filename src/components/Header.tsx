@@ -66,10 +66,9 @@ const Header = () => {
               navigator.clipboard.writeText("nayak.nirmalya@hotmail.com");
               toast.success("Copied to Clipboard.", {
                 style: {
-                  border: "1px solid #008800",
-                  background: theme == "light" ? "#0d1117" : "#ffffff",
-                  padding: "10px",
-                  color: theme == "light" ? "#ffffff" : "#008800"
+                  background: theme == "dark" ? "#191e26" : "#c5cdd9",
+                  padding: "8px",
+                  color: theme == "dark" ? "#ffffff" : "#000000"
                 },
                 iconTheme: {
                   primary: "#008800",
