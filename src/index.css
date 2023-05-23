@@ -80,7 +80,7 @@ code {
 }
 
 .react-multi-carousel-list {
-  @apply pb-4;
+  @apply pb-5;
 }
 
 ul.react-multi-carousel-dot-list.dotClass {
