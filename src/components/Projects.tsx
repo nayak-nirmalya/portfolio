@@ -99,7 +99,6 @@ const Projects = () => {
         renderDotsOutside={true}
         customDot={<CustomDot />}
         responsive={responsive}
-        removeArrowOnDeviceType={["mobile"]}
       >
         <RedditFirebase />
         <MessengerClone />
