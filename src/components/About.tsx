@@ -15,11 +15,12 @@ const About = () => {
 
       <p
         className="
-          text-center
-          lg:px-16 
+          text-justify
+          tracking-tight
+          lg:px-16
           lg:text-justify 
           lg:text-lg 
-          lg:leading-6
+          lg:tracking-normal
         "
       >
         I am a Full Stack / Mobile / Blockchain software developer with experience in building
