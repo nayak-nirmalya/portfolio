@@ -13,7 +13,7 @@ const CustomDot: React.FC<CustomDotProps> = ({ onClick, active }) => {
   return (
     <li className="cursor-pointer lg:inline-block" onClick={() => onClick()}>
       {active ? (
-        <span className="m-0.5 inline-block h-0.5 w-0.5 rounded-full bg-[#2ea043] p-0.5 lg:m-1 lg:h-2 lg:w-2 lg:p-1"></span>
+        <span className="m-0.5 inline-block h-0.5 w-4 rounded-full bg-[#2ea043] p-0.5 lg:m-1 lg:h-2 lg:w-6 lg:p-1"></span>
       ) : (
         <span
           className={`m-0.5 inline-block h-0.5 w-0.5 rounded-full lg:m-1 lg:h-2 lg:w-2 ${
