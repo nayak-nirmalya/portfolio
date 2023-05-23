@@ -59,11 +59,7 @@ code {
 }
 
 .button {
-  @apply inline-block cursor-pointer rounded-md border-none bg-[#008800] px-10 py-2 font-sans font-semibold text-white no-underline transition hover:bg-white hover:text-[#008800];
-}
-
-#light .button:hover {
-  @apply bg-[#2b611a] text-white;
+  @apply inline-block cursor-pointer rounded-md border-none bg-[#008800] px-10 py-2 font-sans font-semibold text-white no-underline transition hover:bg-[#2b611a];
 }
 
 .centered {
