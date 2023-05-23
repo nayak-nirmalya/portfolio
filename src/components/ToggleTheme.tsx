@@ -42,7 +42,9 @@ const ToggleTheme: React.FC<ToggleThemeProps> = ({ theme, setTheme }) => {
     <div className="mx-8 flex justify-end p-4 lg:mx-52">
       {theme === "light" ? (
         <BsSun
-          className={`${effect && "animate-rotateSwitch"} cursor-pointer select-none`}
+          className={`${
+            effect && "animate-rotateSwitch"
+          } cursor-pointer select-none transition hover:text-gray-700`}
           size={34}
           onClick={() => {
             toggleTheme();
@@ -54,7 +56,7 @@ const ToggleTheme: React.FC<ToggleThemeProps> = ({ theme, setTheme }) => {
         <BsSunFill
           className={`${
             effect && "animate-rotateSwitch"
-          } cursor-pointer select-none transition-all hover:text-gray-400`}
+          } cursor-pointer select-none transition hover:text-gray-300`}
           size={34}
           onClick={() => {
             toggleTheme();
