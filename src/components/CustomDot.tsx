@@ -2,6 +2,7 @@ import { ThemeContext } from "@/App";
 import React, { useContext } from "react";
 
 interface CustomDotProps {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onClick?: any;
   active?: boolean;
 }
