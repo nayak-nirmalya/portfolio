@@ -72,7 +72,7 @@ code {
 }
 
 .dotClass {
-  @apply text-[24px];
+  @apply text-[1px];
 }
 
 .react-multi-carousel-item {
