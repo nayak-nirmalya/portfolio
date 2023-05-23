@@ -9,6 +9,7 @@ import Social from "@components/Social";
 import Footer from "@components/Footer";
 import Skills from "@components/Skills";
 import Education from "@components/Education";
+import ScrollToTop from "./components/ScrollToTop";
 
 type ThemeContextType = "light" | "dark";
 
@@ -62,6 +63,7 @@ function App() {
             />
           )}
         </div>
+        <ScrollToTop />
         <Header />
         <About />
         <Projects />
