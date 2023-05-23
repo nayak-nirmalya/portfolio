@@ -1,15 +1,16 @@
 import React, { createContext, useState } from "react";
 
+import Experience from "@components/Experience";
 import Header from "@components/Header";
 import About from "@components/About";
 import Projects from "@components/Projects";
-import Experience from "@components/Experience";
+import ReadProgressBar from "@components/ReadProgressBar";
 import Social from "@components/Social";
-import Footer from "@components/Footer";
 import Skills from "@components/Skills";
 import Education from "@components/Education";
-import ScrollToTop from "./components/ScrollToTop";
-import ToggleTheme from "./components/ToggleTheme";
+import Footer from "@components/Footer";
+import ScrollToTop from "@components/ScrollToTop";
+import ToggleTheme from "@components/ToggleTheme";
 
 export type ThemeContextType = "light" | "dark";
 
@@ -21,6 +22,7 @@ function App() {
   return (
     <ThemeContext.Provider value={theme}>
       <div className="flex flex-col gap-y-4 lg:gap-y-8" id={theme}>
+        <ReadProgressBar />
         <ToggleTheme theme={theme} setTheme={setTheme} />
         <ScrollToTop />
         <Header />
