@@ -37,14 +37,18 @@ const Projects = () => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 5
+      items: 5.4
     },
     largeDesktop: {
       breakpoint: { max: 3000, min: 2000 },
       items: 3.6
     },
+    mediumDesktop: {
+      breakpoint: { max: 2000, min: 1800 },
+      items: 3.4
+    },
     desktop: {
-      breakpoint: { max: 2000, min: 1600 },
+      breakpoint: { max: 1800, min: 1600 },
       items: 3.2
     },
     smallDesktop: {

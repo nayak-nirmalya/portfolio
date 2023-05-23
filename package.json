@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "vite",
-    "start:mobile": "npx vite --host",
+    "start:expose": "npx vite --host",
     "build": "tsc && vite build",
     "serve": "vite preview",
     "serve:expose": "vite preview --host",

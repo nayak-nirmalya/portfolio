@@ -1,67 +1,30 @@
-import React, { createContext, useEffect, useState } from "react";
-import { BsSunFill, BsSun } from "react-icons/bs";
+import React, { createContext, useState } from "react";
 
+import Experience from "@components/Experience";
 import Header from "@components/Header";
 import About from "@components/About";
 import Projects from "@components/Projects";
-import Experience from "@components/Experience";
+import ReadProgressBar from "@components/ReadProgressBar";
 import Social from "@components/Social";
-import Footer from "@components/Footer";
 import Skills from "@components/Skills";
 import Education from "@components/Education";
+import Footer from "@components/Footer";
+import ScrollToTop from "@components/ScrollToTop";
+import ToggleTheme from "@components/ToggleTheme";
 
-type ThemeContextType = "light" | "dark";
+export type ThemeContextType = "light" | "dark";
 
 export const ThemeContext = createContext<ThemeContextType>("dark");
 
 function App() {
   const [theme, setTheme] = useState<ThemeContextType>("dark");
 
-  const setThemeInStorage = (theme: string) => {
-    localStorage.setItem("theme", theme);
-  };
-
-  const getThemeInStorage = () => {
-    return localStorage.getItem("theme");
-  };
-
-  const toggleTheme = () => {
-    setTheme((currentTheme) => {
-      const newTheme = currentTheme === "light" ? "dark" : "light";
-      setThemeInStorage(newTheme);
-      return newTheme;
-    });
-  };
-
-  useEffect(() => {
-    const localTheme = getThemeInStorage();
-
-    if (localTheme) {
-      localTheme === "light" ? setTheme("light") : setTheme("dark");
-    } else {
-      setTheme("dark");
-      setThemeInStorage("dark");
-    }
-  }, []);
-
   return (
     <ThemeContext.Provider value={theme}>
       <div className="flex flex-col gap-y-4 lg:gap-y-8" id={theme}>
-        <div className="mx-8 flex justify-end p-4 lg:mx-52">
-          {theme === "light" ? (
-            <BsSun
-              size={34}
-              onClick={toggleTheme}
-              style={{ userSelect: "none", cursor: "pointer" }}
-            />
-          ) : (
-            <BsSunFill
-              size={34}
-              onClick={toggleTheme}
-              style={{ userSelect: "none", cursor: "pointer" }}
-            />
-          )}
-        </div>
+        <ReadProgressBar />
+        <ToggleTheme theme={theme} setTheme={setTheme} />
+        <ScrollToTop />
         <Header />
         <About />
         <Projects />
