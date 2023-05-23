@@ -48,7 +48,7 @@ code {
 }
 
 .projects__card p {
-  @apply my-[16px] text-[16px];
+  @apply my-[16px] text-center text-[16px];
 }
 
 .projects__card h3 {
