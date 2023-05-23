@@ -40,7 +40,11 @@ code {
 }
 
 .projects__card {
-  @apply block w-[425px] select-none overflow-hidden rounded-xl border border-[#008800] p-5;
+  @apply block w-[425px] select-none overflow-hidden rounded-xl bg-[#191e26] p-5 shadow-lg;
+}
+
+#light .projects__card {
+  @apply bg-slate-300;
 }
 
 .projects__card p {
@@ -52,7 +56,7 @@ code {
 }
 
 .projects__card img {
-  @apply h-auto w-full rounded-md border border-[#008800] object-fill;
+  @apply h-auto w-full rounded-md object-fill shadow-2xl;
 }
 
 .projects__card .button {
@@ -76,11 +80,11 @@ code {
 }
 
 .react-multi-carousel-list {
-  @apply pb-1;
+  @apply pb-4;
 }
 
 ul.react-multi-carousel-dot-list.dotClass {
-  @apply relative pt-5;
+  @apply relative;
 }
 
 *::-webkit-scrollbar {
