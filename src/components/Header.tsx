@@ -100,7 +100,10 @@ const Header = () => {
           }}
         >
           Download Resume
-          <BsDownload className="mx-2 inline-block" />
+          <BsDownload
+            className="mx-2 inline-block"
+            style={{ color: "white", strokeWidth: "1.2" }}
+          />
         </a>
       </div>
     </section>
