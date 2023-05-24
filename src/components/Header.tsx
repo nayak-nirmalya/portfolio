@@ -16,15 +16,17 @@ const Header = () => {
       <img
         src={profile}
         alt="Nirmalya Nayak"
-        className="
+        className={`
           mx-auto 
           w-64 
           items-center 
           rounded-full 
           border-2 
-          border-[#008800] 
+          border-[#008800]
+          ${theme === "light" && "shadow-xl"}
+          ${theme === "light" && "shadow-slate-400"}
           lg:mx-36 lg:w-72
-        "
+        `}
       />
 
       <div className="sm:mt-8 lg:mt-0">
