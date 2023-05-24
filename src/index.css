@@ -72,7 +72,7 @@ code {
 }
 
 .button {
-  @apply inline-block cursor-pointer rounded-md border-none bg-[#008800] px-10 py-2 font-bold text-white no-underline transition hover:bg-[#2b611a];
+  @apply inline-block cursor-pointer rounded-md border-none bg-[#008800] px-10 py-2 font-bold text-white no-underline shadow-2xl transition hover:bg-[#2b611a];
 }
 
 .centered {
