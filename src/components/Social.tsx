@@ -73,14 +73,14 @@ const Social = () => {
 
         <a
           className="col-start-2 col-end-7"
-          href="https://www.linkedin.com/in/nirmalya-nayak/"
+          href="https://t.me/+917008944644"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
             className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
             src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"
-            alt="nirmalya-nayak"
+            alt="nirmalya_nayak"
           />
         </a>
 
