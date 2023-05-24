@@ -21,40 +21,27 @@ const Social = () => {
 
         <a
           className="col-span-4"
-          href="https://wa.me/917008944644"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
-            src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
-            alt="+91-7008944644"
-          />
-        </a>
-
-        <a
-          className="col-span-4"
           href="https://github.com/nayak-nirmalya"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
             className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
-            src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
+            src="https://img.shields.io/badge/github-%ffffff.svg?style=for-the-badge&logo=github&logoColor=white"
             alt="nayak-nirmalya"
           />
         </a>
 
         <a
-          className="col-span-7"
-          href="https://www.hackerrank.com/n_nayak"
+          className="col-span-4"
+          href="https://www.linkedin.com/in/nirmalya-nayak/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
             className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
-            src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white"
-            alt="nayak-nirmalya"
+            src="https://img.shields.io/badge/Skype-%2300AFF0.svg?style=for-the-badge&logo=Skype&logoColor=white"
+            alt="nirmalya-nayak"
           />
         </a>
 
@@ -72,15 +59,15 @@ const Social = () => {
         </a>
 
         <a
-          className="col-span-5"
-          href="https://www.linkedin.com/in/nirmalya-nayak/"
+          className="col-span-4"
+          href="https://wa.me/917008944644"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
             className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
-            src="https://img.shields.io/badge/Skype-%2300AFF0.svg?style=for-the-badge&logo=Skype&logoColor=white"
-            alt="nirmalya-nayak"
+            src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
+            alt="+91-7008944644"
           />
         </a>
 
