@@ -5,7 +5,7 @@ const Social = () => {
     <div className="flex flex-col px-6 lg:px-36">
       <h2 className="mx-auto items-center p-3 text-4xl font-extrabold lg:mx-0 lg:p-6">Socials</h2>
 
-      <div className="grid grid-cols-12 items-center justify-center gap-4 p-1 lg:flex lg:flex-row lg:p-4">
+      <div className="grid grid-cols-12 items-center justify-center gap-2 p-1 lg:flex lg:flex-row lg:gap-4 lg:p-4">
         <a
           className="col-span-4"
           href="https://github.com/nayak-nirmalya"
@@ -14,7 +14,7 @@ const Social = () => {
         >
           <img
             className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
-            src="https://img.shields.io/badge/github-%ffffff.svg?style=for-the-badge&logo=github&logoColor=white"
+            src="https://img.shields.io/badge/github-%231A1918.svg?style=for-the-badge&logo=github&logoColor=white"
             alt="nayak-nirmalya"
           />
         </a>
