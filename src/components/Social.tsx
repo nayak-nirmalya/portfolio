@@ -46,7 +46,20 @@ const Social = () => {
         </a>
 
         <a
-          className="col-span-5"
+          className="col-start-3 col-end-7"
+          href="https://www.linkedin.com/in/nirmalya-nayak/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
+            src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white"
+            alt="nirmalya-nayak"
+          />
+        </a>
+
+        <a
+          className="col-start-7 col-end-11"
           href="https://www.linkedin.com/in/nirmalya-nayak/"
           target="_blank"
           rel="noopener noreferrer"
@@ -59,20 +72,7 @@ const Social = () => {
         </a>
 
         <a
-          className="col-span-4"
-          href="https://wa.me/917008944644"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
-            src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
-            alt="+91-7008944644"
-          />
-        </a>
-
-        <a
-          className="col-span-5"
+          className="col-start-2 col-end-7"
           href="https://www.linkedin.com/in/nirmalya-nayak/"
           target="_blank"
           rel="noopener noreferrer"
@@ -85,15 +85,15 @@ const Social = () => {
         </a>
 
         <a
-          className="col-span-5"
-          href="https://www.linkedin.com/in/nirmalya-nayak/"
+          className="col-start-7 col-end-12"
+          href="https://wa.me/917008944644"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
             className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
-            src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white"
-            alt="nirmalya-nayak"
+            src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
+            alt="+91-7008944644"
           />
         </a>
       </div>
