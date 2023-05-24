@@ -29,7 +29,7 @@ const Header = () => {
         `}
       />
 
-      <div className="sm:mt-8 lg:mt-0">
+      <div className="mx-auto lg:mx-0">
         <h1
           className="
             mt-4
@@ -41,23 +41,15 @@ const Header = () => {
         >
           Hi, I&apos;m Nirmalya Nayak
         </h1>
-        {theme === "light" ? (
-          <img
-            width="600"
-            height="55"
-            className="lg:m-0 lg:w-full"
-            src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&color=000000&background=14132100&center=true&vCenter=true&width=600&lines=Full+Stack+%2F+Mobile+%2F+Blockchain+Developer"
-            alt="Full Stack / Mobile / Blockchain Developer"
-          />
-        ) : (
-          <img
-            width="600"
-            height="55"
-            className="lg:m-0 lg:w-full"
-            src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&color=ffffff&background=14132100&center=true&vCenter=true&width=600&lines=Full+Stack+%2F+Mobile+%2F+Blockchain+Developer"
-            alt="Full Stack / Mobile / Blockchain Developer"
-          />
-        )}
+
+        <h3
+          className={`animate-typing overflow-hidden whitespace-nowrap border-r-2 ${
+            theme === "light" ? "border-r-black" : "border-r-white"
+          } pl-4 pr-7 lg:text-2xl`}
+        >
+          Full Stack / Mobile / Blockchain Developer
+        </h3>
+
         <h4 className="flex items-center justify-center font-semibold">
           E-Mail:{" "}
           <a className="mx-1 hover:underline" href="mailto:nayak.nirmalya@hotmail.com">
