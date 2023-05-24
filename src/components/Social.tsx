@@ -34,14 +34,14 @@ const Social = () => {
 
         <a
           className="col-span-4"
-          href="https://www.linkedin.com/in/nirmalya-nayak/"
+          href="https://join.skype.com/invite/vUZSpHukF8ur"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
             className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
             src="https://img.shields.io/badge/Skype-%2300AFF0.svg?style=for-the-badge&logo=Skype&logoColor=white"
-            alt="nirmalya-nayak"
+            alt="nayak.nirmalya"
           />
         </a>
 
