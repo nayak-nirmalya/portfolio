@@ -47,14 +47,14 @@ const Social = () => {
 
         <a
           className="col-start-2 col-end-7"
-          href="https://www.hackerrank.com/n_nayak"
+          href="https://twitter.com/nirmalya_nayak"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
             className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
             src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"
-            alt="nayak-nirmalya"
+            alt="@nirmalya_nayak"
           />
         </a>
 
