@@ -8,19 +8,6 @@ const Social = () => {
       <div className="grid grid-cols-12 items-center justify-center gap-4 p-1 lg:flex lg:flex-row lg:p-4">
         <a
           className="col-span-4"
-          href="mailto:n.nayak263@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
-            src="https://img.shields.io/badge/-GMail-c14438?style=for-the-badge&logo=Gmail&logoColor=white"
-            alt="n.nayak263@gmail.com"
-          />
-        </a>
-
-        <a
-          className="col-span-4"
           href="https://github.com/nayak-nirmalya"
           target="_blank"
           rel="noopener noreferrer"
@@ -34,6 +21,19 @@ const Social = () => {
 
         <a
           className="col-span-4"
+          href="mailto:n.nayak263@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
+            src="https://img.shields.io/badge/-GMail-c14438?style=for-the-badge&logo=Gmail&logoColor=white"
+            alt="n.nayak263@gmail.com"
+          />
+        </a>
+
+        <a
+          className="col-span-4"
           href="https://www.linkedin.com/in/nirmalya-nayak/"
           target="_blank"
           rel="noopener noreferrer"
@@ -42,6 +42,32 @@ const Social = () => {
             className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
             src="https://img.shields.io/badge/Skype-%2300AFF0.svg?style=for-the-badge&logo=Skype&logoColor=white"
             alt="nirmalya-nayak"
+          />
+        </a>
+
+        <a
+          className="col-start-2 col-end-7"
+          href="https://www.hackerrank.com/n_nayak"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
+            src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"
+            alt="nayak-nirmalya"
+          />
+        </a>
+
+        <a
+          className="col-start-7 col-end-12"
+          href="https://www.hackerrank.com/n_nayak"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
+            src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white"
+            alt="nayak-nirmalya"
           />
         </a>
 
@@ -73,19 +99,6 @@ const Social = () => {
 
         <a
           className="col-start-2 col-end-7"
-          href="https://t.me/+917008944644"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
-            src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"
-            alt="nirmalya_nayak"
-          />
-        </a>
-
-        <a
-          className="col-start-7 col-end-12"
           href="https://wa.me/917008944644"
           target="_blank"
           rel="noopener noreferrer"
@@ -98,28 +111,15 @@ const Social = () => {
         </a>
 
         <a
-          className="col-span-7"
-          href="https://www.hackerrank.com/n_nayak"
+          className="col-start-7 col-end-12"
+          href="https://t.me/+917008944644"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
             className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
-            src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"
-            alt="nayak-nirmalya"
-          />
-        </a>
-
-        <a
-          className="col-span-7"
-          href="https://www.hackerrank.com/n_nayak"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
-            src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white"
-            alt="nayak-nirmalya"
+            src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"
+            alt="nirmalya_nayak"
           />
         </a>
       </div>
