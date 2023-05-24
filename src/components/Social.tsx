@@ -5,7 +5,7 @@ const Social = () => {
     <div className="flex flex-col px-6 lg:px-36">
       <h2 className="mx-auto items-center p-3 text-4xl font-extrabold lg:mx-0 lg:p-6">Socials</h2>
 
-      <div className="grid grid-cols-12 items-center justify-center gap-4 p-1 lg:flex lg:flex-row lg:gap-8 lg:p-4">
+      <div className="grid grid-cols-12 items-center justify-center gap-4 p-1 lg:flex lg:flex-row lg:p-4">
         <a
           className="col-span-4"
           href="mailto:n.nayak263@gmail.com"
@@ -94,6 +94,32 @@ const Social = () => {
             className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
             src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
             alt="+91-7008944644"
+          />
+        </a>
+
+        <a
+          className="col-span-7"
+          href="https://www.hackerrank.com/n_nayak"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
+            src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"
+            alt="nayak-nirmalya"
+          />
+        </a>
+
+        <a
+          className="col-span-7"
+          href="https://www.hackerrank.com/n_nayak"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
+            src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white"
+            alt="nayak-nirmalya"
           />
         </a>
       </div>
