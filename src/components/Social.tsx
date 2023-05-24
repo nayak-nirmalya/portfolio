@@ -119,7 +119,7 @@ const Social = () => {
           <img
             className="mx-auto h-8 items-center transition-all duration-200 hover:scale-110"
             src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"
-            alt="nirmalya_nayak"
+            alt="+91-7008944644"
           />
         </a>
       </div>
