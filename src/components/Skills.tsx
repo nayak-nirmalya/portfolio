@@ -181,6 +181,13 @@ const Skills = () => {
 
         <img
           className="mx-auto h-8 items-center transition-all hover:scale-110"
+          alt="Ionic"
+          title="Ionic"
+          src="https://img.shields.io/badge/Ionic-%233880FF.svg?style=for-the-badge&logo=Ionic&logoColor=white"
+        />
+
+        <img
+          className="mx-auto h-8 items-center transition-all hover:scale-110"
           alt="Flask"
           title="Flask"
           src="https://img.shields.io/badge/Flask-000000.svg?style=for-the-badge&logo=flask&logoColor=white"
