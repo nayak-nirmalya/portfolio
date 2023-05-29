@@ -5,9 +5,12 @@ import ionic_capacitor from "../../assets/ionic_capacitor.png";
 const IonicCapacitor = () => {
   return (
     <div className="projects__card">
-      <h3>IonicCapacitor</h3>
+      <h3>Ionic & Capacitor</h3>
       <img src={ionic_capacitor} alt="IonicCapacitor" />
-      <p>Dummy App that showcases various functionalities of Ioncin framework with capacitor.</p>
+      <p>
+        App that showcases various features & functionalities of Ionic framework with capacitor for
+        Website, PWA, Android, iOS & Desktop (Electron) made using TypeScript.
+      </p>
       <div className="centered">
         <a href="https://ionic-pg.netlify.app/" target="_blank" rel="noreferrer" className="button">
           Demo

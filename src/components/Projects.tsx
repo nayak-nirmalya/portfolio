@@ -29,7 +29,8 @@ import {
   CrowdFundingDApp,
   MillowDApp,
   PayPalClone,
-  MessengerClone
+  MessengerClone,
+  IonicCapacitor
 } from "./projects/_index";
 import CustomDot from "./CustomDot";
 
@@ -106,6 +107,7 @@ const Projects = () => {
         <TinderClone />
         <TwitterClone />
         <UberClone />
+        <IonicCapacitor />
         <TMDB />
         <TwitterCloneFlutter />
         <AmazonClone />
