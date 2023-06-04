@@ -30,7 +30,8 @@ import {
   MillowDApp,
   PayPalClone,
   MessengerClone,
-  IonicCapacitor
+  IonicCapacitor,
+  SpotifyClone
 } from "./projects/_index";
 import CustomDot from "./CustomDot";
 
@@ -103,9 +104,10 @@ const Projects = () => {
       >
         <RedditFirebase />
         <MessengerClone />
-        <NetflixClone />
+        <SpotifyClone />
         <TinderClone />
         <TwitterClone />
+        <NetflixClone />
         <UberClone />
         <IonicCapacitor />
         <TMDB />

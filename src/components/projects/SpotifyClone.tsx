@@ -8,9 +8,9 @@ const SpotifyClone = () => {
       <h3>Full-Stack Spotify Clone</h3>
       <img src={spotify_clone} alt="Full-Stack Spotify Clone" />
       <p>
-        Full-Stack Spotify Clone where user can LogIn/SignUp with E-Mail or GitHub to Play or Search
-        available Songs. Also user can subscribe to premium plan in order to Upload Songs to
-        Playlist wit Stripe.
+        Spotify Clone where user can LogIn/SignUp with E-Mail or GitHub to Play or Search available
+        Songs. Also user can subscribe to premium plan with Stripe in order to Upload Songs to
+        Playlist.
       </p>
       <div className="centered">
         <a
