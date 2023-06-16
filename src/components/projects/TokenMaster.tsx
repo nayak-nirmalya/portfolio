@@ -9,7 +9,7 @@ const TokenMaster = () => {
       <img src={tokenmaster} alt="TokenMaster" />
       <p>
         Similar to Ticketmaster website, where various events ticket are listed as NFT (ERC721).
-        Buyer can collect their MetaMask wallet to this website and buy tickets.
+        Buyer can collect their MetaMask wallet to buy tickets. Made with Solidity, Hardhat & React.
       </p>
       <div className="centered">
         <a
