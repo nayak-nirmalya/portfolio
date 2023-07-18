@@ -9,7 +9,7 @@ const NikeApp = () => {
       <img src={nike} alt="Nike App" />
       <p>
         Full Stack Nike Shopping Mobile App for Anddroid & iOS. Product page shows all available
-        shoes. Click on an item to see details & add to cart. Place order by paying with Stripe API.
+        shoes. Click on an item to see details & add to cart. Place order by paying with Stripe.
       </p>
       <div className="centered">
         <a
