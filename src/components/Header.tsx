@@ -42,13 +42,13 @@ const Header = () => {
           Hi, I&apos;m Nirmalya Nayak
         </h1>
 
-        <h3
+        {/* <h3
           className={`animate-typing overflow-hidden whitespace-nowrap border-r-2 ${
             theme === "light" ? "border-r-black" : "border-r-white"
           } pl-4 pr-7 lg:text-2xl`}
         >
           Full Stack / Mobile / Blockchain Developer
-        </h3>
+        </h3> */}
 
         <h4 className="flex items-center justify-center font-semibold">
           E-Mail:{" "}
