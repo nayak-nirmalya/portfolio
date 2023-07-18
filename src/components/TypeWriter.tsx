@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import { ThemeContext } from "@/App";
+import React, { useContext, useEffect, useState } from "react";
 
 const hats = [
   {
@@ -15,15 +16,8 @@ const hats = [
   }
 ];
 
-function TypeWriter({ appendClass, prefix }: { appendClass: string; prefix: string }) {
-  // Outer container base class + append custom class
-  let className = "flex flex-col gap-1 lg:gap-3 pb-1 lg:pb-2";
-  if (appendClass) className += " " + appendClass;
-
-  // Typewriter effect base class
-  const typeWriterClass =
-    "font-bold border-b-2 border-b-blue-400 border-r-2 pr-1" +
-    "animate-cursor overflow-hidden whitespace-nowrap transition-[width] ease-in-out duration-1000 mr-auto";
+function TypeWriter({ prefix }: { prefix: string }) {
+  const theme = useContext(ThemeContext);
 
   // State of current hat index
   const [currentHat, setCurrentHat] = useState(0);
@@ -65,7 +59,7 @@ function TypeWriter({ appendClass, prefix }: { appendClass: string; prefix: stri
   }, []);
 
   return (
-    <div className={className}>
+    <div className="flex flex-col gap-1 pb-1 lg:gap-3 lg:pb-2">
       <div className="mx-auto mt-4 text-center text-4xl font-bold md:text-5xl lg:text-7xl lg:font-normal">
         Nirmalya <span className="text-blue-400 lg:font-semibold">Nayak</span>
       </div>
@@ -74,7 +68,13 @@ function TypeWriter({ appendClass, prefix }: { appendClass: string; prefix: stri
           {prefix}
           {hats[currentHat].prep ? ` ${hats[currentHat].prep} ` : ""}
         </div>
-        <div className={`${typeWriterClass}${collapseClass}`}>{hats[currentHat].suffix}</div>
+        <div
+          className={`animate-cursor mr-auto overflow-hidden whitespace-nowrap border-r-2 pr-1 font-bold transition-[width] duration-1000 ease-in-out ${
+            theme === "light" ? "border-r-black" : "border-r-white"
+          }${collapseClass}`}
+        >
+          {hats[currentHat].suffix}
+        </div>
       </div>
     </div>
   );

@@ -51,7 +51,7 @@ const Header = () => {
           Full Stack / Mobile / Blockchain Developer
         </h3> */}
 
-        <TypeWriter appendClass="" prefix="I'm " />
+        <TypeWriter prefix="I'm " />
 
         <h4 className="flex items-center justify-center font-semibold">
           E-Mail:{" "}
