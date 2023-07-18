@@ -22,14 +22,14 @@ function TypeWriter({ prefix }: { prefix: string }) {
   // State of current hat index
   const [currentHat, setCurrentHat] = useState(0);
   // State to toggle word collapse effect
-  const [collapseClass, setCollapseClass] = useState(" w-0");
+  const [collapseClass, setCollapseClass] = useState("w-0");
 
   useEffect(() => {
-    setTimeout(() => setCollapseClass(" w-full"), 100);
+    setTimeout(() => setCollapseClass("w-full"), 100);
 
     const incrementHat = async () => {
       // Set the width to 0 - transition duration is 1000ms
-      setCollapseClass(" w-0");
+      setCollapseClass("w-0");
       setTimeout(() => {
         /**
          * After 1100ms, change the displayed text while the div
@@ -48,7 +48,7 @@ function TypeWriter({ prefix }: { prefix: string }) {
       }, 1100);
       // After 1000ms, set width to 100% - transition duration is 1000ms
       setTimeout(() => {
-        setCollapseClass(" w-full");
+        setCollapseClass("w-full");
       }, 1000);
     };
     // Interval timer to change text every 4000ms
@@ -71,7 +71,7 @@ function TypeWriter({ prefix }: { prefix: string }) {
         <div
           className={`animate-cursor mr-auto animate-typing overflow-hidden whitespace-nowrap border-r-2 pr-1 font-bold transition-[width] duration-1000 ease-in-out ${
             theme === "light" ? "border-r-black" : "border-r-white"
-          }${collapseClass}`}
+          } ${collapseClass}`}
         >
           {hats[currentHat].suffix}
         </div>

@@ -31,26 +31,6 @@ const Header = () => {
       />
 
       <div className="mx-auto lg:mx-0">
-        {/* <h1
-          className="
-            mt-4
-            text-xl
-            font-bold
-            lg:mt-0
-            lg:text-5xl
-          "
-        >
-          Hi, I&apos;m Nirmalya Nayak
-        </h1> */}
-
-        {/* <h3
-          className={`animate-typing overflow-hidden whitespace-nowrap border-r-2 ${
-            theme === "light" ? "border-r-black" : "border-r-white"
-          } pl-4 pr-7 lg:text-2xl`}
-        >
-          Full Stack / Mobile / Blockchain Developer
-        </h3> */}
-
         <TypeWriter prefix="I'm " />
 
         <h4 className="flex items-center justify-center font-semibold">
