@@ -4,15 +4,6 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
-        typing: {
-          "0%": {
-            width: "0%",
-            visibility: "hidden"
-          },
-          "100%": {
-            width: "100%"
-          }
-        },
         blink: {
           "50%": {
             borderColor: "transparent"
@@ -28,7 +19,7 @@ module.exports = {
       },
       animation: {
         rotateSwitch: "rotateSwitch 250ms ease-in-out",
-        typing: "typing 2.5s steps(20) infinite alternate, blink .7s infinite"
+        typing: "blink .7s infinite"
       }
     }
   },

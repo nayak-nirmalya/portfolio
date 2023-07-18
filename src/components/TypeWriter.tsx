@@ -69,7 +69,7 @@ function TypeWriter({ prefix }: { prefix: string }) {
           {hats[currentHat].prep ? ` ${hats[currentHat].prep} ` : ""}
         </div>
         <div
-          className={`animate-cursor mr-auto overflow-hidden whitespace-nowrap border-r-2 pr-1 font-bold transition-[width] duration-1000 ease-in-out ${
+          className={`animate-cursor mr-auto animate-typing overflow-hidden whitespace-nowrap border-r-2 pr-1 font-bold transition-[width] duration-1000 ease-in-out ${
             theme === "light" ? "border-r-black" : "border-r-white"
           }${collapseClass}`}
         >
