@@ -32,7 +32,8 @@ import {
   MessengerClone,
   IonicCapacitor,
   SpotifyClone,
-  TokenMaster
+  TokenMaster,
+  NikeApp
 } from "./projects/_index";
 import CustomDot from "./CustomDot";
 
@@ -110,6 +111,7 @@ const Projects = () => {
         <TwitterClone />
         <NetflixClone />
         <UberClone />
+        <NikeApp />
         <IonicCapacitor />
         <TMDB />
         <TokenMaster />
