@@ -28,3 +28,4 @@ export { default as PayPalClone } from "./PayPalWeb3";
 export { default as IonicCapacitor } from "./IonicCapacitor";
 export { default as SpotifyClone } from "./SpotifyClone";
 export { default as TokenMaster } from "./TokenMaster";
+export { default as NikeApp } from "./NikeApp";
