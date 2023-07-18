@@ -6,6 +6,7 @@ import { BsDownload } from "react-icons/bs";
 import profile from "@assets/profile.jpg";
 import resume from "@assets/resume/NIRMALYA_NAYAK.pdf";
 import { ThemeContext } from "@/App";
+import TypeWriter from "./TypeWriter";
 
 const Header = () => {
   const theme = useContext(ThemeContext);
@@ -49,6 +50,8 @@ const Header = () => {
         >
           Full Stack / Mobile / Blockchain Developer
         </h3> */}
+
+        <TypeWriter appendClass="" prefix="I'm " />
 
         <h4 className="flex items-center justify-center font-semibold">
           E-Mail:{" "}
