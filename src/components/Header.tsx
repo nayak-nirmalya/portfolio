@@ -31,7 +31,7 @@ const Header = () => {
       />
 
       <div className="mx-auto lg:mx-0">
-        <h1
+        {/* <h1
           className="
             mt-4
             text-xl
@@ -41,7 +41,7 @@ const Header = () => {
           "
         >
           Hi, I&apos;m Nirmalya Nayak
-        </h1>
+        </h1> */}
 
         {/* <h3
           className={`animate-typing overflow-hidden whitespace-nowrap border-r-2 ${

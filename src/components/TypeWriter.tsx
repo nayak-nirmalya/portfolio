@@ -1,23 +1,23 @@
 import React, { useEffect, useState } from "react";
 
-function TypeWriter({ appendClass, prefix }: { appendClass: string; prefix: string }) {
-  const hats = [
-    {
-      prep: "a",
-      suffix: "Web Developer"
-    },
-    {
-      prep: "a",
-      suffix: "UI/UX Designer"
-    },
-    {
-      prep: "a",
-      suffix: "Graphics Designer"
-    }
-  ];
+const hats = [
+  {
+    prep: "a",
+    suffix: "Full Stack Developer"
+  },
+  {
+    prep: "a",
+    suffix: "Mobile Developer"
+  },
+  {
+    prep: "a",
+    suffix: "Blockchain Developer"
+  }
+];
 
+function TypeWriter({ appendClass, prefix }: { appendClass: string; prefix: string }) {
   // Outer container base class + append custom class
-  let className = "flex flex-col gap-4";
+  let className = "flex flex-col gap-1 lg:gap-3 pb-1 lg:pb-2";
   if (appendClass) className += " " + appendClass;
 
   // Typewriter effect base class
@@ -66,8 +66,8 @@ function TypeWriter({ appendClass, prefix }: { appendClass: string; prefix: stri
 
   return (
     <div className={className}>
-      <div className="mx-auto text-center text-5xl md:text-6xl">
-        Jay <span className="font-bold text-blue-400">Simons</span>
+      <div className="mx-auto mt-4 text-center text-4xl font-bold md:text-5xl lg:text-7xl lg:font-normal">
+        Nirmalya <span className="text-blue-400 lg:font-semibold">Nayak</span>
       </div>
       <div className="mx-auto flex gap-2 text-2xl md:text-4xl">
         <div className="ml-auto shrink-0 whitespace-nowrap">
