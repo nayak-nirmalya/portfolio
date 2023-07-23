@@ -3,9 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="mx-auto justify-center pb-2 text-center lg:pb-4">
-      <p>
-        <small className="text-xs">Nirmalya Nayak &copy; {new Date().getFullYear()}</small>
-      </p>
+      <small className="text-xs">Made with ❤️ by Nirmalya Nayak in India</small>
     </footer>
   );
 };
