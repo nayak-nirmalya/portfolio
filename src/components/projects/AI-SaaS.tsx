@@ -8,9 +8,8 @@ const AI_SaaS = () => {
       <h3>AI SaaS Platform</h3>
       <img src={ai_saas} alt="AI_SaaS" />
       <p>
-        AI SaaS Platform to generate Code, Image, Music, Video, Coversation using OpenAI & Replicate
-        API, offers free tier and monthly subscription, responsive design & a beutiful landing page
-        with customer support.
+        AI Platform to generate Code, Image, Music, Video & Chat using OpenAI & Replicate API.
+        Offers monthly subscription, responsive design, a beautiful landing page & customer support.
       </p>
       <div className="centered">
         <a

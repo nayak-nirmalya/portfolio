@@ -33,7 +33,8 @@ import {
   IonicCapacitor,
   SpotifyClone,
   TokenMaster,
-  NikeApp
+  NikeApp,
+  AI_SaaS
 } from "./projects/_index";
 import CustomDot from "./CustomDot";
 
@@ -104,6 +105,7 @@ const Projects = () => {
         customDot={<CustomDot />}
         responsive={responsive}
       >
+        <AI_SaaS />
         <RedditFirebase />
         <MessengerClone />
         <SpotifyClone />
