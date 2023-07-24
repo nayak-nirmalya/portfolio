@@ -8,6 +8,8 @@ Technology Used:
 - TailwindCSS
 - npm
 
+**Feel free to copy, modify & make it yours.**
+
 ### Prerequisites
 
 **Node version ^14.x**
