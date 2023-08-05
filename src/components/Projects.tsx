@@ -34,7 +34,8 @@ import {
   SpotifyClone,
   TokenMaster,
   NikeApp,
-  AI_SaaS
+  AI_SaaS,
+  AI_Companion
 } from "./projects/_index";
 import CustomDot from "./CustomDot";
 
@@ -107,6 +108,7 @@ const Projects = () => {
       >
         <AI_SaaS />
         <RedditFirebase />
+        <AI_Companion />
         <MessengerClone />
         <SpotifyClone />
         <TinderClone />
