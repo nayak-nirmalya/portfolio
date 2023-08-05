@@ -1,6 +1,6 @@
 import React from "react";
 
-import node_shop from "../../assets/node-shop.png";
+import node_shop from "@assets/node-shop.png";
 
 const NodeShop = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 
-import todo_deno from "../../assets/todo_deno.png";
+import todo_deno from "@assets/todo_deno.png";
 
 const ToDoDeno = () => {
   return (

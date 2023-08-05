@@ -6,7 +6,7 @@ import { BsDownload } from "react-icons/bs";
 import profile from "@assets/profile.jpg";
 import resume from "@assets/resume/NIRMALYA_NAYAK.pdf";
 import { ThemeContext } from "@/App";
-import TypeWriter from "./TypeWriter";
+import TypeWriter from "@components/TypeWriter";
 
 const Header = () => {
   const theme = useContext(ThemeContext);

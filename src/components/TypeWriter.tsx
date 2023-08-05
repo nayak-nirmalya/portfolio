@@ -1,4 +1,5 @@
 import { ThemeContext } from "@/App";
+
 import React, { useContext, useEffect, useState } from "react";
 
 const hats = [

@@ -1,6 +1,6 @@
 import React from "react";
 
-import nft_marketplace from "../../assets/nft_marketplace.png";
+import nft_marketplace from "@assets/nft_marketplace.png";
 
 const NFTMarketplace = () => {
   return (

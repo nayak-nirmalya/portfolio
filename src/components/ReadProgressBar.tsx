@@ -1,6 +1,6 @@
 import React from "react";
 
-import useReadingProgress from "@/hooks/useReadingProgress";
+import useReadingProgress from "@hooks/useReadingProgress";
 
 const ReadProgressBar = () => {
   const completion = useReadingProgress();

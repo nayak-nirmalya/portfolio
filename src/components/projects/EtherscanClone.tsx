@@ -1,6 +1,6 @@
 import React from "react";
 
-import etherscan_clone from "../../assets/etherscan_clone.png";
+import etherscan_clone from "@assets/etherscan_clone.png";
 
 const EtherscanClone = () => {
   return (

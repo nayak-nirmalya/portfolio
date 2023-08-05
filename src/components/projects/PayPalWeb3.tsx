@@ -1,6 +1,6 @@
 import React from "react";
 
-import paypal_web3 from "../../assets/paypal_web3.png";
+import paypal_web3 from "@assets/paypal_web3.png";
 
 const PayPalClone = () => {
   return (

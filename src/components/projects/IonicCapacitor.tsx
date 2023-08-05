@@ -1,6 +1,6 @@
 import React from "react";
 
-import ionic_capacitor from "../../assets/ionic_capacitor.png";
+import ionic_capacitor from "@assets/ionic_capacitor.png";
 
 const IonicCapacitor = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 
-import tokenmaster from "../../assets/tokenmaster.png";
+import tokenmaster from "@assets/tokenmaster.png";
 
 const TokenMaster = () => {
   return (

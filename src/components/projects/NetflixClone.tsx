@@ -1,6 +1,6 @@
 import React from "react";
 
-import netflix_clone from "../../assets/netflix-clone.png";
+import netflix_clone from "@assets/netflix-clone.png";
 
 const NetflixClone = () => {
   return (

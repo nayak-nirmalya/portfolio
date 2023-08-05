@@ -1,6 +1,6 @@
 import React from "react";
 
-import reddit_clone from "../../assets/reddit_clone.png";
+import reddit_clone from "@assets/reddit_clone.png";
 
 const RedditFirebase = () => {
   return (

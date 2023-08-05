@@ -1,6 +1,6 @@
 import React from "react";
 
-import tinder_clone from "../../assets/tinder_clone.png";
+import tinder_clone from "@assets/tinder_clone.png";
 
 const TinderClone = () => {
   return (

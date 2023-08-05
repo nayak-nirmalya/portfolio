@@ -1,6 +1,6 @@
 import React from "react";
 
-import spotify_clone from "../../assets/spotify_clone.png";
+import spotify_clone from "@assets/spotify_clone.png";
 
 const SpotifyClone = () => {
   return (

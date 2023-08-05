@@ -1,6 +1,6 @@
 import React from "react";
 
-import amazon_clone from "../../assets/amazon_clone.png";
+import amazon_clone from "@assets/amazon_clone.png";
 
 const AmazonClone = () => {
   return (

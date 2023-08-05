@@ -1,6 +1,6 @@
 import React from "react";
 
-import raffle_pic from "../../assets/raffle-hardhat-next.png";
+import raffle_pic from "@assets/raffle-hardhat-next.png";
 
 const RaffleDApp = () => {
   return (

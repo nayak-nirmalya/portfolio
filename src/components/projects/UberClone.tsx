@@ -1,6 +1,6 @@
 import React from "react";
 
-import uber_clone from "../../assets/uber_clone.png";
+import uber_clone from "@assets/uber_clone.png";
 
 const UberClone = () => {
   return (

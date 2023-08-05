@@ -1,6 +1,6 @@
 import React from "react";
 
-import ai_saas from "../../assets/ai_saas.png";
+import ai_saas from "@assets/ai_saas.png";
 
 const AI_SaaS = () => {
   return (

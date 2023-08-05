@@ -1,6 +1,6 @@
 import React from "react";
 
-import eth_crowd from "../../assets/eth_crowd.png";
+import eth_crowd from "@assets/eth_crowd.png";
 
 const CrowdFundingDApp = () => {
   return (

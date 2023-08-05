@@ -1,6 +1,6 @@
 import React from "react";
 
-import eth_plus from "../../assets/eth_plus.png";
+import eth_plus from "@assets/eth_plus.png";
 
 const ETHPlus = () => {
   return (

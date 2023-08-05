@@ -1,6 +1,6 @@
 import React from "react";
 
-import note_taker from "../../assets/note_taker.png";
+import note_taker from "@assets/note_taker.png";
 
 const NoteTaker = () => {
   return (

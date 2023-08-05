@@ -1,6 +1,6 @@
 import React from "react";
 
-import blog_post from "../../assets/blog-post.png";
+import blog_post from "@assets/blog-post.png";
 
 const GraphQLBlog = () => {
   return (

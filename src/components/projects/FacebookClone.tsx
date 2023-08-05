@@ -1,6 +1,6 @@
 import React from "react";
 
-import fb_clone from "../../assets/fb_clone.png";
+import fb_clone from "@assets/fb_clone.png";
 
 const FacebookClone = () => {
   return (

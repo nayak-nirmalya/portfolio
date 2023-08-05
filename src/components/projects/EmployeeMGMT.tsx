@@ -1,6 +1,6 @@
 import React from "react";
 
-import emp_mgmt from "../../assets/emp_mgmt.png";
+import emp_mgmt from "@assets/emp_mgmt.png";
 
 const EmployeeManagement = () => {
   return (

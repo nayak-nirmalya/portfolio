@@ -1,6 +1,6 @@
 import React from "react";
 
-import deliveroo_clone from "../../assets/deliveroo_clone.png";
+import deliveroo_clone from "@assets/deliveroo_clone.png";
 
 const DeliverooClone = () => {
   return (

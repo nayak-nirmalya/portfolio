@@ -1,6 +1,6 @@
 import React from "react";
 
-import millow from "../../assets/millow.png";
+import millow from "@assets/millow.png";
 
 const MillowDApp = () => {
   return (

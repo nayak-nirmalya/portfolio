@@ -36,8 +36,8 @@ import {
   NikeApp,
   AI_SaaS,
   AI_Companion
-} from "./projects/_index";
-import CustomDot from "./CustomDot";
+} from "@components/projects/_index";
+import CustomDot from "@components/CustomDot";
 
 const Projects = () => {
   const responsive = {

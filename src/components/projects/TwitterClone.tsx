@@ -1,6 +1,6 @@
 import React from "react";
 
-import twitter_clone from "../../assets/twitter_clone.png";
+import twitter_clone from "@assets/twitter_clone.png";
 
 const TwitterClone = () => {
   return (

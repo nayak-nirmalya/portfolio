@@ -1,6 +1,6 @@
 import React from "react";
 
-import ai_companion from "../../assets/ai_companion.png";
+import ai_companion from "@assets/ai_companion.png";
 
 const AI_Companion = () => {
   return (

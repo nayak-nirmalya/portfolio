@@ -1,5 +1,6 @@
-import { ThemeContext } from "@/App";
 import React, { useContext } from "react";
+
+import { ThemeContext } from "@/App";
 
 interface CustomDotProps {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

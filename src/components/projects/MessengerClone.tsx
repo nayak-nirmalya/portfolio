@@ -1,6 +1,6 @@
 import React from "react";
 
-import messenger_clone from "../../assets/messenger_clone.png";
+import messenger_clone from "@assets/messenger_clone.png";
 
 const MessengerClone = () => {
   return (

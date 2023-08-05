@@ -1,6 +1,6 @@
 import React from "react";
 
-import nike from "../../assets/nike.png";
+import nike from "@assets/nike.png";
 
 const NikeApp = () => {
   return (

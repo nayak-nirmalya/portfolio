@@ -1,6 +1,6 @@
 import React from "react";
 
-import todo_dapp from "../../assets/todo_dapp.png";
+import todo_dapp from "@assets/todo_dapp.png";
 
 const ToDoDApp = () => {
   return (

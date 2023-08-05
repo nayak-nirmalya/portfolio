@@ -1,6 +1,6 @@
 import React from "react";
 
-import eth_market from "../../assets/eth_market.png";
+import eth_market from "@assets/eth_market.png";
 
 const ETHMarketplace = () => {
   return (

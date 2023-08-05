@@ -1,6 +1,6 @@
 import React from "react";
 
-import twitter_flutter_flutter from "../../assets/twitter_flutter_flutter.png";
+import twitter_flutter_flutter from "@assets/twitter_flutter_flutter.png";
 
 const TwitterCloneFlutter = () => {
   return (

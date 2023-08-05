@@ -1,6 +1,6 @@
 import React from "react";
 
-import faucet from "../../assets/faucet.png";
+import faucet from "@assets/faucet.png";
 
 const ETHFaucet = () => {
   return (

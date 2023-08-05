@@ -1,6 +1,6 @@
 import React from "react";
 
-import tmdb from "../../assets/tmdb.png";
+import tmdb from "@assets/tmdb.png";
 
 const TMDB = () => {
   return (
