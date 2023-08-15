@@ -1,4 +1,5 @@
 import React, { createContext, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 import Experience from "@components/Experience";
 import Header from "@components/Header";
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <ThemeContext.Provider value={theme}>
+      <Analytics />
       <div className="flex flex-col gap-y-4 lg:gap-y-8" id={theme}>
         <ReadProgressBar />
         <ToggleTheme theme={theme} setTheme={setTheme} />
