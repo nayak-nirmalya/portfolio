@@ -35,7 +35,8 @@ import {
   TokenMaster,
   NikeApp,
   AI_SaaS,
-  AI_Companion
+  AI_Companion,
+  Metaversus
 } from "@components/projects/_index";
 import CustomDot from "@components/CustomDot";
 
@@ -125,6 +126,7 @@ const Projects = () => {
         <DeliverooClone />
         <PayPalClone />
         <MillowDApp />
+        <Metaversus />
         <GraphQLBlog />
         <FacebookClone />
         <ETHPlus />

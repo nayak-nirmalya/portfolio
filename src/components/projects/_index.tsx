@@ -31,3 +31,4 @@ export { default as TokenMaster } from "./TokenMaster";
 export { default as NikeApp } from "./NikeApp";
 export { default as AI_SaaS } from "./AI-SaaS";
 export { default as AI_Companion } from "./AI-Companion";
+export { default as Metaversus } from "./Metaversus";

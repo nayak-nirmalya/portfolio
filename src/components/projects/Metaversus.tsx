@@ -5,11 +5,11 @@ import metaversus from "@assets/metaversus.png";
 const Metaversus = () => {
   return (
     <div className="projects__card">
-      <h3>AI Companion</h3>
+      <h3>Metaversus Landing Page</h3>
       <img src={metaversus} alt="Metaversus" />
       <p>
-        A beautiful, fully responsive, animated dummy Landing Page. Made using Next.js, React,
-        Framer Motion & Tailwind.
+        A beautiful, fully responsive, animated Landing Page. Made using Next.js, React, Framer
+        Motion & Tailwind.
       </p>
       <div className="centered">
         <a
