@@ -8,8 +8,8 @@ const Metaversus = () => {
       <h3>Metaversus Landing Page</h3>
       <img src={metaversus} alt="Metaversus" />
       <p>
-        A beautiful, fully responsive, animated Landing Page. Made using Next.js, React, Framer
-        Motion & Tailwind.
+        A beautiful Landing Page for Metaverse with fully responsive layout and animated components.
+        Made using Next.js, React, Framer Motion & Tailwind CSS.
       </p>
       <div className="centered">
         <a
