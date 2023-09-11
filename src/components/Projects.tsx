@@ -36,7 +36,8 @@ import {
   NikeApp,
   AI_SaaS,
   AI_Companion,
-  Metaversus
+  Metaversus,
+  DiscordClone
 } from "@components/projects/_index";
 import CustomDot from "@components/CustomDot";
 
@@ -107,6 +108,7 @@ const Projects = () => {
         customDot={<CustomDot />}
         responsive={responsive}
       >
+        <DiscordClone />
         <AI_SaaS />
         <RedditFirebase />
         <AI_Companion />
