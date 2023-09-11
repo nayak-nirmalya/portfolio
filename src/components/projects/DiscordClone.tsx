@@ -8,7 +8,8 @@ const DiscordClone = () => {
       <h3>Discord Clone</h3>
       <img src={discord_clone} alt="Discord Clone" />
       <p>
-        FullStack Discord Clone: Next.js 13, React, Socket.io, Prisma, Tailwind, MySQL & TypeScript.
+        Create/Join/Leave/Delete Severs/Channels, send messages (Text/Pictures/PDFs) in real-time,
+        Audio/Video call with server members. Responsive Layout with Dark/Light theme.
       </p>
       <div className="centered">
         <a
