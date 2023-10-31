@@ -37,7 +37,8 @@ import {
   AI_SaaS,
   AI_Companion,
   Metaversus,
-  DiscordClone
+  DiscordClone,
+  Quill
 } from "@components/projects/_index";
 import CustomDot from "@components/CustomDot";
 
@@ -110,6 +111,7 @@ const Projects = () => {
       >
         <DiscordClone />
         <AI_SaaS />
+        <Quill />
         <RedditFirebase />
         <AI_Companion />
         <MessengerClone />

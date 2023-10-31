@@ -33,3 +33,4 @@ export { default as AI_SaaS } from "./AI-SaaS";
 export { default as AI_Companion } from "./AI-Companion";
 export { default as Metaversus } from "./Metaversus";
 export { default as DiscordClone } from "./DiscordClone";
+export { default as Quill } from "./Quill";
