@@ -35,13 +35,6 @@ const Skills = () => {
 
         <img
           className="mx-auto h-8 items-center transition-all hover:scale-110"
-          alt="Node.js"
-          title="Node.js"
-          src="https://img.shields.io/badge/Node.js-43853D.svg?style=for-the-badge&logo=node.js&logoColor=white"
-        />
-
-        <img
-          className="mx-auto h-8 items-center transition-all hover:scale-110"
           alt="Python"
           title="Python"
           src="https://img.shields.io/badge/Python-14354C.svg?style=for-the-badge&logo=python&logoColor=white"
@@ -95,6 +88,13 @@ const Skills = () => {
       </div>
 
       <div className="mx-auto grid w-full grid-cols-3 gap-6 p-1 md:grid-cols-3 lg:w-4/5 lg:grid-cols-6 lg:p-4">
+        <img
+          className="mx-auto h-8 items-center transition-all hover:scale-110"
+          alt="Node.js"
+          title="Node.js"
+          src="https://img.shields.io/badge/Node.js-43853D.svg?style=for-the-badge&logo=node.js&logoColor=white"
+        />
+
         <img
           className="mx-auto h-8 items-center transition-all hover:scale-110"
           alt="Ethereum"
