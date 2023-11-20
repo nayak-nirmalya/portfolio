@@ -42,6 +42,13 @@ const Skills = () => {
 
         <img
           className="mx-auto h-8 items-center transition-all hover:scale-110"
+          alt="Python"
+          title="Python"
+          src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white"
+        />
+
+        <img
+          className="mx-auto h-8 items-center transition-all hover:scale-110"
           alt="Java"
           title="Java"
           src="https://custom-icon-badges.demolab.com/badge/Java-007396.svg?style=for-the-badge&logo=java&logoColor=white"
