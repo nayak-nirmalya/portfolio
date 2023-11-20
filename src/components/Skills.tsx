@@ -146,13 +146,6 @@ const Skills = () => {
 
         <img
           className="mx-auto h-8 items-center transition-all hover:scale-110"
-          alt="Flutter"
-          title="Flutter"
-          src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white"
-        />
-
-        <img
-          className="mx-auto h-8 items-center transition-all hover:scale-110"
           alt="tailwindcss"
           title="tailwindcss"
           src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"
