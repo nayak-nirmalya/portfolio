@@ -14,9 +14,9 @@ const Skills = () => {
       <div className="mx-auto grid w-full grid-cols-3 gap-6 p-1 md:grid-cols-3 lg:w-4/5 lg:grid-cols-6 lg:p-4">
         <img
           className="mx-auto h-8 items-center transition-all hover:scale-110"
-          alt="JavaScript"
-          title="JavaScript"
-          src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black"
+          alt="TypeScript"
+          title="TypeScript"
+          src="https://img.shields.io/badge/TypeScript-007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
         />
 
         <img
@@ -28,9 +28,9 @@ const Skills = () => {
 
         <img
           className="mx-auto h-8 items-center transition-all hover:scale-110"
-          alt="TypeScript"
-          title="TypeScript"
-          src="https://img.shields.io/badge/TypeScript-007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+          alt="JavaScript"
+          title="JavaScript"
+          src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black"
         />
 
         <img
