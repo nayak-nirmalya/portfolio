@@ -63,13 +63,6 @@ const Skills = () => {
 
         <img
           className="mx-auto h-8 items-center transition-all hover:scale-110"
-          alt="Dart"
-          title="Dart"
-          src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white"
-        />
-
-        <img
-          className="mx-auto h-8 items-center transition-all hover:scale-110"
           alt="HTML"
           title="HTML"
           src="https://img.shields.io/badge/HTML-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
