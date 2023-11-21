@@ -250,6 +250,13 @@ const Skills = () => {
 
         <img
           className="mx-auto h-8 items-center transition-all hover:scale-110"
+          alt="Azure"
+          title="Azure"
+          src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white"
+        />
+
+        <img
+          className="mx-auto h-8 items-center transition-all hover:scale-110"
           alt="Google Firebase"
           title="Google Firebase"
           src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"
