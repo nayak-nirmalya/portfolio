@@ -6,11 +6,10 @@ const GameHub = () => {
   return (
     <div className="projects__card">
       <h3>GameHub - Twitch Clone</h3>
-      <img src={twitch_clone} alt="AI_SaaS" />
+      <img src={twitch_clone} alt="GameHub" />
       <p>
-        FullStack Twitch Clone with Next.js 14, Livestreaming, React, Prisma, Stripe, Tailwind,
-        shadcn/ui, MySQL & TypeScript. Go live using RTMP / WHIP protocols with OBS & chat with
-        viewers.
+        FullStack Twitch Clone with Next.js 14, React, Prisma, Stripe, Tailwind, shadcn/ui, MySQL &
+        TypeScript. Go live using RTMP / WHIP protocols with OBS & chat with viewers.
       </p>
       <div className="centered">
         <a
