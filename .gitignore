@@ -3,9 +3,6 @@
 /.pnp
 .pnp.js
 
-# readme file
-README.md
-
 # testing
 /coverage
 
