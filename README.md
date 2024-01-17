@@ -12,7 +12,7 @@ Technology Used:
 
 ### Prerequisites
 
-**Node version ^14.x**
+**Node version ^18.x**
 
 ### Cloning the repository
 
