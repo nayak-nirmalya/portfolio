@@ -8,7 +8,6 @@ import {
   ETHMarketplace,
   ToDoDApp,
   ETHDaddy,
-  ToDoDeno,
   RedditFirebase,
   FacebookClone,
   NodeShop,
@@ -139,7 +138,6 @@ const Projects = () => {
         <ETHDaddy />
         <EmployeeManagement />
         <EtherscanClone />
-        <ToDoDeno />
         <CrowdFundingDApp />
         <NoteTaker />
         <NFTMarketplace />
