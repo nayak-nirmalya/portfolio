@@ -6,7 +6,6 @@ import {
   EmployeeManagement,
   ETHPlus,
   ETHMarketplace,
-  ToDoDApp,
   ETHDaddy,
   RedditFirebase,
   FacebookClone,
@@ -143,7 +142,6 @@ const Projects = () => {
         <NFTMarketplace />
         <ETHMarketplace />
         <RaffleDApp />
-        <ToDoDApp />
         <ETHFaucet />
       </Carousel>
     </section>
