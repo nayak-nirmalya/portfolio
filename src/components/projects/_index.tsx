@@ -5,7 +5,6 @@ export { default as AmazonClone } from "./AmazonClone";
 export { default as NFTMarketplace } from "./NFTMarketplace";
 export { default as ETHPlus } from "./ETHPlus";
 export { default as TwitterCloneFlutter } from "./TwitterCloneFlutter";
-export { default as ToDoDApp } from "./ToDoDApp";
 export { default as ETHDaddy } from "./ETHDaddy";
 export { default as ETHMarketplace } from "./ETHMarketplace";
 export { default as EmployeeManagement } from "./EmployeeMGMT";
