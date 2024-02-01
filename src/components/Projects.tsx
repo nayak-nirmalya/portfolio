@@ -12,7 +12,6 @@ import {
   NodeShop,
   NoteTaker,
   NFTMarketplace,
-  ETHFaucet,
   TwitterCloneFlutter,
   RaffleDApp,
   GraphQLBlog,
@@ -142,7 +141,6 @@ const Projects = () => {
         <NFTMarketplace />
         <ETHMarketplace />
         <RaffleDApp />
-        <ETHFaucet />
       </Carousel>
     </section>
   );
