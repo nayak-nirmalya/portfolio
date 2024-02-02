@@ -13,7 +13,6 @@ import {
   NoteTaker,
   NFTMarketplace,
   TwitterCloneFlutter,
-  RaffleDApp,
   GraphQLBlog,
   AmazonClone,
   TinderClone,
@@ -140,7 +139,6 @@ const Projects = () => {
         <NoteTaker />
         <NFTMarketplace />
         <ETHMarketplace />
-        <RaffleDApp />
       </Carousel>
     </section>
   );
