@@ -14,7 +14,6 @@ export { default as NoteTaker } from "./NoteTaker";
 export { default as FacebookClone } from "./FacebookClone";
 export { default as DeliverooClone } from "./DeliverooClone";
 export { default as UberClone } from "./UberClone";
-export { default as RaffleDApp } from "./RaffleDApp";
 export { default as MillowDApp } from "./MillowDApp";
 export { default as TinderClone } from "./TinderClone";
 export { default as MessengerClone } from "./MessengerClone";
