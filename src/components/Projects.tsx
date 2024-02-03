@@ -10,7 +10,6 @@ import {
   RedditFirebase,
   FacebookClone,
   NodeShop,
-  NoteTaker,
   NFTMarketplace,
   TwitterCloneFlutter,
   GraphQLBlog,
@@ -136,7 +135,6 @@ const Projects = () => {
         <EmployeeManagement />
         <EtherscanClone />
         <CrowdFundingDApp />
-        <NoteTaker />
         <NFTMarketplace />
         <ETHMarketplace />
       </Carousel>
