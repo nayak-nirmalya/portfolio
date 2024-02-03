@@ -10,7 +10,6 @@ export { default as ETHMarketplace } from "./ETHMarketplace";
 export { default as EmployeeManagement } from "./EmployeeMGMT";
 export { default as TMDB } from "./TMDB";
 export { default as NodeShop } from "./NodeShop";
-export { default as NoteTaker } from "./NoteTaker";
 export { default as FacebookClone } from "./FacebookClone";
 export { default as DeliverooClone } from "./DeliverooClone";
 export { default as UberClone } from "./UberClone";
