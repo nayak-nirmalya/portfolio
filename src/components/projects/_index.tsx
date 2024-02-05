@@ -20,7 +20,6 @@ export { default as CrowdFundingDApp } from "./CrowdFundingDApp";
 export { default as EtherscanClone } from "./EtherscanClone";
 export { default as RedditFirebase } from "./RedditFirebase";
 export { default as PayPalClone } from "./PayPalWeb3";
-export { default as IonicCapacitor } from "./IonicCapacitor";
 export { default as SpotifyClone } from "./SpotifyClone";
 export { default as TokenMaster } from "./TokenMaster";
 export { default as NikeApp } from "./NikeApp";
