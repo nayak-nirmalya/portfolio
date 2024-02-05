@@ -25,7 +25,6 @@ import {
   MillowDApp,
   PayPalClone,
   MessengerClone,
-  IonicCapacitor,
   SpotifyClone,
   TokenMaster,
   NikeApp,
@@ -118,7 +117,6 @@ const Projects = () => {
         <NetflixClone />
         <UberClone />
         <NikeApp />
-        <IonicCapacitor />
         <TMDB />
         <TokenMaster />
         <TwitterCloneFlutter />
