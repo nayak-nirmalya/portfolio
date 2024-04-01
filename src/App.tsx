@@ -23,7 +23,7 @@ function App() {
   return (
     <ThemeContext.Provider value={theme}>
       <Analytics />
-      <div className="flex flex-col gap-y-4 lg:gap-y-8" id={theme}>
+      <div className="mx-auto flex max-w-[1920px] flex-col gap-y-4 lg:gap-y-8 " id={theme}>
         <ReadProgressBar />
         <ToggleTheme theme={theme} setTheme={setTheme} />
         <ScrollToTop />
