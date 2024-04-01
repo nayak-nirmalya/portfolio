@@ -11,6 +11,10 @@ interface ToggleThemeProps {
 const ToggleTheme: React.FC<ToggleThemeProps> = ({ theme, setTheme }) => {
   const [effect, setEffect] = useState(false);
 
+  const setBodyColor = ({ color }: { color: string }) => {
+    document.documentElement.style.setProperty("--bodyColor", color);
+  };
+
   const setThemeInStorage = (theme: string) => {
     localStorage.setItem("theme", theme);
   };
@@ -23,6 +27,7 @@ const ToggleTheme: React.FC<ToggleThemeProps> = ({ theme, setTheme }) => {
     setTheme((currentTheme) => {
       const newTheme = currentTheme === "light" ? "dark" : "light";
       setThemeInStorage(newTheme);
+      setBodyColor({ color: newTheme === "light" ? "rgb(226 232 240)" : "#0d1117" });
       return newTheme;
     });
   };
@@ -32,6 +37,7 @@ const ToggleTheme: React.FC<ToggleThemeProps> = ({ theme, setTheme }) => {
 
     if (localTheme) {
       localTheme === "light" ? setTheme("light") : setTheme("dark");
+      setBodyColor({ color: localTheme === "light" ? "rgb(226 232 240)" : "#0d1117" });
     } else {
       setTheme("dark");
       setThemeInStorage("dark");
