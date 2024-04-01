@@ -1,5 +1,6 @@
 import React, { createContext, useState } from "react";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 import Experience from "@components/Experience";
 import Header from "@components/Header";
@@ -23,6 +24,7 @@ function App() {
   return (
     <ThemeContext.Provider value={theme}>
       <Analytics />
+      <SpeedInsights />
       <div className="mx-auto flex max-w-[1920px] flex-col gap-y-4 lg:gap-y-8 " id={theme}>
         <ReadProgressBar />
         <ToggleTheme theme={theme} setTheme={setTheme} />
