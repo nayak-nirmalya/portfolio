@@ -65,8 +65,6 @@ const Header = () => {
         <a
           href="/resume.pdf"
           download="NirmalyaNayakResume"
-          target="_blank"
-          rel="noreferrer"
           className="button"
           style={{
             padding: "8px 12px",
