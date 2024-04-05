@@ -64,7 +64,7 @@ const Header = () => {
         <h4 className="font-semibold">Odisha, India</h4>
         <a
           href="/resume.pdf"
-          download="NirmalyaNayakResume.pdf"
+          download="NirmalyaNayakResume"
           target="_blank"
           rel="noreferrer"
           className="button"
