@@ -3,8 +3,6 @@ import { BiCopyAlt } from "react-icons/bi";
 import toast, { Toaster } from "react-hot-toast";
 import { BsDownload } from "react-icons/bs";
 
-import profile from "@assets/profile.jpg";
-import resume from "@assets/resume/NIRMALYA_NAYAK.pdf";
 import { ThemeContext } from "@/App";
 import TypeWriter from "@components/TypeWriter";
 
@@ -15,7 +13,7 @@ const Header = () => {
     <section className="flex flex-wrap items-center px-6 text-center lg:px-28">
       <Toaster position="bottom-center" />
       <img
-        src={profile}
+        src="/profile.jpg"
         alt="Nirmalya Nayak"
         className={`
           mx-auto 
@@ -65,7 +63,7 @@ const Header = () => {
         </h4>
         <h4 className="font-semibold">Odisha, India</h4>
         <a
-          href={resume}
+          href="/resume.pdf"
           download="NirmalyaNayakResume.pdf"
           target="_blank"
           rel="noreferrer"
