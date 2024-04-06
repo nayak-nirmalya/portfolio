@@ -10,25 +10,17 @@ const Header = () => {
   const theme = useContext(ThemeContext);
 
   return (
-    <section className="flex flex-wrap items-center px-6 text-center lg:px-28">
+    <section className="flex flex-col items-center px-6 text-center md:flex-row lg:flex-row lg:px-28 xl:flex-row">
       <Toaster position="bottom-center" />
       <img
         src="/profile.jpg"
         alt="Nirmalya Nayak"
-        className={`
-          mx-auto 
-          w-64 
-          items-center 
-          rounded-full 
-          border-2 
-          border-[#008800]
-          ${theme === "light" && "shadow-xl"}
-          ${theme === "light" && "shadow-slate-400"}
-          lg:mx-36 lg:w-72
-        `}
+        className={`mx-auto w-64 items-center rounded-full border-2 border-[#008800] lg:w-72 ${
+          theme === "light" && "shadow-xl"
+        } ${theme === "light" && "shadow-slate-400"}`}
       />
 
-      <div className="mx-auto lg:mx-0">
+      <div className="mx-auto">
         <TypeWriter prefix="I'm " />
 
         <h4 className="flex items-center justify-center font-semibold">
