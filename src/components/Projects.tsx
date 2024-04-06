@@ -41,7 +41,7 @@ const Projects = () => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 5.4
+      items: 4
     },
     largeDesktop: {
       breakpoint: { max: 3000, min: 2000 },
@@ -69,15 +69,15 @@ const Projects = () => {
     },
     tab: {
       breakpoint: { max: 1300, min: 1200 },
-      items: 2
+      items: 2.2
     },
     smallTab: {
       breakpoint: { max: 1200, min: 1000 },
-      items: 1.6
+      items: 2
     },
     tablet: {
       breakpoint: { max: 1000, min: 800 },
-      items: 1.4
+      items: 1.8
     },
     mobile: {
       breakpoint: { max: 800, min: 0 },
