@@ -52,7 +52,7 @@ code {
 }
 
 .projects__card {
-  @apply relative z-10 block w-[360px] select-none overflow-hidden rounded-xl bg-[#191e26] p-4 shadow-lg md:w-[425px] md:p-5 lg:md:w-[425px] lg:p-5 lg:transition-all lg:hover:scale-105;
+  @apply relative z-10 block w-[385px] select-none overflow-hidden rounded-xl bg-[#191e26] p-4 shadow-lg md:w-[425px] md:p-5 lg:md:w-[425px] lg:p-5 lg:transition-all lg:hover:scale-105;
 }
 
 #light .projects__card {
