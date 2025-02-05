@@ -36,7 +36,11 @@ const ToggleTheme: React.FC<ToggleThemeProps> = ({ theme, setTheme }) => {
     const localTheme = getThemeInStorage();
 
     if (localTheme) {
-      localTheme === "light" ? setTheme("light") : setTheme("dark");
+      if (localTheme === "light") {
+        setTheme("light");
+      } else {
+        setTheme("dark");
+      }
       setBodyColor({ color: localTheme === "light" ? "rgb(226 232 240)" : "#0d1117" });
     } else {
       setTheme("dark");
