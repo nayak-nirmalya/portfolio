@@ -9,11 +9,10 @@ const ScrollToTop = () => {
 
   useEffect(() => {
     const topBtn = document.getElementById("topButton");
-    window.onscroll = () => {
+    window.onscroll = () =>
       document.body.scrollTop > 20 || document.documentElement.scrollTop > 20
         ? topBtn?.classList.remove("hidden")
         : topBtn?.classList.add("hidden");
-    };
   }, [document.body.scrollTop, document.documentElement.scrollTop]);
 
   return (

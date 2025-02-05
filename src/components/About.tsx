@@ -12,32 +12,14 @@ const About = () => {
   return (
     <section className="flex flex-col px-6 lg:px-36">
       <h2 className="mx-auto items-center p-3 text-4xl font-extrabold lg:mx-0 lg:p-6">About Me</h2>
-
-      <p
-        className="
-          text-justify
-          tracking-tight
-          lg:px-16
-          lg:text-justify 
-          lg:text-lg 
-          lg:tracking-normal
-        "
-      >
+      <p className="text-justify tracking-tight lg:px-16 lg:text-justify lg:text-lg lg:tracking-normal">
         I am a Full Stack / Mobile / Blockchain software developer with experience in building
         modern and scalable Web and Mobile Applications using Express, React, TypeScript, React
         Native, Next.js, TailwindCSS, Node.js, MongoDB, MySQL. I also have skills in building smart
         contracts with Solidity and Front-End that interact with smart contracts on various
         blockchains (Ethereum, Polygon) using Web3 libraries such as Ethers.js, wagmi, web3.js or
         framework such as Hardhat, Truffle, Brownie. Checkout{" "}
-        <span
-          className="
-            cursor-pointer
-            select-none 
-            font-bold 
-            no-underline
-          "
-          onClick={scroll}
-        >
+        <span className="cursor-pointer select-none font-bold no-underline" onClick={scroll}>
           Projects
         </span>{" "}
         or{" "}
