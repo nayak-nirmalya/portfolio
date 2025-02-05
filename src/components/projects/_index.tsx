@@ -29,3 +29,4 @@ export { default as Metaversus } from "./Metaversus";
 export { default as DiscordClone } from "./DiscordClone";
 export { default as Quill } from "./Quill";
 export { default as GameHub } from "./GameHub";
+export { default as RealTimeDocs } from "./Real-TimeDocs";

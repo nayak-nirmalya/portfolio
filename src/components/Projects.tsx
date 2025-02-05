@@ -33,7 +33,8 @@ import {
   Metaversus,
   DiscordClone,
   Quill,
-  GameHub
+  GameHub,
+  RealTimeDocs
 } from "@components/projects/_index";
 import CustomDot from "@components/CustomDot";
 
@@ -104,6 +105,7 @@ const Projects = () => {
         customDot={<CustomDot />}
         responsive={responsive}
       >
+        <RealTimeDocs />
         <GameHub />
         <DiscordClone />
         <AI_SaaS />
