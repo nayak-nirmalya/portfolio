@@ -49,7 +49,7 @@ const ToggleTheme: React.FC<ToggleThemeProps> = ({ theme, setTheme }) => {
   }, []);
 
   return (
-    <div className="mx-6 flex justify-end lg:mx-52">
+    <div className="mx-6 mt-6 flex justify-end lg:mx-52 lg:mt-8">
       {theme === "light" ? (
         <BsSun
           className={`${
