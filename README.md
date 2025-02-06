@@ -6,7 +6,7 @@ Technology Used:
 - React
 - Vite
 - TailwindCSS
-- npm
+- pnpm
 
 **Feel free to copy, modify & make it yours.**
 
@@ -23,23 +23,23 @@ git clone https://github.com/nayak-nirmalya/portfolio.git
 ### Install packages
 
 ```shell
-npm install
+pnpm install
 ```
 
 ### Start the App
 
 ```shell
-npm run start
+pnpm run start
 ```
 
 ## Available commands
 
-Running commands with npm `npm run [command]`
+Running commands with npm `pnpm [command]`
 
 | command        | description                                                     |
 | :------------- | :-------------------------------------------------------------- |
 | `start`        | Starts a development instance of the app                        |
-| `start:mobile` | Starts a development instance of the app with exposed host      |
+| `start:expose` | Starts a development instance of the app with exposed host      |
 | `build`        | Starts a building final version for production                  |
 | `serve`        | Run final build production version                              |
 | `serve:expose` | Run final build production version of the app with exposed host |
