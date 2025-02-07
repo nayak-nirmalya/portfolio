@@ -34,7 +34,8 @@ import {
   DiscordClone,
   Quill,
   GameHub,
-  RealTimeDocs
+  RealTimeDocs,
+  StoreIt
 } from "@components/projects/_index";
 import CustomDot from "@components/CustomDot";
 
@@ -110,6 +111,7 @@ const Projects = () => {
         <DiscordClone />
         <AI_SaaS />
         <Quill />
+        <StoreIt />
         <RedditFirebase />
         <AI_Companion />
         <MessengerClone />

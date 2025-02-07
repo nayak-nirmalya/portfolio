@@ -30,3 +30,4 @@ export { default as DiscordClone } from "./DiscordClone";
 export { default as Quill } from "./Quill";
 export { default as GameHub } from "./GameHub";
 export { default as RealTimeDocs } from "./Real-TimeDocs";
+export { default as StoreIt } from "./StoreIt";

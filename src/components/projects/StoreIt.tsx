@@ -9,8 +9,7 @@ const StoreIt = () => {
       <img src={store_it} alt="StoreIt" />
       <p>
         A storage management and file sharing platform that lets users effortlessly upload,
-        organize, and share files. Built with Next.js 15, React.js, TypeScript, TailwindCSS and the
-        Appwrite Node SDK, utilizing advanced features for seamless file management.
+        organize, and share files. Built with Next.js, TypeScript, TailwindCSS and Appwrite SDK.
       </p>
       <div className="centered">
         <a
